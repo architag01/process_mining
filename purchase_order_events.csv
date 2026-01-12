@@ -1,0 +1,2585 @@
+Case_ID,Activity,Timestamp,Resource,Amount,Department
+PO_0001,Submit Purchase Request,2024-03-11 00:00:00,Employee_A,1500,IT
+PO_0001,Manager Review,2024-03-11 01:00:00,Manager_3,1500,IT
+PO_0001,Approve,2024-03-11 16:00:00,Manager_1,1500,IT
+PO_0001,Send to Vendor,2024-03-11 17:00:00,System,1500,IT
+PO_0002,Submit Purchase Request,2024-02-29 00:00:00,Employee_B,1500,Marketing
+PO_0002,Manager Review,2024-02-29 04:00:00,Manager_1,1500,Marketing
+PO_0002,Reject,2024-02-29 20:00:00,Manager_3,1500,Marketing
+PO_0003,Submit Purchase Request,2024-02-10 00:00:00,Employee_B,8000,IT
+PO_0003,Manager Review,2024-02-10 02:00:00,Manager_2,8000,IT
+PO_0003,Finance Check,2024-02-10 07:00:00,Finance_X,8000,IT
+PO_0003,Approve,2024-02-12 11:00:00,Manager_1,8000,IT
+PO_0003,Send to Vendor,2024-02-12 17:00:00,System,8000,IT
+PO_0004,Submit Purchase Request,2024-03-08 00:00:00,Employee_A,15000,Finance
+PO_0004,Manager Review,2024-03-08 04:00:00,Manager_1,15000,Finance
+PO_0004,Finance Check,2024-03-08 23:00:00,Finance_Y,15000,Finance
+PO_0004,Approve,2024-03-11 01:00:00,Manager_3,15000,Finance
+PO_0004,Final Approval,2024-03-11 05:00:00,Director_Alpha,15000,Finance
+PO_0004,Send to Vendor,2024-03-11 09:00:00,System,15000,Finance
+PO_0005,Submit Purchase Request,2024-01-21 00:00:00,Employee_D,5500,Operations
+PO_0005,Manager Review,2024-01-21 03:00:00,Manager_2,5500,Operations
+PO_0005,Finance Check,2024-01-22 01:00:00,Finance_Y,5500,Operations
+PO_0005,Approve,2024-01-23 01:00:00,Manager_2,5500,Operations
+PO_0005,Send to Vendor,2024-01-23 07:00:00,System,5500,Operations
+PO_0006,Submit Purchase Request,2024-06-28 00:00:00,Employee_B,5500,Operations
+PO_0006,Manager Review,2024-06-28 02:00:00,Manager_1,5500,Operations
+PO_0006,Finance Check,2024-06-28 18:00:00,Finance_Y,5500,Operations
+PO_0006,Approve,2024-06-30 08:00:00,Manager_3,5500,Operations
+PO_0006,Send to Vendor,2024-06-30 12:00:00,System,5500,Operations
+PO_0007,Submit Purchase Request,2024-02-28 00:00:00,Employee_D,15000,IT
+PO_0007,Manager Review,2024-02-28 03:00:00,Manager_1,15000,IT
+PO_0007,Finance Check,2024-02-28 11:00:00,Finance_Z,15000,IT
+PO_0007,Approve,2024-03-01 07:00:00,Manager_1,15000,IT
+PO_0007,Final Approval,2024-03-01 15:00:00,Director_Beta,15000,IT
+PO_0007,Send to Vendor,2024-03-03 10:00:00,System,15000,IT
+PO_0008,Submit Purchase Request,2024-03-08 00:00:00,Employee_C,50000,Marketing
+PO_0008,Manager Review,2024-03-08 04:00:00,Manager_3,50000,Marketing
+PO_0008,Rework Request,2024-03-08 18:00:00,Employee_C,50000,Marketing
+PO_0008,Manager Review,2024-03-09 12:00:00,Manager_1,50000,Marketing
+PO_0008,Finance Check,2024-03-09 22:00:00,Finance_Y,50000,Marketing
+PO_0008,Approve,2024-03-10 13:00:00,Manager_1,50000,Marketing
+PO_0008,Final Approval,2024-03-10 15:00:00,Director_Alpha,50000,Marketing
+PO_0008,Send to Vendor,2024-03-12 09:00:00,System,50000,Marketing
+PO_0009,Submit Purchase Request,2024-06-01 00:00:00,Employee_D,3000,HR
+PO_0009,Manager Review,2024-06-01 03:00:00,Manager_3,3000,HR
+PO_0009,Rework Request,2024-06-01 05:00:00,Employee_A,3000,HR
+PO_0009,Manager Review,2024-06-03 04:00:00,Manager_3,3000,HR
+PO_0009,Approve,2024-06-03 10:00:00,Manager_3,3000,HR
+PO_0009,Send to Vendor,2024-06-03 16:00:00,System,3000,HR
+PO_0010,Submit Purchase Request,2024-04-21 00:00:00,Employee_C,1500,Operations
+PO_0010,Manager Review,2024-04-21 02:00:00,Manager_3,1500,Operations
+PO_0010,Reject,2024-04-21 07:00:00,Manager_3,1500,Operations
+PO_0011,Submit Purchase Request,2024-06-04 00:00:00,Employee_B,8000,Finance
+PO_0011,Manager Review,2024-06-04 01:00:00,Manager_3,8000,Finance
+PO_0011,Finance Check,2024-06-04 13:00:00,Finance_Y,8000,Finance
+PO_0011,Approve,2024-06-04 19:00:00,Manager_1,8000,Finance
+PO_0011,Send to Vendor,2024-06-05 01:00:00,System,8000,Finance
+PO_0012,Submit Purchase Request,2024-01-15 00:00:00,Employee_A,8000,Marketing
+PO_0012,Manager Review,2024-01-15 01:00:00,Manager_3,8000,Marketing
+PO_0012,Finance Check,2024-01-15 18:00:00,Finance_X,8000,Marketing
+PO_0012,Approve,2024-01-18 18:00:00,Manager_1,8000,Marketing
+PO_0012,Send to Vendor,2024-01-18 21:00:00,System,8000,Marketing
+PO_0013,Submit Purchase Request,2024-02-12 00:00:00,Employee_D,50000,Finance
+PO_0013,Manager Review,2024-02-12 02:00:00,Manager_3,50000,Finance
+PO_0013,Finance Check,2024-02-13 02:00:00,Finance_X,50000,Finance
+PO_0013,Approve,2024-02-14 21:00:00,Manager_2,50000,Finance
+PO_0013,Final Approval,2024-02-15 03:00:00,Director_Beta,50000,Finance
+PO_0013,Send to Vendor,2024-02-16 14:00:00,System,50000,Finance
+PO_0014,Submit Purchase Request,2024-03-04 00:00:00,Employee_B,50000,IT
+PO_0014,Manager Review,2024-03-04 02:00:00,Manager_1,50000,IT
+PO_0014,Finance Check,2024-03-04 06:00:00,Finance_Z,50000,IT
+PO_0014,Approve,2024-03-04 17:00:00,Manager_1,50000,IT
+PO_0014,Final Approval,2024-03-04 19:00:00,Director_Alpha,50000,IT
+PO_0014,Send to Vendor,2024-03-05 18:00:00,System,50000,IT
+PO_0015,Submit Purchase Request,2024-03-01 00:00:00,Employee_B,1500,Finance
+PO_0015,Manager Review,2024-03-01 04:00:00,Manager_1,1500,Finance
+PO_0015,Approve,2024-03-01 21:00:00,Manager_2,1500,Finance
+PO_0015,Send to Vendor,2024-03-02 01:00:00,System,1500,Finance
+PO_0016,Submit Purchase Request,2024-06-17 00:00:00,Employee_D,1500,IT
+PO_0016,Manager Review,2024-06-17 01:00:00,Manager_3,1500,IT
+PO_0016,Approve,2024-06-17 23:00:00,Manager_3,1500,IT
+PO_0016,Send to Vendor,2024-06-18 01:00:00,System,1500,IT
+PO_0017,Submit Purchase Request,2024-03-27 00:00:00,Employee_B,500,HR
+PO_0017,Manager Review,2024-03-27 02:00:00,Manager_3,500,HR
+PO_0017,Approve,2024-03-27 18:00:00,Manager_1,500,HR
+PO_0017,Send to Vendor,2024-03-28 01:00:00,System,500,HR
+PO_0018,Submit Purchase Request,2024-04-28 00:00:00,Employee_D,3000,Operations
+PO_0018,Manager Review,2024-04-28 01:00:00,Manager_1,3000,Operations
+PO_0018,Approve,2024-04-28 23:00:00,Manager_3,3000,Operations
+PO_0018,Send to Vendor,2024-04-29 00:00:00,System,3000,Operations
+PO_0019,Submit Purchase Request,2024-02-12 00:00:00,Employee_D,1500,Marketing
+PO_0019,Manager Review,2024-02-12 01:00:00,Manager_1,1500,Marketing
+PO_0019,Approve,2024-02-12 15:00:00,Manager_1,1500,Marketing
+PO_0019,Send to Vendor,2024-02-12 22:00:00,System,1500,Marketing
+PO_0020,Submit Purchase Request,2024-03-14 00:00:00,Employee_D,8000,HR
+PO_0020,Manager Review,2024-03-14 02:00:00,Manager_1,8000,HR
+PO_0020,Finance Check,2024-03-14 13:00:00,Finance_X,8000,HR
+PO_0020,Approve,2024-03-15 00:00:00,Manager_3,8000,HR
+PO_0020,Send to Vendor,2024-03-15 01:00:00,System,8000,HR
+PO_0021,Submit Purchase Request,2024-01-13 00:00:00,Employee_B,15000,IT
+PO_0021,Manager Review,2024-01-13 01:00:00,Manager_3,15000,IT
+PO_0021,Finance Check,2024-01-13 05:00:00,Finance_X,15000,IT
+PO_0021,Approve,2024-01-13 17:00:00,Manager_3,15000,IT
+PO_0021,Final Approval,2024-01-13 19:00:00,Director_Alpha,15000,IT
+PO_0021,Send to Vendor,2024-01-14 22:00:00,System,15000,IT
+PO_0022,Submit Purchase Request,2024-03-04 00:00:00,Employee_A,1500,Finance
+PO_0022,Manager Review,2024-03-04 04:00:00,Manager_3,1500,Finance
+PO_0022,Reject,2024-03-05 00:00:00,Manager_3,1500,Finance
+PO_0023,Submit Purchase Request,2024-02-22 00:00:00,Employee_C,15000,Operations
+PO_0023,Manager Review,2024-02-22 04:00:00,Manager_1,15000,Operations
+PO_0023,Finance Check,2024-02-23 03:00:00,Finance_Z,15000,Operations
+PO_0023,Approve,2024-02-24 21:00:00,Manager_2,15000,Operations
+PO_0023,Final Approval,2024-02-25 03:00:00,Director_Alpha,15000,Operations
+PO_0023,Send to Vendor,2024-02-25 05:00:00,System,15000,Operations
+PO_0024,Submit Purchase Request,2024-05-24 00:00:00,Employee_B,50000,Finance
+PO_0024,Manager Review,2024-05-24 03:00:00,Manager_1,50000,Finance
+PO_0024,Finance Check,2024-05-24 16:00:00,Finance_X,50000,Finance
+PO_0024,Reject,2024-05-26 03:00:00,Manager_2,50000,Finance
+PO_0025,Submit Purchase Request,2024-04-22 00:00:00,Employee_A,8000,Marketing
+PO_0025,Manager Review,2024-04-22 03:00:00,Manager_3,8000,Marketing
+PO_0025,Finance Check,2024-04-22 08:00:00,Finance_X,8000,Marketing
+PO_0025,Approve,2024-04-23 21:00:00,Manager_1,8000,Marketing
+PO_0025,Send to Vendor,2024-04-23 23:00:00,System,8000,Marketing
+PO_0026,Submit Purchase Request,2024-03-13 00:00:00,Employee_B,3000,Operations
+PO_0026,Manager Review,2024-03-13 03:00:00,Manager_3,3000,Operations
+PO_0026,Approve,2024-03-13 20:00:00,Manager_2,3000,Operations
+PO_0026,Send to Vendor,2024-03-13 21:00:00,System,3000,Operations
+PO_0027,Submit Purchase Request,2024-03-11 00:00:00,Employee_B,1500,HR
+PO_0027,Manager Review,2024-03-11 03:00:00,Manager_1,1500,HR
+PO_0027,Rework Request,2024-03-11 19:00:00,Employee_D,1500,HR
+PO_0027,Manager Review,2024-03-13 10:00:00,Manager_1,1500,HR
+PO_0027,Approve,2024-03-13 13:00:00,Manager_1,1500,HR
+PO_0027,Send to Vendor,2024-03-13 16:00:00,System,1500,HR
+PO_0028,Submit Purchase Request,2024-05-29 00:00:00,Employee_A,500,Operations
+PO_0028,Manager Review,2024-05-29 03:00:00,Manager_2,500,Operations
+PO_0028,Approve,2024-05-29 06:00:00,Manager_2,500,Operations
+PO_0028,Send to Vendor,2024-05-29 10:00:00,System,500,Operations
+PO_0029,Submit Purchase Request,2024-03-31 00:00:00,Employee_D,5500,IT
+PO_0029,Manager Review,2024-03-31 02:00:00,Manager_1,5500,IT
+PO_0029,Finance Check,2024-03-31 09:00:00,Finance_X,5500,IT
+PO_0029,Approve,2024-04-02 17:00:00,Manager_1,5500,IT
+PO_0029,Send to Vendor,2024-04-02 20:00:00,System,5500,IT
+PO_0030,Submit Purchase Request,2024-06-20 00:00:00,Employee_C,15000,HR
+PO_0030,Manager Review,2024-06-20 02:00:00,Manager_3,15000,HR
+PO_0030,Finance Check,2024-06-20 07:00:00,Finance_Y,15000,HR
+PO_0030,Approve,2024-06-20 15:00:00,Manager_2,15000,HR
+PO_0030,Final Approval,2024-06-20 19:00:00,Director_Alpha,15000,HR
+PO_0030,Send to Vendor,2024-06-22 02:00:00,System,15000,HR
+PO_0031,Submit Purchase Request,2024-02-28 00:00:00,Employee_D,15000,Operations
+PO_0031,Manager Review,2024-02-28 03:00:00,Manager_2,15000,Operations
+PO_0031,Finance Check,2024-02-28 07:00:00,Finance_Y,15000,Operations
+PO_0031,Approve,2024-03-01 07:00:00,Manager_3,15000,Operations
+PO_0031,Final Approval,2024-03-01 14:00:00,Director_Beta,15000,Operations
+PO_0031,Send to Vendor,2024-03-01 17:00:00,System,15000,Operations
+PO_0032,Submit Purchase Request,2024-02-15 00:00:00,Employee_A,1500,Operations
+PO_0032,Manager Review,2024-02-15 01:00:00,Manager_3,1500,Operations
+PO_0032,Approve,2024-02-15 16:00:00,Manager_2,1500,Operations
+PO_0032,Send to Vendor,2024-02-15 22:00:00,System,1500,Operations
+PO_0033,Submit Purchase Request,2024-05-10 00:00:00,Employee_B,25000,Finance
+PO_0033,Manager Review,2024-05-10 03:00:00,Manager_1,25000,Finance
+PO_0033,Rework Request,2024-05-11 03:00:00,Employee_D,25000,Finance
+PO_0033,Manager Review,2024-05-11 07:00:00,Manager_3,25000,Finance
+PO_0033,Finance Check,2024-05-11 17:00:00,Finance_Z,25000,Finance
+PO_0033,Approve,2024-05-12 22:00:00,Manager_2,25000,Finance
+PO_0033,Final Approval,2024-05-13 05:00:00,Director_Alpha,25000,Finance
+PO_0033,Send to Vendor,2024-05-15 01:00:00,System,25000,Finance
+PO_0034,Submit Purchase Request,2024-03-21 00:00:00,Employee_C,15000,Finance
+PO_0034,Manager Review,2024-03-21 03:00:00,Manager_3,15000,Finance
+PO_0034,Finance Check,2024-03-21 18:00:00,Finance_Y,15000,Finance
+PO_0034,Approve,2024-03-24 01:00:00,Manager_3,15000,Finance
+PO_0034,Final Approval,2024-03-24 06:00:00,Director_Alpha,15000,Finance
+PO_0034,Send to Vendor,2024-03-24 20:00:00,System,15000,Finance
+PO_0035,Submit Purchase Request,2024-06-22 00:00:00,Employee_C,25000,HR
+PO_0035,Manager Review,2024-06-22 04:00:00,Manager_3,25000,HR
+PO_0035,Finance Check,2024-06-22 06:00:00,Finance_Y,25000,HR
+PO_0035,Approve,2024-06-23 22:00:00,Manager_1,25000,HR
+PO_0035,Final Approval,2024-06-24 05:00:00,Director_Beta,25000,HR
+PO_0035,Send to Vendor,2024-06-25 12:00:00,System,25000,HR
+PO_0036,Submit Purchase Request,2024-06-21 00:00:00,Employee_B,50000,HR
+PO_0036,Manager Review,2024-06-21 01:00:00,Manager_2,50000,HR
+PO_0036,Finance Check,2024-06-21 19:00:00,Finance_Z,50000,HR
+PO_0036,Approve,2024-06-23 17:00:00,Manager_1,50000,HR
+PO_0036,Final Approval,2024-06-23 21:00:00,Director_Beta,50000,HR
+PO_0036,Send to Vendor,2024-06-24 13:00:00,System,50000,HR
+PO_0037,Submit Purchase Request,2024-01-07 00:00:00,Employee_A,5500,Marketing
+PO_0037,Manager Review,2024-01-07 04:00:00,Manager_2,5500,Marketing
+PO_0037,Rework Request,2024-01-08 02:00:00,Employee_B,5500,Marketing
+PO_0037,Manager Review,2024-01-10 02:00:00,Manager_2,5500,Marketing
+PO_0037,Finance Check,2024-01-10 11:00:00,Finance_Y,5500,Marketing
+PO_0037,Approve,2024-01-11 22:00:00,Manager_1,5500,Marketing
+PO_0037,Send to Vendor,2024-01-11 23:00:00,System,5500,Marketing
+PO_0038,Submit Purchase Request,2024-02-26 00:00:00,Employee_D,1500,HR
+PO_0038,Manager Review,2024-02-26 01:00:00,Manager_3,1500,HR
+PO_0038,Approve,2024-02-26 10:00:00,Manager_1,1500,HR
+PO_0038,Send to Vendor,2024-02-26 18:00:00,System,1500,HR
+PO_0039,Submit Purchase Request,2024-06-19 00:00:00,Employee_C,3000,HR
+PO_0039,Manager Review,2024-06-19 04:00:00,Manager_3,3000,HR
+PO_0039,Approve,2024-06-19 22:00:00,Manager_2,3000,HR
+PO_0039,Send to Vendor,2024-06-20 06:00:00,System,3000,HR
+PO_0040,Submit Purchase Request,2024-04-25 00:00:00,Employee_C,3000,HR
+PO_0040,Manager Review,2024-04-25 04:00:00,Manager_3,3000,HR
+PO_0040,Approve,2024-04-25 13:00:00,Manager_2,3000,HR
+PO_0040,Send to Vendor,2024-04-25 21:00:00,System,3000,HR
+PO_0041,Submit Purchase Request,2024-03-01 00:00:00,Employee_A,1500,Operations
+PO_0041,Manager Review,2024-03-01 02:00:00,Manager_1,1500,Operations
+PO_0041,Approve,2024-03-01 11:00:00,Manager_2,1500,Operations
+PO_0041,Send to Vendor,2024-03-01 14:00:00,System,1500,Operations
+PO_0042,Submit Purchase Request,2024-04-16 00:00:00,Employee_D,5500,IT
+PO_0042,Manager Review,2024-04-16 01:00:00,Manager_1,5500,IT
+PO_0042,Finance Check,2024-04-16 16:00:00,Finance_Y,5500,IT
+PO_0042,Approve,2024-04-16 22:00:00,Manager_3,5500,IT
+PO_0042,Send to Vendor,2024-04-17 05:00:00,System,5500,IT
+PO_0043,Submit Purchase Request,2024-03-31 00:00:00,Employee_D,50000,IT
+PO_0043,Manager Review,2024-03-31 02:00:00,Manager_2,50000,IT
+PO_0043,Finance Check,2024-03-31 11:00:00,Finance_Y,50000,IT
+PO_0043,Approve,2024-04-02 22:00:00,Manager_2,50000,IT
+PO_0043,Final Approval,2024-04-02 23:00:00,Director_Beta,50000,IT
+PO_0043,Send to Vendor,2024-04-03 22:00:00,System,50000,IT
+PO_0044,Submit Purchase Request,2024-04-29 00:00:00,Employee_A,25000,Marketing
+PO_0044,Manager Review,2024-04-29 04:00:00,Manager_3,25000,Marketing
+PO_0044,Finance Check,2024-04-30 00:00:00,Finance_Z,25000,Marketing
+PO_0044,Approve,2024-04-30 07:00:00,Manager_1,25000,Marketing
+PO_0044,Final Approval,2024-04-30 14:00:00,Director_Alpha,25000,Marketing
+PO_0044,Send to Vendor,2024-05-01 21:00:00,System,25000,Marketing
+PO_0045,Submit Purchase Request,2024-03-07 00:00:00,Employee_C,3000,IT
+PO_0045,Manager Review,2024-03-07 03:00:00,Manager_2,3000,IT
+PO_0045,Approve,2024-03-07 13:00:00,Manager_2,3000,IT
+PO_0045,Send to Vendor,2024-03-07 18:00:00,System,3000,IT
+PO_0046,Submit Purchase Request,2024-01-05 00:00:00,Employee_C,1500,HR
+PO_0046,Manager Review,2024-01-05 02:00:00,Manager_3,1500,HR
+PO_0046,Reject,2024-01-05 06:00:00,Manager_3,1500,HR
+PO_0047,Submit Purchase Request,2024-03-04 00:00:00,Employee_B,500,IT
+PO_0047,Manager Review,2024-03-04 02:00:00,Manager_1,500,IT
+PO_0047,Reject,2024-03-04 19:00:00,Manager_3,500,IT
+PO_0048,Submit Purchase Request,2024-02-25 00:00:00,Employee_C,1500,Finance
+PO_0048,Manager Review,2024-02-25 02:00:00,Manager_3,1500,Finance
+PO_0048,Approve,2024-02-25 23:00:00,Manager_3,1500,Finance
+PO_0048,Send to Vendor,2024-02-26 01:00:00,System,1500,Finance
+PO_0049,Submit Purchase Request,2024-01-28 00:00:00,Employee_D,3000,Operations
+PO_0049,Manager Review,2024-01-28 04:00:00,Manager_3,3000,Operations
+PO_0049,Approve,2024-01-28 12:00:00,Manager_1,3000,Operations
+PO_0049,Send to Vendor,2024-01-28 16:00:00,System,3000,Operations
+PO_0050,Submit Purchase Request,2024-06-24 00:00:00,Employee_A,1500,Operations
+PO_0050,Manager Review,2024-06-24 03:00:00,Manager_3,1500,Operations
+PO_0050,Approve,2024-06-24 18:00:00,Manager_3,1500,Operations
+PO_0050,Send to Vendor,2024-06-25 00:00:00,System,1500,Operations
+PO_0051,Submit Purchase Request,2024-06-14 00:00:00,Employee_D,1500,Finance
+PO_0051,Manager Review,2024-06-14 01:00:00,Manager_2,1500,Finance
+PO_0051,Approve,2024-06-14 14:00:00,Manager_3,1500,Finance
+PO_0051,Send to Vendor,2024-06-14 22:00:00,System,1500,Finance
+PO_0052,Submit Purchase Request,2024-02-15 00:00:00,Employee_C,3000,HR
+PO_0052,Manager Review,2024-02-15 04:00:00,Manager_2,3000,HR
+PO_0052,Approve,2024-02-15 19:00:00,Manager_3,3000,HR
+PO_0052,Send to Vendor,2024-02-16 00:00:00,System,3000,HR
+PO_0053,Submit Purchase Request,2024-01-23 00:00:00,Employee_D,15000,Marketing
+PO_0053,Manager Review,2024-01-23 04:00:00,Manager_2,15000,Marketing
+PO_0053,Finance Check,2024-01-23 06:00:00,Finance_Y,15000,Marketing
+PO_0053,Approve,2024-01-25 03:00:00,Manager_1,15000,Marketing
+PO_0053,Final Approval,2024-01-25 11:00:00,Director_Alpha,15000,Marketing
+PO_0053,Send to Vendor,2024-01-26 11:00:00,System,15000,Marketing
+PO_0054,Submit Purchase Request,2024-03-12 00:00:00,Employee_C,8000,Operations
+PO_0054,Manager Review,2024-03-12 01:00:00,Manager_3,8000,Operations
+PO_0054,Finance Check,2024-03-12 09:00:00,Finance_X,8000,Operations
+PO_0054,Approve,2024-03-13 19:00:00,Manager_3,8000,Operations
+PO_0054,Send to Vendor,2024-03-14 02:00:00,System,8000,Operations
+PO_0055,Submit Purchase Request,2024-03-02 00:00:00,Employee_D,50000,Finance
+PO_0055,Manager Review,2024-03-02 04:00:00,Manager_1,50000,Finance
+PO_0055,Finance Check,2024-03-02 08:00:00,Finance_Y,50000,Finance
+PO_0055,Approve,2024-03-03 16:00:00,Manager_2,50000,Finance
+PO_0055,Final Approval,2024-03-03 20:00:00,Director_Beta,50000,Finance
+PO_0055,Send to Vendor,2024-03-05 16:00:00,System,50000,Finance
+PO_0056,Submit Purchase Request,2024-05-21 00:00:00,Employee_C,15000,HR
+PO_0056,Manager Review,2024-05-21 03:00:00,Manager_3,15000,HR
+PO_0056,Finance Check,2024-05-21 19:00:00,Finance_Y,15000,HR
+PO_0056,Approve,2024-05-23 14:00:00,Manager_2,15000,HR
+PO_0056,Final Approval,2024-05-23 18:00:00,Director_Alpha,15000,HR
+PO_0056,Send to Vendor,2024-05-25 18:00:00,System,15000,HR
+PO_0057,Submit Purchase Request,2024-01-31 00:00:00,Employee_B,5500,Operations
+PO_0057,Manager Review,2024-01-31 02:00:00,Manager_1,5500,Operations
+PO_0057,Finance Check,2024-01-31 19:00:00,Finance_Y,5500,Operations
+PO_0057,Approve,2024-02-03 18:00:00,Manager_3,5500,Operations
+PO_0057,Send to Vendor,2024-02-03 23:00:00,System,5500,Operations
+PO_0058,Submit Purchase Request,2024-03-16 00:00:00,Employee_A,1500,Marketing
+PO_0058,Manager Review,2024-03-16 02:00:00,Manager_2,1500,Marketing
+PO_0058,Approve,2024-03-16 05:00:00,Manager_1,1500,Marketing
+PO_0058,Send to Vendor,2024-03-16 10:00:00,System,1500,Marketing
+PO_0059,Submit Purchase Request,2024-01-27 00:00:00,Employee_D,3000,HR
+PO_0059,Manager Review,2024-01-27 04:00:00,Manager_2,3000,HR
+PO_0059,Approve,2024-01-27 16:00:00,Manager_1,3000,HR
+PO_0059,Send to Vendor,2024-01-27 17:00:00,System,3000,HR
+PO_0060,Submit Purchase Request,2024-01-30 00:00:00,Employee_A,8000,HR
+PO_0060,Manager Review,2024-01-30 01:00:00,Manager_1,8000,HR
+PO_0060,Finance Check,2024-01-30 07:00:00,Finance_Z,8000,HR
+PO_0060,Approve,2024-02-01 01:00:00,Manager_1,8000,HR
+PO_0060,Send to Vendor,2024-02-01 05:00:00,System,8000,HR
+PO_0061,Submit Purchase Request,2024-04-16 00:00:00,Employee_B,1500,Finance
+PO_0061,Manager Review,2024-04-16 04:00:00,Manager_2,1500,Finance
+PO_0061,Approve,2024-04-16 20:00:00,Manager_2,1500,Finance
+PO_0061,Send to Vendor,2024-04-17 03:00:00,System,1500,Finance
+PO_0062,Submit Purchase Request,2024-06-07 00:00:00,Employee_A,8000,Finance
+PO_0062,Manager Review,2024-06-07 02:00:00,Manager_3,8000,Finance
+PO_0062,Rework Request,2024-06-07 10:00:00,Employee_C,8000,Finance
+PO_0062,Manager Review,2024-06-09 08:00:00,Manager_1,8000,Finance
+PO_0062,Finance Check,2024-06-09 12:00:00,Finance_X,8000,Finance
+PO_0062,Approve,2024-06-10 14:00:00,Manager_3,8000,Finance
+PO_0062,Send to Vendor,2024-06-10 16:00:00,System,8000,Finance
+PO_0063,Submit Purchase Request,2024-04-14 00:00:00,Employee_C,3000,IT
+PO_0063,Manager Review,2024-04-14 01:00:00,Manager_1,3000,IT
+PO_0063,Approve,2024-04-14 12:00:00,Manager_3,3000,IT
+PO_0063,Send to Vendor,2024-04-14 17:00:00,System,3000,IT
+PO_0064,Submit Purchase Request,2024-06-24 00:00:00,Employee_B,50000,IT
+PO_0064,Manager Review,2024-06-24 04:00:00,Manager_1,50000,IT
+PO_0064,Finance Check,2024-06-24 23:00:00,Finance_X,50000,IT
+PO_0064,Approve,2024-06-25 22:00:00,Manager_2,50000,IT
+PO_0064,Final Approval,2024-06-26 01:00:00,Director_Alpha,50000,IT
+PO_0064,Send to Vendor,2024-06-26 06:00:00,System,50000,IT
+PO_0065,Submit Purchase Request,2024-06-01 00:00:00,Employee_C,3000,Operations
+PO_0065,Manager Review,2024-06-01 04:00:00,Manager_1,3000,Operations
+PO_0065,Approve,2024-06-01 20:00:00,Manager_3,3000,Operations
+PO_0065,Send to Vendor,2024-06-02 01:00:00,System,3000,Operations
+PO_0066,Submit Purchase Request,2024-05-08 00:00:00,Employee_A,25000,Operations
+PO_0066,Manager Review,2024-05-08 04:00:00,Manager_3,25000,Operations
+PO_0066,Finance Check,2024-05-08 16:00:00,Finance_Z,25000,Operations
+PO_0066,Approve,2024-05-10 04:00:00,Manager_1,25000,Operations
+PO_0066,Final Approval,2024-05-10 06:00:00,Director_Alpha,25000,Operations
+PO_0066,Send to Vendor,2024-05-12 03:00:00,System,25000,Operations
+PO_0067,Submit Purchase Request,2024-05-27 00:00:00,Employee_D,500,Operations
+PO_0067,Manager Review,2024-05-27 04:00:00,Manager_2,500,Operations
+PO_0067,Rework Request,2024-05-27 11:00:00,Employee_D,500,Operations
+PO_0067,Manager Review,2024-05-29 07:00:00,Manager_2,500,Operations
+PO_0067,Approve,2024-05-29 10:00:00,Manager_2,500,Operations
+PO_0067,Send to Vendor,2024-05-29 16:00:00,System,500,Operations
+PO_0068,Submit Purchase Request,2024-03-23 00:00:00,Employee_C,25000,Operations
+PO_0068,Manager Review,2024-03-23 04:00:00,Manager_3,25000,Operations
+PO_0068,Finance Check,2024-03-23 21:00:00,Finance_Y,25000,Operations
+PO_0068,Approve,2024-03-26 04:00:00,Manager_3,25000,Operations
+PO_0068,Final Approval,2024-03-26 05:00:00,Director_Beta,25000,Operations
+PO_0068,Send to Vendor,2024-03-26 12:00:00,System,25000,Operations
+PO_0069,Submit Purchase Request,2024-03-23 00:00:00,Employee_A,15000,Operations
+PO_0069,Manager Review,2024-03-23 04:00:00,Manager_2,15000,Operations
+PO_0069,Rework Request,2024-03-23 07:00:00,Employee_B,15000,Operations
+PO_0069,Manager Review,2024-03-24 20:00:00,Manager_2,15000,Operations
+PO_0069,Finance Check,2024-03-25 07:00:00,Finance_Y,15000,Operations
+PO_0069,Approve,2024-03-27 19:00:00,Manager_1,15000,Operations
+PO_0069,Final Approval,2024-03-27 23:00:00,Director_Beta,15000,Operations
+PO_0069,Send to Vendor,2024-03-29 12:00:00,System,15000,Operations
+PO_0070,Submit Purchase Request,2024-04-22 00:00:00,Employee_A,3000,Operations
+PO_0070,Manager Review,2024-04-22 02:00:00,Manager_3,3000,Operations
+PO_0070,Approve,2024-04-22 09:00:00,Manager_2,3000,Operations
+PO_0070,Send to Vendor,2024-04-22 10:00:00,System,3000,Operations
+PO_0071,Submit Purchase Request,2024-02-27 00:00:00,Employee_D,25000,IT
+PO_0071,Manager Review,2024-02-27 01:00:00,Manager_3,25000,IT
+PO_0071,Finance Check,2024-02-27 07:00:00,Finance_Y,25000,IT
+PO_0071,Approve,2024-02-29 00:00:00,Manager_3,25000,IT
+PO_0071,Final Approval,2024-02-29 05:00:00,Director_Beta,25000,IT
+PO_0071,Send to Vendor,2024-03-01 13:00:00,System,25000,IT
+PO_0072,Submit Purchase Request,2024-04-26 00:00:00,Employee_B,50000,Marketing
+PO_0072,Manager Review,2024-04-26 01:00:00,Manager_2,50000,Marketing
+PO_0072,Finance Check,2024-04-26 16:00:00,Finance_Y,50000,Marketing
+PO_0072,Approve,2024-04-29 12:00:00,Manager_2,50000,Marketing
+PO_0072,Final Approval,2024-04-29 13:00:00,Director_Beta,50000,Marketing
+PO_0072,Send to Vendor,2024-05-01 13:00:00,System,50000,Marketing
+PO_0073,Submit Purchase Request,2024-05-28 00:00:00,Employee_B,8000,Finance
+PO_0073,Manager Review,2024-05-28 04:00:00,Manager_3,8000,Finance
+PO_0073,Finance Check,2024-05-28 21:00:00,Finance_Y,8000,Finance
+PO_0073,Approve,2024-05-30 19:00:00,Manager_3,8000,Finance
+PO_0073,Send to Vendor,2024-05-31 02:00:00,System,8000,Finance
+PO_0074,Submit Purchase Request,2024-02-18 00:00:00,Employee_D,50000,Operations
+PO_0074,Manager Review,2024-02-18 02:00:00,Manager_2,50000,Operations
+PO_0074,Finance Check,2024-02-18 05:00:00,Finance_Y,50000,Operations
+PO_0074,Approve,2024-02-20 21:00:00,Manager_3,50000,Operations
+PO_0074,Final Approval,2024-02-21 04:00:00,Director_Beta,50000,Operations
+PO_0074,Send to Vendor,2024-02-23 00:00:00,System,50000,Operations
+PO_0075,Submit Purchase Request,2024-01-10 00:00:00,Employee_C,3000,HR
+PO_0075,Manager Review,2024-01-10 01:00:00,Manager_2,3000,HR
+PO_0075,Rework Request,2024-01-10 06:00:00,Employee_D,3000,HR
+PO_0075,Manager Review,2024-01-10 10:00:00,Manager_3,3000,HR
+PO_0075,Approve,2024-01-10 14:00:00,Manager_2,3000,HR
+PO_0075,Send to Vendor,2024-01-10 17:00:00,System,3000,HR
+PO_0076,Submit Purchase Request,2024-03-08 00:00:00,Employee_A,1500,HR
+PO_0076,Manager Review,2024-03-08 03:00:00,Manager_3,1500,HR
+PO_0076,Approve,2024-03-08 22:00:00,Manager_2,1500,HR
+PO_0076,Send to Vendor,2024-03-09 04:00:00,System,1500,HR
+PO_0077,Submit Purchase Request,2024-01-10 00:00:00,Employee_C,50000,Finance
+PO_0077,Manager Review,2024-01-10 02:00:00,Manager_3,50000,Finance
+PO_0077,Finance Check,2024-01-10 06:00:00,Finance_Y,50000,Finance
+PO_0077,Approve,2024-01-10 22:00:00,Manager_3,50000,Finance
+PO_0077,Final Approval,2024-01-11 00:00:00,Director_Beta,50000,Finance
+PO_0077,Send to Vendor,2024-01-11 12:00:00,System,50000,Finance
+PO_0078,Submit Purchase Request,2024-01-12 00:00:00,Employee_C,8000,IT
+PO_0078,Manager Review,2024-01-12 03:00:00,Manager_2,8000,IT
+PO_0078,Finance Check,2024-01-12 09:00:00,Finance_X,8000,IT
+PO_0078,Reject,2024-01-15 08:00:00,Manager_2,8000,IT
+PO_0079,Submit Purchase Request,2024-02-14 00:00:00,Employee_B,3000,Marketing
+PO_0079,Manager Review,2024-02-14 04:00:00,Manager_3,3000,Marketing
+PO_0079,Rework Request,2024-02-14 10:00:00,Employee_B,3000,Marketing
+PO_0079,Manager Review,2024-02-15 19:00:00,Manager_3,3000,Marketing
+PO_0079,Approve,2024-02-16 01:00:00,Manager_2,3000,Marketing
+PO_0079,Send to Vendor,2024-02-16 06:00:00,System,3000,Marketing
+PO_0080,Submit Purchase Request,2024-03-14 00:00:00,Employee_D,500,HR
+PO_0080,Manager Review,2024-03-14 03:00:00,Manager_3,500,HR
+PO_0080,Approve,2024-03-14 14:00:00,Manager_3,500,HR
+PO_0080,Send to Vendor,2024-03-14 21:00:00,System,500,HR
+PO_0081,Submit Purchase Request,2024-03-18 00:00:00,Employee_D,8000,HR
+PO_0081,Manager Review,2024-03-18 01:00:00,Manager_1,8000,HR
+PO_0081,Finance Check,2024-03-18 15:00:00,Finance_Z,8000,HR
+PO_0081,Approve,2024-03-20 16:00:00,Manager_3,8000,HR
+PO_0081,Send to Vendor,2024-03-20 21:00:00,System,8000,HR
+PO_0082,Submit Purchase Request,2024-06-17 00:00:00,Employee_A,8000,IT
+PO_0082,Manager Review,2024-06-17 04:00:00,Manager_2,8000,IT
+PO_0082,Finance Check,2024-06-17 13:00:00,Finance_Z,8000,IT
+PO_0082,Reject,2024-06-19 14:00:00,Manager_1,8000,IT
+PO_0083,Submit Purchase Request,2024-03-05 00:00:00,Employee_B,5500,Finance
+PO_0083,Manager Review,2024-03-05 01:00:00,Manager_3,5500,Finance
+PO_0083,Finance Check,2024-03-05 23:00:00,Finance_X,5500,Finance
+PO_0083,Approve,2024-03-07 18:00:00,Manager_2,5500,Finance
+PO_0083,Send to Vendor,2024-03-07 19:00:00,System,5500,Finance
+PO_0084,Submit Purchase Request,2024-01-24 00:00:00,Employee_D,15000,Marketing
+PO_0084,Manager Review,2024-01-24 02:00:00,Manager_1,15000,Marketing
+PO_0084,Finance Check,2024-01-24 08:00:00,Finance_Z,15000,Marketing
+PO_0084,Approve,2024-01-26 10:00:00,Manager_3,15000,Marketing
+PO_0084,Final Approval,2024-01-26 15:00:00,Director_Alpha,15000,Marketing
+PO_0084,Send to Vendor,2024-01-27 09:00:00,System,15000,Marketing
+PO_0085,Submit Purchase Request,2024-03-27 00:00:00,Employee_A,50000,Operations
+PO_0085,Manager Review,2024-03-27 02:00:00,Manager_1,50000,Operations
+PO_0085,Finance Check,2024-03-28 01:00:00,Finance_Z,50000,Operations
+PO_0085,Approve,2024-03-30 07:00:00,Manager_3,50000,Operations
+PO_0085,Final Approval,2024-03-30 13:00:00,Director_Alpha,50000,Operations
+PO_0085,Send to Vendor,2024-03-31 16:00:00,System,50000,Operations
+PO_0086,Submit Purchase Request,2024-05-17 00:00:00,Employee_C,500,Operations
+PO_0086,Manager Review,2024-05-17 04:00:00,Manager_3,500,Operations
+PO_0086,Rework Request,2024-05-17 17:00:00,Employee_A,500,Operations
+PO_0086,Manager Review,2024-05-19 16:00:00,Manager_1,500,Operations
+PO_0086,Approve,2024-05-20 01:00:00,Manager_1,500,Operations
+PO_0086,Send to Vendor,2024-05-20 07:00:00,System,500,Operations
+PO_0087,Submit Purchase Request,2024-06-11 00:00:00,Employee_C,5500,IT
+PO_0087,Manager Review,2024-06-11 04:00:00,Manager_1,5500,IT
+PO_0087,Finance Check,2024-06-11 10:00:00,Finance_X,5500,IT
+PO_0087,Approve,2024-06-11 18:00:00,Manager_2,5500,IT
+PO_0087,Send to Vendor,2024-06-12 02:00:00,System,5500,IT
+PO_0088,Submit Purchase Request,2024-03-01 00:00:00,Employee_D,1500,IT
+PO_0088,Manager Review,2024-03-01 03:00:00,Manager_3,1500,IT
+PO_0088,Approve,2024-03-02 03:00:00,Manager_3,1500,IT
+PO_0088,Send to Vendor,2024-03-02 10:00:00,System,1500,IT
+PO_0089,Submit Purchase Request,2024-06-16 00:00:00,Employee_D,3000,HR
+PO_0089,Manager Review,2024-06-16 03:00:00,Manager_1,3000,HR
+PO_0089,Rework Request,2024-06-17 03:00:00,Employee_C,3000,HR
+PO_0089,Manager Review,2024-06-17 20:00:00,Manager_2,3000,HR
+PO_0089,Approve,2024-06-18 05:00:00,Manager_1,3000,HR
+PO_0089,Send to Vendor,2024-06-18 11:00:00,System,3000,HR
+PO_0090,Submit Purchase Request,2024-05-19 00:00:00,Employee_A,1500,Operations
+PO_0090,Manager Review,2024-05-19 04:00:00,Manager_2,1500,Operations
+PO_0090,Approve,2024-05-19 12:00:00,Manager_1,1500,Operations
+PO_0090,Send to Vendor,2024-05-19 20:00:00,System,1500,Operations
+PO_0091,Submit Purchase Request,2024-06-13 00:00:00,Employee_A,1500,Marketing
+PO_0091,Manager Review,2024-06-13 03:00:00,Manager_1,1500,Marketing
+PO_0091,Approve,2024-06-13 09:00:00,Manager_3,1500,Marketing
+PO_0091,Send to Vendor,2024-06-13 13:00:00,System,1500,Marketing
+PO_0092,Submit Purchase Request,2024-02-23 00:00:00,Employee_B,1500,Finance
+PO_0092,Manager Review,2024-02-23 03:00:00,Manager_1,1500,Finance
+PO_0092,Approve,2024-02-24 00:00:00,Manager_1,1500,Finance
+PO_0092,Send to Vendor,2024-02-24 05:00:00,System,1500,Finance
+PO_0093,Submit Purchase Request,2024-05-18 00:00:00,Employee_A,3000,Marketing
+PO_0093,Manager Review,2024-05-18 02:00:00,Manager_1,3000,Marketing
+PO_0093,Approve,2024-05-18 15:00:00,Manager_1,3000,Marketing
+PO_0093,Send to Vendor,2024-05-18 21:00:00,System,3000,Marketing
+PO_0094,Submit Purchase Request,2024-03-08 00:00:00,Employee_A,500,Marketing
+PO_0094,Manager Review,2024-03-08 01:00:00,Manager_2,500,Marketing
+PO_0094,Rework Request,2024-03-08 17:00:00,Employee_C,500,Marketing
+PO_0094,Manager Review,2024-03-10 05:00:00,Manager_3,500,Marketing
+PO_0094,Approve,2024-03-10 08:00:00,Manager_2,500,Marketing
+PO_0094,Send to Vendor,2024-03-10 12:00:00,System,500,Marketing
+PO_0095,Submit Purchase Request,2024-03-18 00:00:00,Employee_A,500,Finance
+PO_0095,Manager Review,2024-03-18 04:00:00,Manager_2,500,Finance
+PO_0095,Approve,2024-03-18 19:00:00,Manager_3,500,Finance
+PO_0095,Send to Vendor,2024-03-18 21:00:00,System,500,Finance
+PO_0096,Submit Purchase Request,2024-01-19 00:00:00,Employee_B,50000,HR
+PO_0096,Manager Review,2024-01-19 01:00:00,Manager_1,50000,HR
+PO_0096,Finance Check,2024-01-19 11:00:00,Finance_Z,50000,HR
+PO_0096,Approve,2024-01-21 08:00:00,Manager_2,50000,HR
+PO_0096,Final Approval,2024-01-21 13:00:00,Director_Beta,50000,HR
+PO_0096,Send to Vendor,2024-01-22 23:00:00,System,50000,HR
+PO_0097,Submit Purchase Request,2024-06-28 00:00:00,Employee_B,25000,IT
+PO_0097,Manager Review,2024-06-28 04:00:00,Manager_2,25000,IT
+PO_0097,Rework Request,2024-06-28 13:00:00,Employee_D,25000,IT
+PO_0097,Manager Review,2024-06-29 14:00:00,Manager_2,25000,IT
+PO_0097,Finance Check,2024-06-29 22:00:00,Finance_Y,25000,IT
+PO_0097,Approve,2024-06-30 14:00:00,Manager_2,25000,IT
+PO_0097,Final Approval,2024-06-30 21:00:00,Director_Beta,25000,IT
+PO_0097,Send to Vendor,2024-07-02 17:00:00,System,25000,IT
+PO_0098,Submit Purchase Request,2024-02-09 00:00:00,Employee_A,8000,Operations
+PO_0098,Manager Review,2024-02-09 01:00:00,Manager_1,8000,Operations
+PO_0098,Finance Check,2024-02-09 16:00:00,Finance_X,8000,Operations
+PO_0098,Approve,2024-02-11 19:00:00,Manager_1,8000,Operations
+PO_0098,Send to Vendor,2024-02-11 20:00:00,System,8000,Operations
+PO_0099,Submit Purchase Request,2024-04-15 00:00:00,Employee_D,15000,IT
+PO_0099,Manager Review,2024-04-15 01:00:00,Manager_2,15000,IT
+PO_0099,Finance Check,2024-04-15 22:00:00,Finance_Y,15000,IT
+PO_0099,Approve,2024-04-17 23:00:00,Manager_1,15000,IT
+PO_0099,Final Approval,2024-04-18 03:00:00,Director_Alpha,15000,IT
+PO_0099,Send to Vendor,2024-04-19 23:00:00,System,15000,IT
+PO_0100,Submit Purchase Request,2024-01-28 00:00:00,Employee_A,50000,Marketing
+PO_0100,Manager Review,2024-01-28 03:00:00,Manager_3,50000,Marketing
+PO_0100,Finance Check,2024-01-28 12:00:00,Finance_Y,50000,Marketing
+PO_0100,Approve,2024-01-28 19:00:00,Manager_3,50000,Marketing
+PO_0100,Final Approval,2024-01-29 00:00:00,Director_Alpha,50000,Marketing
+PO_0100,Send to Vendor,2024-01-29 13:00:00,System,50000,Marketing
+PO_0101,Submit Purchase Request,2024-03-27 00:00:00,Employee_B,8000,Operations
+PO_0101,Manager Review,2024-03-27 04:00:00,Manager_1,8000,Operations
+PO_0101,Finance Check,2024-03-27 10:00:00,Finance_Z,8000,Operations
+PO_0101,Approve,2024-03-27 17:00:00,Manager_1,8000,Operations
+PO_0101,Send to Vendor,2024-03-27 21:00:00,System,8000,Operations
+PO_0102,Submit Purchase Request,2024-04-26 00:00:00,Employee_C,25000,HR
+PO_0102,Manager Review,2024-04-26 01:00:00,Manager_1,25000,HR
+PO_0102,Finance Check,2024-04-26 07:00:00,Finance_X,25000,HR
+PO_0102,Approve,2024-04-26 17:00:00,Manager_3,25000,HR
+PO_0102,Final Approval,2024-04-26 19:00:00,Director_Beta,25000,HR
+PO_0102,Send to Vendor,2024-04-28 01:00:00,System,25000,HR
+PO_0103,Submit Purchase Request,2024-06-04 00:00:00,Employee_A,25000,HR
+PO_0103,Manager Review,2024-06-04 03:00:00,Manager_2,25000,HR
+PO_0103,Finance Check,2024-06-04 08:00:00,Finance_Y,25000,HR
+PO_0103,Approve,2024-06-07 02:00:00,Manager_3,25000,HR
+PO_0103,Final Approval,2024-06-07 07:00:00,Director_Alpha,25000,HR
+PO_0103,Send to Vendor,2024-06-07 23:00:00,System,25000,HR
+PO_0104,Submit Purchase Request,2024-01-15 00:00:00,Employee_B,25000,Finance
+PO_0104,Manager Review,2024-01-15 02:00:00,Manager_2,25000,Finance
+PO_0104,Rework Request,2024-01-15 13:00:00,Employee_C,25000,Finance
+PO_0104,Manager Review,2024-01-16 00:00:00,Manager_1,25000,Finance
+PO_0104,Finance Check,2024-01-16 09:00:00,Finance_Z,25000,Finance
+PO_0104,Approve,2024-01-18 20:00:00,Manager_1,25000,Finance
+PO_0104,Final Approval,2024-01-18 23:00:00,Director_Beta,25000,Finance
+PO_0104,Send to Vendor,2024-01-20 11:00:00,System,25000,Finance
+PO_0105,Submit Purchase Request,2024-05-23 00:00:00,Employee_A,5500,Finance
+PO_0105,Manager Review,2024-05-23 04:00:00,Manager_3,5500,Finance
+PO_0105,Finance Check,2024-05-23 07:00:00,Finance_Y,5500,Finance
+PO_0105,Approve,2024-05-23 13:00:00,Manager_2,5500,Finance
+PO_0105,Send to Vendor,2024-05-23 15:00:00,System,5500,Finance
+PO_0106,Submit Purchase Request,2024-04-19 00:00:00,Employee_D,15000,Finance
+PO_0106,Manager Review,2024-04-19 03:00:00,Manager_1,15000,Finance
+PO_0106,Finance Check,2024-04-19 17:00:00,Finance_X,15000,Finance
+PO_0106,Approve,2024-04-21 14:00:00,Manager_1,15000,Finance
+PO_0106,Final Approval,2024-04-21 22:00:00,Director_Beta,15000,Finance
+PO_0106,Send to Vendor,2024-04-22 05:00:00,System,15000,Finance
+PO_0107,Submit Purchase Request,2024-03-03 00:00:00,Employee_A,25000,IT
+PO_0107,Manager Review,2024-03-03 04:00:00,Manager_2,25000,IT
+PO_0107,Finance Check,2024-03-03 16:00:00,Finance_X,25000,IT
+PO_0107,Approve,2024-03-05 14:00:00,Manager_1,25000,IT
+PO_0107,Final Approval,2024-03-05 16:00:00,Director_Alpha,25000,IT
+PO_0107,Send to Vendor,2024-03-07 03:00:00,System,25000,IT
+PO_0108,Submit Purchase Request,2024-03-30 00:00:00,Employee_B,5500,Operations
+PO_0108,Manager Review,2024-03-30 02:00:00,Manager_1,5500,Operations
+PO_0108,Finance Check,2024-03-30 08:00:00,Finance_Y,5500,Operations
+PO_0108,Approve,2024-03-31 13:00:00,Manager_1,5500,Operations
+PO_0108,Send to Vendor,2024-03-31 16:00:00,System,5500,Operations
+PO_0109,Submit Purchase Request,2024-06-09 00:00:00,Employee_D,1500,Marketing
+PO_0109,Manager Review,2024-06-09 03:00:00,Manager_3,1500,Marketing
+PO_0109,Approve,2024-06-09 15:00:00,Manager_1,1500,Marketing
+PO_0109,Send to Vendor,2024-06-09 23:00:00,System,1500,Marketing
+PO_0110,Submit Purchase Request,2024-04-23 00:00:00,Employee_A,1500,HR
+PO_0110,Manager Review,2024-04-23 03:00:00,Manager_3,1500,HR
+PO_0110,Approve,2024-04-23 07:00:00,Manager_2,1500,HR
+PO_0110,Send to Vendor,2024-04-23 15:00:00,System,1500,HR
+PO_0111,Submit Purchase Request,2024-01-15 00:00:00,Employee_A,50000,IT
+PO_0111,Manager Review,2024-01-15 04:00:00,Manager_2,50000,IT
+PO_0111,Finance Check,2024-01-16 00:00:00,Finance_Z,50000,IT
+PO_0111,Approve,2024-01-16 09:00:00,Manager_2,50000,IT
+PO_0111,Final Approval,2024-01-16 13:00:00,Director_Beta,50000,IT
+PO_0111,Send to Vendor,2024-01-18 05:00:00,System,50000,IT
+PO_0112,Submit Purchase Request,2024-02-08 00:00:00,Employee_C,50000,Finance
+PO_0112,Manager Review,2024-02-08 01:00:00,Manager_3,50000,Finance
+PO_0112,Finance Check,2024-02-08 23:00:00,Finance_X,50000,Finance
+PO_0112,Approve,2024-02-09 08:00:00,Manager_1,50000,Finance
+PO_0112,Final Approval,2024-02-09 16:00:00,Director_Beta,50000,Finance
+PO_0112,Send to Vendor,2024-02-11 03:00:00,System,50000,Finance
+PO_0113,Submit Purchase Request,2024-04-05 00:00:00,Employee_C,3000,Operations
+PO_0113,Manager Review,2024-04-05 01:00:00,Manager_3,3000,Operations
+PO_0113,Approve,2024-04-05 23:00:00,Manager_2,3000,Operations
+PO_0113,Send to Vendor,2024-04-06 01:00:00,System,3000,Operations
+PO_0114,Submit Purchase Request,2024-05-22 00:00:00,Employee_B,15000,IT
+PO_0114,Manager Review,2024-05-22 03:00:00,Manager_1,15000,IT
+PO_0114,Finance Check,2024-05-22 23:00:00,Finance_Z,15000,IT
+PO_0114,Approve,2024-05-23 21:00:00,Manager_2,15000,IT
+PO_0114,Final Approval,2024-05-24 02:00:00,Director_Beta,15000,IT
+PO_0114,Send to Vendor,2024-05-24 12:00:00,System,15000,IT
+PO_0115,Submit Purchase Request,2024-05-23 00:00:00,Employee_B,1500,Operations
+PO_0115,Manager Review,2024-05-23 01:00:00,Manager_3,1500,Operations
+PO_0115,Approve,2024-05-24 00:00:00,Manager_2,1500,Operations
+PO_0115,Send to Vendor,2024-05-24 06:00:00,System,1500,Operations
+PO_0116,Submit Purchase Request,2024-03-20 00:00:00,Employee_D,500,Operations
+PO_0116,Manager Review,2024-03-20 02:00:00,Manager_1,500,Operations
+PO_0116,Approve,2024-03-20 08:00:00,Manager_1,500,Operations
+PO_0116,Send to Vendor,2024-03-20 10:00:00,System,500,Operations
+PO_0117,Submit Purchase Request,2024-05-09 00:00:00,Employee_A,8000,IT
+PO_0117,Manager Review,2024-05-09 03:00:00,Manager_3,8000,IT
+PO_0117,Finance Check,2024-05-09 09:00:00,Finance_Z,8000,IT
+PO_0117,Approve,2024-05-11 13:00:00,Manager_1,8000,IT
+PO_0117,Send to Vendor,2024-05-11 16:00:00,System,8000,IT
+PO_0118,Submit Purchase Request,2024-02-12 00:00:00,Employee_C,3000,Finance
+PO_0118,Manager Review,2024-02-12 02:00:00,Manager_2,3000,Finance
+PO_0118,Reject,2024-02-12 23:00:00,Manager_2,3000,Finance
+PO_0119,Submit Purchase Request,2024-05-16 00:00:00,Employee_D,50000,Marketing
+PO_0119,Manager Review,2024-05-16 02:00:00,Manager_2,50000,Marketing
+PO_0119,Finance Check,2024-05-17 01:00:00,Finance_Z,50000,Marketing
+PO_0119,Approve,2024-05-19 13:00:00,Manager_2,50000,Marketing
+PO_0119,Final Approval,2024-05-19 18:00:00,Director_Beta,50000,Marketing
+PO_0119,Send to Vendor,2024-05-21 04:00:00,System,50000,Marketing
+PO_0120,Submit Purchase Request,2024-02-21 00:00:00,Employee_C,25000,Marketing
+PO_0120,Manager Review,2024-02-21 01:00:00,Manager_3,25000,Marketing
+PO_0120,Finance Check,2024-02-21 18:00:00,Finance_Y,25000,Marketing
+PO_0120,Approve,2024-02-22 11:00:00,Manager_3,25000,Marketing
+PO_0120,Final Approval,2024-02-22 13:00:00,Director_Beta,25000,Marketing
+PO_0120,Send to Vendor,2024-02-22 20:00:00,System,25000,Marketing
+PO_0121,Submit Purchase Request,2024-04-25 00:00:00,Employee_D,3000,Operations
+PO_0121,Manager Review,2024-04-25 01:00:00,Manager_1,3000,Operations
+PO_0121,Approve,2024-04-25 17:00:00,Manager_2,3000,Operations
+PO_0121,Send to Vendor,2024-04-25 18:00:00,System,3000,Operations
+PO_0122,Submit Purchase Request,2024-04-11 00:00:00,Employee_A,25000,IT
+PO_0122,Manager Review,2024-04-11 03:00:00,Manager_1,25000,IT
+PO_0122,Finance Check,2024-04-11 05:00:00,Finance_Y,25000,IT
+PO_0122,Approve,2024-04-11 21:00:00,Manager_3,25000,IT
+PO_0122,Final Approval,2024-04-12 03:00:00,Director_Alpha,25000,IT
+PO_0122,Send to Vendor,2024-04-12 13:00:00,System,25000,IT
+PO_0123,Submit Purchase Request,2024-04-30 00:00:00,Employee_D,500,Operations
+PO_0123,Manager Review,2024-04-30 04:00:00,Manager_3,500,Operations
+PO_0123,Approve,2024-04-30 06:00:00,Manager_1,500,Operations
+PO_0123,Send to Vendor,2024-04-30 07:00:00,System,500,Operations
+PO_0124,Submit Purchase Request,2024-02-08 00:00:00,Employee_D,8000,Marketing
+PO_0124,Manager Review,2024-02-08 01:00:00,Manager_2,8000,Marketing
+PO_0124,Finance Check,2024-02-08 10:00:00,Finance_Y,8000,Marketing
+PO_0124,Approve,2024-02-09 05:00:00,Manager_1,8000,Marketing
+PO_0124,Send to Vendor,2024-02-09 09:00:00,System,8000,Marketing
+PO_0125,Submit Purchase Request,2024-04-27 00:00:00,Employee_D,25000,Finance
+PO_0125,Manager Review,2024-04-27 01:00:00,Manager_3,25000,Finance
+PO_0125,Rework Request,2024-04-27 19:00:00,Employee_B,25000,Finance
+PO_0125,Manager Review,2024-04-28 08:00:00,Manager_2,25000,Finance
+PO_0125,Finance Check,2024-04-28 16:00:00,Finance_X,25000,Finance
+PO_0125,Approve,2024-04-30 17:00:00,Manager_1,25000,Finance
+PO_0125,Final Approval,2024-05-01 00:00:00,Director_Alpha,25000,Finance
+PO_0125,Send to Vendor,2024-05-02 20:00:00,System,25000,Finance
+PO_0126,Submit Purchase Request,2024-04-02 00:00:00,Employee_A,1500,Finance
+PO_0126,Manager Review,2024-04-02 04:00:00,Manager_2,1500,Finance
+PO_0126,Rework Request,2024-04-02 07:00:00,Employee_D,1500,Finance
+PO_0126,Manager Review,2024-04-03 10:00:00,Manager_2,1500,Finance
+PO_0126,Approve,2024-04-03 12:00:00,Manager_2,1500,Finance
+PO_0126,Send to Vendor,2024-04-03 14:00:00,System,1500,Finance
+PO_0127,Submit Purchase Request,2024-06-17 00:00:00,Employee_C,15000,Marketing
+PO_0127,Manager Review,2024-06-17 02:00:00,Manager_1,15000,Marketing
+PO_0127,Finance Check,2024-06-17 15:00:00,Finance_Z,15000,Marketing
+PO_0127,Approve,2024-06-19 14:00:00,Manager_3,15000,Marketing
+PO_0127,Final Approval,2024-06-19 17:00:00,Director_Beta,15000,Marketing
+PO_0127,Send to Vendor,2024-06-21 15:00:00,System,15000,Marketing
+PO_0128,Submit Purchase Request,2024-02-04 00:00:00,Employee_D,50000,Marketing
+PO_0128,Manager Review,2024-02-04 01:00:00,Manager_2,50000,Marketing
+PO_0128,Rework Request,2024-02-04 09:00:00,Employee_A,50000,Marketing
+PO_0128,Manager Review,2024-02-05 01:00:00,Manager_1,50000,Marketing
+PO_0128,Finance Check,2024-02-05 08:00:00,Finance_Y,50000,Marketing
+PO_0128,Approve,2024-02-08 05:00:00,Manager_2,50000,Marketing
+PO_0128,Final Approval,2024-02-08 13:00:00,Director_Beta,50000,Marketing
+PO_0128,Send to Vendor,2024-02-08 17:00:00,System,50000,Marketing
+PO_0129,Submit Purchase Request,2024-04-01 00:00:00,Employee_C,5500,Operations
+PO_0129,Manager Review,2024-04-01 03:00:00,Manager_1,5500,Operations
+PO_0129,Finance Check,2024-04-01 16:00:00,Finance_Y,5500,Operations
+PO_0129,Reject,2024-04-03 23:00:00,Manager_3,5500,Operations
+PO_0130,Submit Purchase Request,2024-03-27 00:00:00,Employee_D,50000,HR
+PO_0130,Manager Review,2024-03-27 03:00:00,Manager_3,50000,HR
+PO_0130,Finance Check,2024-03-27 13:00:00,Finance_X,50000,HR
+PO_0130,Approve,2024-03-29 23:00:00,Manager_1,50000,HR
+PO_0130,Final Approval,2024-03-30 06:00:00,Director_Alpha,50000,HR
+PO_0130,Send to Vendor,2024-03-31 18:00:00,System,50000,HR
+PO_0131,Submit Purchase Request,2024-01-27 00:00:00,Employee_C,8000,Operations
+PO_0131,Manager Review,2024-01-27 04:00:00,Manager_3,8000,Operations
+PO_0131,Rework Request,2024-01-28 04:00:00,Employee_D,8000,Operations
+PO_0131,Manager Review,2024-01-28 18:00:00,Manager_3,8000,Operations
+PO_0131,Finance Check,2024-01-29 03:00:00,Finance_Y,8000,Operations
+PO_0131,Approve,2024-01-31 16:00:00,Manager_1,8000,Operations
+PO_0131,Send to Vendor,2024-01-31 22:00:00,System,8000,Operations
+PO_0132,Submit Purchase Request,2024-06-12 00:00:00,Employee_A,25000,Operations
+PO_0132,Manager Review,2024-06-12 04:00:00,Manager_2,25000,Operations
+PO_0132,Finance Check,2024-06-12 22:00:00,Finance_Z,25000,Operations
+PO_0132,Approve,2024-06-13 22:00:00,Manager_1,25000,Operations
+PO_0132,Final Approval,2024-06-14 01:00:00,Director_Beta,25000,Operations
+PO_0132,Send to Vendor,2024-06-14 05:00:00,System,25000,Operations
+PO_0133,Submit Purchase Request,2024-03-01 00:00:00,Employee_D,3000,IT
+PO_0133,Manager Review,2024-03-01 01:00:00,Manager_3,3000,IT
+PO_0133,Approve,2024-03-01 07:00:00,Manager_3,3000,IT
+PO_0133,Send to Vendor,2024-03-01 15:00:00,System,3000,IT
+PO_0134,Submit Purchase Request,2024-04-23 00:00:00,Employee_C,15000,Operations
+PO_0134,Manager Review,2024-04-23 04:00:00,Manager_2,15000,Operations
+PO_0134,Finance Check,2024-04-24 02:00:00,Finance_Y,15000,Operations
+PO_0134,Approve,2024-04-25 13:00:00,Manager_1,15000,Operations
+PO_0134,Final Approval,2024-04-25 14:00:00,Director_Alpha,15000,Operations
+PO_0134,Send to Vendor,2024-04-26 23:00:00,System,15000,Operations
+PO_0135,Submit Purchase Request,2024-01-31 00:00:00,Employee_D,25000,Finance
+PO_0135,Manager Review,2024-01-31 02:00:00,Manager_3,25000,Finance
+PO_0135,Finance Check,2024-01-31 13:00:00,Finance_Z,25000,Finance
+PO_0135,Approve,2024-02-03 07:00:00,Manager_1,25000,Finance
+PO_0135,Final Approval,2024-02-03 09:00:00,Director_Alpha,25000,Finance
+PO_0135,Send to Vendor,2024-02-03 15:00:00,System,25000,Finance
+PO_0136,Submit Purchase Request,2024-04-23 00:00:00,Employee_C,50000,Marketing
+PO_0136,Manager Review,2024-04-23 03:00:00,Manager_3,50000,Marketing
+PO_0136,Finance Check,2024-04-23 07:00:00,Finance_Z,50000,Marketing
+PO_0136,Approve,2024-04-25 00:00:00,Manager_2,50000,Marketing
+PO_0136,Final Approval,2024-04-25 03:00:00,Director_Alpha,50000,Marketing
+PO_0136,Send to Vendor,2024-04-26 04:00:00,System,50000,Marketing
+PO_0137,Submit Purchase Request,2024-02-21 00:00:00,Employee_D,5500,IT
+PO_0137,Manager Review,2024-02-21 01:00:00,Manager_2,5500,IT
+PO_0137,Finance Check,2024-02-21 20:00:00,Finance_Z,5500,IT
+PO_0137,Approve,2024-02-23 23:00:00,Manager_2,5500,IT
+PO_0137,Send to Vendor,2024-02-24 02:00:00,System,5500,IT
+PO_0138,Submit Purchase Request,2024-03-20 00:00:00,Employee_D,1500,IT
+PO_0138,Manager Review,2024-03-20 04:00:00,Manager_2,1500,IT
+PO_0138,Approve,2024-03-21 00:00:00,Manager_1,1500,IT
+PO_0138,Send to Vendor,2024-03-21 03:00:00,System,1500,IT
+PO_0139,Submit Purchase Request,2024-04-25 00:00:00,Employee_B,15000,IT
+PO_0139,Manager Review,2024-04-25 02:00:00,Manager_1,15000,IT
+PO_0139,Finance Check,2024-04-25 17:00:00,Finance_Z,15000,IT
+PO_0139,Approve,2024-04-26 04:00:00,Manager_1,15000,IT
+PO_0139,Final Approval,2024-04-26 07:00:00,Director_Beta,15000,IT
+PO_0139,Send to Vendor,2024-04-26 19:00:00,System,15000,IT
+PO_0140,Submit Purchase Request,2024-02-27 00:00:00,Employee_C,3000,Operations
+PO_0140,Manager Review,2024-02-27 01:00:00,Manager_2,3000,Operations
+PO_0140,Approve,2024-02-27 09:00:00,Manager_3,3000,Operations
+PO_0140,Send to Vendor,2024-02-27 14:00:00,System,3000,Operations
+PO_0141,Submit Purchase Request,2024-06-06 00:00:00,Employee_B,3000,Operations
+PO_0141,Manager Review,2024-06-06 02:00:00,Manager_1,3000,Operations
+PO_0141,Approve,2024-06-07 01:00:00,Manager_3,3000,Operations
+PO_0141,Send to Vendor,2024-06-07 07:00:00,System,3000,Operations
+PO_0142,Submit Purchase Request,2024-01-21 00:00:00,Employee_C,500,IT
+PO_0142,Manager Review,2024-01-21 02:00:00,Manager_3,500,IT
+PO_0142,Rework Request,2024-01-21 17:00:00,Employee_A,500,IT
+PO_0142,Manager Review,2024-01-23 04:00:00,Manager_3,500,IT
+PO_0142,Approve,2024-01-23 14:00:00,Manager_2,500,IT
+PO_0142,Send to Vendor,2024-01-23 19:00:00,System,500,IT
+PO_0143,Submit Purchase Request,2024-06-24 00:00:00,Employee_A,50000,Marketing
+PO_0143,Manager Review,2024-06-24 02:00:00,Manager_2,50000,Marketing
+PO_0143,Finance Check,2024-06-24 17:00:00,Finance_Y,50000,Marketing
+PO_0143,Approve,2024-06-27 08:00:00,Manager_1,50000,Marketing
+PO_0143,Final Approval,2024-06-27 14:00:00,Director_Alpha,50000,Marketing
+PO_0143,Send to Vendor,2024-06-28 12:00:00,System,50000,Marketing
+PO_0144,Submit Purchase Request,2024-04-12 00:00:00,Employee_A,15000,Operations
+PO_0144,Manager Review,2024-04-12 03:00:00,Manager_1,15000,Operations
+PO_0144,Rework Request,2024-04-12 19:00:00,Employee_A,15000,Operations
+PO_0144,Manager Review,2024-04-13 16:00:00,Manager_2,15000,Operations
+PO_0144,Finance Check,2024-04-13 21:00:00,Finance_X,15000,Operations
+PO_0144,Approve,2024-04-14 13:00:00,Manager_1,15000,Operations
+PO_0144,Final Approval,2024-04-14 18:00:00,Director_Beta,15000,Operations
+PO_0144,Send to Vendor,2024-04-16 11:00:00,System,15000,Operations
+PO_0145,Submit Purchase Request,2024-02-10 00:00:00,Employee_C,25000,Marketing
+PO_0145,Manager Review,2024-02-10 02:00:00,Manager_1,25000,Marketing
+PO_0145,Finance Check,2024-02-10 19:00:00,Finance_Z,25000,Marketing
+PO_0145,Approve,2024-02-13 10:00:00,Manager_2,25000,Marketing
+PO_0145,Final Approval,2024-02-13 15:00:00,Director_Beta,25000,Marketing
+PO_0145,Send to Vendor,2024-02-13 18:00:00,System,25000,Marketing
+PO_0146,Submit Purchase Request,2024-05-09 00:00:00,Employee_C,1500,HR
+PO_0146,Manager Review,2024-05-09 01:00:00,Manager_1,1500,HR
+PO_0146,Approve,2024-05-09 12:00:00,Manager_2,1500,HR
+PO_0146,Send to Vendor,2024-05-09 20:00:00,System,1500,HR
+PO_0147,Submit Purchase Request,2024-01-03 00:00:00,Employee_C,8000,Finance
+PO_0147,Manager Review,2024-01-03 03:00:00,Manager_2,8000,Finance
+PO_0147,Finance Check,2024-01-03 16:00:00,Finance_X,8000,Finance
+PO_0147,Approve,2024-01-05 23:00:00,Manager_1,8000,Finance
+PO_0147,Send to Vendor,2024-01-06 03:00:00,System,8000,Finance
+PO_0148,Submit Purchase Request,2024-03-14 00:00:00,Employee_C,15000,Finance
+PO_0148,Manager Review,2024-03-14 01:00:00,Manager_1,15000,Finance
+PO_0148,Rework Request,2024-03-14 06:00:00,Employee_D,15000,Finance
+PO_0148,Manager Review,2024-03-15 09:00:00,Manager_2,15000,Finance
+PO_0148,Finance Check,2024-03-15 19:00:00,Finance_Y,15000,Finance
+PO_0148,Approve,2024-03-16 17:00:00,Manager_1,15000,Finance
+PO_0148,Final Approval,2024-03-17 00:00:00,Director_Alpha,15000,Finance
+PO_0148,Send to Vendor,2024-03-17 04:00:00,System,15000,Finance
+PO_0149,Submit Purchase Request,2024-03-26 00:00:00,Employee_B,500,Marketing
+PO_0149,Manager Review,2024-03-26 02:00:00,Manager_2,500,Marketing
+PO_0149,Approve,2024-03-26 23:00:00,Manager_2,500,Marketing
+PO_0149,Send to Vendor,2024-03-27 02:00:00,System,500,Marketing
+PO_0150,Submit Purchase Request,2024-03-17 00:00:00,Employee_D,25000,Finance
+PO_0150,Manager Review,2024-03-17 03:00:00,Manager_2,25000,Finance
+PO_0150,Finance Check,2024-03-17 05:00:00,Finance_Y,25000,Finance
+PO_0150,Approve,2024-03-19 03:00:00,Manager_3,25000,Finance
+PO_0150,Final Approval,2024-03-19 05:00:00,Director_Beta,25000,Finance
+PO_0150,Send to Vendor,2024-03-20 20:00:00,System,25000,Finance
+PO_0151,Submit Purchase Request,2024-06-01 00:00:00,Employee_B,8000,IT
+PO_0151,Manager Review,2024-06-01 01:00:00,Manager_3,8000,IT
+PO_0151,Finance Check,2024-06-01 18:00:00,Finance_X,8000,IT
+PO_0151,Approve,2024-06-04 17:00:00,Manager_3,8000,IT
+PO_0151,Send to Vendor,2024-06-05 00:00:00,System,8000,IT
+PO_0152,Submit Purchase Request,2024-01-09 00:00:00,Employee_B,3000,Marketing
+PO_0152,Manager Review,2024-01-09 01:00:00,Manager_2,3000,Marketing
+PO_0152,Approve,2024-01-09 13:00:00,Manager_2,3000,Marketing
+PO_0152,Send to Vendor,2024-01-09 16:00:00,System,3000,Marketing
+PO_0153,Submit Purchase Request,2024-04-15 00:00:00,Employee_D,25000,Marketing
+PO_0153,Manager Review,2024-04-15 01:00:00,Manager_3,25000,Marketing
+PO_0153,Finance Check,2024-04-15 07:00:00,Finance_Z,25000,Marketing
+PO_0153,Approve,2024-04-16 13:00:00,Manager_3,25000,Marketing
+PO_0153,Final Approval,2024-04-16 19:00:00,Director_Beta,25000,Marketing
+PO_0153,Send to Vendor,2024-04-18 06:00:00,System,25000,Marketing
+PO_0154,Submit Purchase Request,2024-02-14 00:00:00,Employee_C,25000,Operations
+PO_0154,Manager Review,2024-02-14 03:00:00,Manager_3,25000,Operations
+PO_0154,Finance Check,2024-02-14 20:00:00,Finance_X,25000,Operations
+PO_0154,Approve,2024-02-16 07:00:00,Manager_2,25000,Operations
+PO_0154,Final Approval,2024-02-16 12:00:00,Director_Alpha,25000,Operations
+PO_0154,Send to Vendor,2024-02-17 09:00:00,System,25000,Operations
+PO_0155,Submit Purchase Request,2024-06-25 00:00:00,Employee_C,8000,Marketing
+PO_0155,Manager Review,2024-06-25 03:00:00,Manager_2,8000,Marketing
+PO_0155,Finance Check,2024-06-25 08:00:00,Finance_Z,8000,Marketing
+PO_0155,Approve,2024-06-27 12:00:00,Manager_2,8000,Marketing
+PO_0155,Send to Vendor,2024-06-27 18:00:00,System,8000,Marketing
+PO_0156,Submit Purchase Request,2024-01-11 00:00:00,Employee_C,3000,Operations
+PO_0156,Manager Review,2024-01-11 04:00:00,Manager_3,3000,Operations
+PO_0156,Approve,2024-01-11 14:00:00,Manager_3,3000,Operations
+PO_0156,Send to Vendor,2024-01-11 22:00:00,System,3000,Operations
+PO_0157,Submit Purchase Request,2024-05-17 00:00:00,Employee_C,5500,Marketing
+PO_0157,Manager Review,2024-05-17 02:00:00,Manager_1,5500,Marketing
+PO_0157,Finance Check,2024-05-17 23:00:00,Finance_Z,5500,Marketing
+PO_0157,Approve,2024-05-19 09:00:00,Manager_1,5500,Marketing
+PO_0157,Send to Vendor,2024-05-19 10:00:00,System,5500,Marketing
+PO_0158,Submit Purchase Request,2024-01-14 00:00:00,Employee_D,5500,Marketing
+PO_0158,Manager Review,2024-01-14 01:00:00,Manager_3,5500,Marketing
+PO_0158,Rework Request,2024-01-14 07:00:00,Employee_A,5500,Marketing
+PO_0158,Manager Review,2024-01-15 22:00:00,Manager_1,5500,Marketing
+PO_0158,Finance Check,2024-01-16 06:00:00,Finance_Z,5500,Marketing
+PO_0158,Approve,2024-01-18 22:00:00,Manager_2,5500,Marketing
+PO_0158,Send to Vendor,2024-01-19 02:00:00,System,5500,Marketing
+PO_0159,Submit Purchase Request,2024-03-14 00:00:00,Employee_A,8000,Operations
+PO_0159,Manager Review,2024-03-14 02:00:00,Manager_3,8000,Operations
+PO_0159,Finance Check,2024-03-14 05:00:00,Finance_X,8000,Operations
+PO_0159,Approve,2024-03-16 14:00:00,Manager_1,8000,Operations
+PO_0159,Send to Vendor,2024-03-16 15:00:00,System,8000,Operations
+PO_0160,Submit Purchase Request,2024-02-17 00:00:00,Employee_C,25000,HR
+PO_0160,Manager Review,2024-02-17 01:00:00,Manager_1,25000,HR
+PO_0160,Finance Check,2024-02-17 12:00:00,Finance_Z,25000,HR
+PO_0160,Approve,2024-02-18 05:00:00,Manager_2,25000,HR
+PO_0160,Final Approval,2024-02-18 10:00:00,Director_Beta,25000,HR
+PO_0160,Send to Vendor,2024-02-20 05:00:00,System,25000,HR
+PO_0161,Submit Purchase Request,2024-05-09 00:00:00,Employee_A,50000,Marketing
+PO_0161,Manager Review,2024-05-09 03:00:00,Manager_1,50000,Marketing
+PO_0161,Finance Check,2024-05-09 19:00:00,Finance_Z,50000,Marketing
+PO_0161,Approve,2024-05-11 07:00:00,Manager_3,50000,Marketing
+PO_0161,Final Approval,2024-05-11 10:00:00,Director_Alpha,50000,Marketing
+PO_0161,Send to Vendor,2024-05-12 09:00:00,System,50000,Marketing
+PO_0162,Submit Purchase Request,2024-06-21 00:00:00,Employee_D,8000,Finance
+PO_0162,Manager Review,2024-06-21 04:00:00,Manager_3,8000,Finance
+PO_0162,Finance Check,2024-06-21 16:00:00,Finance_X,8000,Finance
+PO_0162,Approve,2024-06-23 23:00:00,Manager_3,8000,Finance
+PO_0162,Send to Vendor,2024-06-24 01:00:00,System,8000,Finance
+PO_0163,Submit Purchase Request,2024-05-02 00:00:00,Employee_C,3000,Marketing
+PO_0163,Manager Review,2024-05-02 04:00:00,Manager_1,3000,Marketing
+PO_0163,Approve,2024-05-02 20:00:00,Manager_2,3000,Marketing
+PO_0163,Send to Vendor,2024-05-03 02:00:00,System,3000,Marketing
+PO_0164,Submit Purchase Request,2024-05-26 00:00:00,Employee_B,8000,Finance
+PO_0164,Manager Review,2024-05-26 01:00:00,Manager_3,8000,Finance
+PO_0164,Rework Request,2024-05-26 06:00:00,Employee_D,8000,Finance
+PO_0164,Manager Review,2024-05-27 05:00:00,Manager_1,8000,Finance
+PO_0164,Finance Check,2024-05-27 13:00:00,Finance_Z,8000,Finance
+PO_0164,Approve,2024-05-30 09:00:00,Manager_3,8000,Finance
+PO_0164,Send to Vendor,2024-05-30 14:00:00,System,8000,Finance
+PO_0165,Submit Purchase Request,2024-04-04 00:00:00,Employee_B,1500,Operations
+PO_0165,Manager Review,2024-04-04 04:00:00,Manager_1,1500,Operations
+PO_0165,Approve,2024-04-04 20:00:00,Manager_3,1500,Operations
+PO_0165,Send to Vendor,2024-04-05 02:00:00,System,1500,Operations
+PO_0166,Submit Purchase Request,2024-04-30 00:00:00,Employee_B,25000,Finance
+PO_0166,Manager Review,2024-04-30 02:00:00,Manager_3,25000,Finance
+PO_0166,Finance Check,2024-04-30 23:00:00,Finance_X,25000,Finance
+PO_0166,Approve,2024-05-03 22:00:00,Manager_2,25000,Finance
+PO_0166,Final Approval,2024-05-04 04:00:00,Director_Alpha,25000,Finance
+PO_0166,Send to Vendor,2024-05-05 18:00:00,System,25000,Finance
+PO_0167,Submit Purchase Request,2024-05-20 00:00:00,Employee_B,1500,IT
+PO_0167,Manager Review,2024-05-20 02:00:00,Manager_2,1500,IT
+PO_0167,Approve,2024-05-20 20:00:00,Manager_2,1500,IT
+PO_0167,Send to Vendor,2024-05-20 22:00:00,System,1500,IT
+PO_0168,Submit Purchase Request,2024-05-05 00:00:00,Employee_A,5500,Finance
+PO_0168,Manager Review,2024-05-05 04:00:00,Manager_1,5500,Finance
+PO_0168,Rework Request,2024-05-05 22:00:00,Employee_D,5500,Finance
+PO_0168,Manager Review,2024-05-07 07:00:00,Manager_3,5500,Finance
+PO_0168,Finance Check,2024-05-07 09:00:00,Finance_Z,5500,Finance
+PO_0168,Approve,2024-05-10 00:00:00,Manager_3,5500,Finance
+PO_0168,Send to Vendor,2024-05-10 05:00:00,System,5500,Finance
+PO_0169,Submit Purchase Request,2024-03-06 00:00:00,Employee_A,500,HR
+PO_0169,Manager Review,2024-03-06 01:00:00,Manager_2,500,HR
+PO_0169,Approve,2024-03-06 14:00:00,Manager_3,500,HR
+PO_0169,Send to Vendor,2024-03-06 16:00:00,System,500,HR
+PO_0170,Submit Purchase Request,2024-04-30 00:00:00,Employee_B,500,IT
+PO_0170,Manager Review,2024-04-30 04:00:00,Manager_2,500,IT
+PO_0170,Rework Request,2024-04-30 18:00:00,Employee_D,500,IT
+PO_0170,Manager Review,2024-05-01 22:00:00,Manager_2,500,IT
+PO_0170,Approve,2024-05-02 01:00:00,Manager_3,500,IT
+PO_0170,Send to Vendor,2024-05-02 04:00:00,System,500,IT
+PO_0171,Submit Purchase Request,2024-02-15 00:00:00,Employee_B,15000,IT
+PO_0171,Manager Review,2024-02-15 02:00:00,Manager_1,15000,IT
+PO_0171,Finance Check,2024-02-15 04:00:00,Finance_Y,15000,IT
+PO_0171,Approve,2024-02-17 19:00:00,Manager_3,15000,IT
+PO_0171,Final Approval,2024-02-18 02:00:00,Director_Beta,15000,IT
+PO_0171,Send to Vendor,2024-02-18 18:00:00,System,15000,IT
+PO_0172,Submit Purchase Request,2024-03-29 00:00:00,Employee_A,5500,HR
+PO_0172,Manager Review,2024-03-29 01:00:00,Manager_3,5500,HR
+PO_0172,Finance Check,2024-03-29 16:00:00,Finance_Z,5500,HR
+PO_0172,Approve,2024-03-29 22:00:00,Manager_1,5500,HR
+PO_0172,Send to Vendor,2024-03-30 02:00:00,System,5500,HR
+PO_0173,Submit Purchase Request,2024-06-01 00:00:00,Employee_A,1500,IT
+PO_0173,Manager Review,2024-06-01 02:00:00,Manager_3,1500,IT
+PO_0173,Rework Request,2024-06-01 05:00:00,Employee_D,1500,IT
+PO_0173,Manager Review,2024-06-02 13:00:00,Manager_1,1500,IT
+PO_0173,Approve,2024-06-02 23:00:00,Manager_1,1500,IT
+PO_0173,Send to Vendor,2024-06-03 00:00:00,System,1500,IT
+PO_0174,Submit Purchase Request,2024-03-15 00:00:00,Employee_C,3000,Finance
+PO_0174,Manager Review,2024-03-15 03:00:00,Manager_1,3000,Finance
+PO_0174,Approve,2024-03-15 14:00:00,Manager_1,3000,Finance
+PO_0174,Send to Vendor,2024-03-15 18:00:00,System,3000,Finance
+PO_0175,Submit Purchase Request,2024-03-11 00:00:00,Employee_B,25000,Operations
+PO_0175,Manager Review,2024-03-11 04:00:00,Manager_3,25000,Operations
+PO_0175,Rework Request,2024-03-11 21:00:00,Employee_A,25000,Operations
+PO_0175,Manager Review,2024-03-12 23:00:00,Manager_3,25000,Operations
+PO_0175,Finance Check,2024-03-13 11:00:00,Finance_Y,25000,Operations
+PO_0175,Approve,2024-03-16 10:00:00,Manager_2,25000,Operations
+PO_0175,Final Approval,2024-03-16 17:00:00,Director_Beta,25000,Operations
+PO_0175,Send to Vendor,2024-03-17 04:00:00,System,25000,Operations
+PO_0176,Submit Purchase Request,2024-02-17 00:00:00,Employee_B,8000,HR
+PO_0176,Manager Review,2024-02-17 03:00:00,Manager_3,8000,HR
+PO_0176,Finance Check,2024-02-17 09:00:00,Finance_Y,8000,HR
+PO_0176,Approve,2024-02-17 20:00:00,Manager_3,8000,HR
+PO_0176,Send to Vendor,2024-02-18 03:00:00,System,8000,HR
+PO_0177,Submit Purchase Request,2024-05-15 00:00:00,Employee_B,25000,Finance
+PO_0177,Manager Review,2024-05-15 03:00:00,Manager_3,25000,Finance
+PO_0177,Rework Request,2024-05-15 07:00:00,Employee_D,25000,Finance
+PO_0177,Manager Review,2024-05-16 10:00:00,Manager_1,25000,Finance
+PO_0177,Finance Check,2024-05-16 20:00:00,Finance_Z,25000,Finance
+PO_0177,Approve,2024-05-18 00:00:00,Manager_1,25000,Finance
+PO_0177,Final Approval,2024-05-18 05:00:00,Director_Beta,25000,Finance
+PO_0177,Send to Vendor,2024-05-20 02:00:00,System,25000,Finance
+PO_0178,Submit Purchase Request,2024-02-18 00:00:00,Employee_B,500,IT
+PO_0178,Manager Review,2024-02-18 04:00:00,Manager_1,500,IT
+PO_0178,Approve,2024-02-18 16:00:00,Manager_2,500,IT
+PO_0178,Send to Vendor,2024-02-18 17:00:00,System,500,IT
+PO_0179,Submit Purchase Request,2024-01-31 00:00:00,Employee_B,5500,Marketing
+PO_0179,Manager Review,2024-01-31 02:00:00,Manager_2,5500,Marketing
+PO_0179,Finance Check,2024-01-31 11:00:00,Finance_Z,5500,Marketing
+PO_0179,Approve,2024-02-02 08:00:00,Manager_2,5500,Marketing
+PO_0179,Send to Vendor,2024-02-02 15:00:00,System,5500,Marketing
+PO_0180,Submit Purchase Request,2024-06-15 00:00:00,Employee_D,50000,Finance
+PO_0180,Manager Review,2024-06-15 04:00:00,Manager_1,50000,Finance
+PO_0180,Finance Check,2024-06-15 21:00:00,Finance_Y,50000,Finance
+PO_0180,Approve,2024-06-17 03:00:00,Manager_2,50000,Finance
+PO_0180,Final Approval,2024-06-17 09:00:00,Director_Beta,50000,Finance
+PO_0180,Send to Vendor,2024-06-17 13:00:00,System,50000,Finance
+PO_0181,Submit Purchase Request,2024-01-05 00:00:00,Employee_D,5500,Marketing
+PO_0181,Manager Review,2024-01-05 03:00:00,Manager_1,5500,Marketing
+PO_0181,Finance Check,2024-01-05 11:00:00,Finance_Y,5500,Marketing
+PO_0181,Approve,2024-01-06 20:00:00,Manager_2,5500,Marketing
+PO_0181,Send to Vendor,2024-01-07 00:00:00,System,5500,Marketing
+PO_0182,Submit Purchase Request,2024-06-16 00:00:00,Employee_D,50000,Finance
+PO_0182,Manager Review,2024-06-16 04:00:00,Manager_2,50000,Finance
+PO_0182,Finance Check,2024-06-16 11:00:00,Finance_Z,50000,Finance
+PO_0182,Approve,2024-06-18 12:00:00,Manager_1,50000,Finance
+PO_0182,Final Approval,2024-06-18 15:00:00,Director_Beta,50000,Finance
+PO_0182,Send to Vendor,2024-06-19 04:00:00,System,50000,Finance
+PO_0183,Submit Purchase Request,2024-01-09 00:00:00,Employee_A,500,Finance
+PO_0183,Manager Review,2024-01-09 01:00:00,Manager_2,500,Finance
+PO_0183,Reject,2024-01-09 07:00:00,Manager_3,500,Finance
+PO_0184,Submit Purchase Request,2024-02-08 00:00:00,Employee_C,5500,IT
+PO_0184,Manager Review,2024-02-08 01:00:00,Manager_3,5500,IT
+PO_0184,Rework Request,2024-02-08 23:00:00,Employee_D,5500,IT
+PO_0184,Manager Review,2024-02-10 21:00:00,Manager_2,5500,IT
+PO_0184,Finance Check,2024-02-10 23:00:00,Finance_X,5500,IT
+PO_0184,Approve,2024-02-13 23:00:00,Manager_3,5500,IT
+PO_0184,Send to Vendor,2024-02-14 06:00:00,System,5500,IT
+PO_0185,Submit Purchase Request,2024-05-15 00:00:00,Employee_C,500,IT
+PO_0185,Manager Review,2024-05-15 01:00:00,Manager_3,500,IT
+PO_0185,Approve,2024-05-16 01:00:00,Manager_3,500,IT
+PO_0185,Send to Vendor,2024-05-16 08:00:00,System,500,IT
+PO_0186,Submit Purchase Request,2024-01-25 00:00:00,Employee_C,3000,IT
+PO_0186,Manager Review,2024-01-25 03:00:00,Manager_2,3000,IT
+PO_0186,Approve,2024-01-25 17:00:00,Manager_1,3000,IT
+PO_0186,Send to Vendor,2024-01-25 23:00:00,System,3000,IT
+PO_0187,Submit Purchase Request,2024-05-24 00:00:00,Employee_C,25000,HR
+PO_0187,Manager Review,2024-05-24 01:00:00,Manager_3,25000,HR
+PO_0187,Finance Check,2024-05-24 23:00:00,Finance_X,25000,HR
+PO_0187,Approve,2024-05-25 14:00:00,Manager_2,25000,HR
+PO_0187,Final Approval,2024-05-25 21:00:00,Director_Beta,25000,HR
+PO_0187,Send to Vendor,2024-05-27 10:00:00,System,25000,HR
+PO_0188,Submit Purchase Request,2024-06-12 00:00:00,Employee_D,50000,IT
+PO_0188,Manager Review,2024-06-12 04:00:00,Manager_3,50000,IT
+PO_0188,Rework Request,2024-06-12 16:00:00,Employee_A,50000,IT
+PO_0188,Manager Review,2024-06-14 05:00:00,Manager_1,50000,IT
+PO_0188,Finance Check,2024-06-14 10:00:00,Finance_X,50000,IT
+PO_0188,Approve,2024-06-17 02:00:00,Manager_2,50000,IT
+PO_0188,Final Approval,2024-06-17 03:00:00,Director_Alpha,50000,IT
+PO_0188,Send to Vendor,2024-06-19 00:00:00,System,50000,IT
+PO_0189,Submit Purchase Request,2024-05-24 00:00:00,Employee_C,8000,Finance
+PO_0189,Manager Review,2024-05-24 01:00:00,Manager_1,8000,Finance
+PO_0189,Finance Check,2024-05-24 21:00:00,Finance_X,8000,Finance
+PO_0189,Approve,2024-05-27 03:00:00,Manager_1,8000,Finance
+PO_0189,Send to Vendor,2024-05-27 08:00:00,System,8000,Finance
+PO_0190,Submit Purchase Request,2024-03-02 00:00:00,Employee_C,3000,Finance
+PO_0190,Manager Review,2024-03-02 04:00:00,Manager_3,3000,Finance
+PO_0190,Approve,2024-03-02 10:00:00,Manager_3,3000,Finance
+PO_0190,Send to Vendor,2024-03-02 12:00:00,System,3000,Finance
+PO_0191,Submit Purchase Request,2024-01-26 00:00:00,Employee_C,15000,IT
+PO_0191,Manager Review,2024-01-26 04:00:00,Manager_2,15000,IT
+PO_0191,Finance Check,2024-01-26 06:00:00,Finance_Z,15000,IT
+PO_0191,Approve,2024-01-27 20:00:00,Manager_2,15000,IT
+PO_0191,Final Approval,2024-01-28 04:00:00,Director_Alpha,15000,IT
+PO_0191,Send to Vendor,2024-01-29 04:00:00,System,15000,IT
+PO_0192,Submit Purchase Request,2024-02-17 00:00:00,Employee_A,25000,HR
+PO_0192,Manager Review,2024-02-17 03:00:00,Manager_1,25000,HR
+PO_0192,Finance Check,2024-02-18 03:00:00,Finance_X,25000,HR
+PO_0192,Approve,2024-02-18 17:00:00,Manager_2,25000,HR
+PO_0192,Final Approval,2024-02-18 20:00:00,Director_Beta,25000,HR
+PO_0192,Send to Vendor,2024-02-20 19:00:00,System,25000,HR
+PO_0193,Submit Purchase Request,2024-03-22 00:00:00,Employee_C,3000,HR
+PO_0193,Manager Review,2024-03-22 04:00:00,Manager_2,3000,HR
+PO_0193,Approve,2024-03-22 14:00:00,Manager_1,3000,HR
+PO_0193,Send to Vendor,2024-03-22 17:00:00,System,3000,HR
+PO_0194,Submit Purchase Request,2024-04-20 00:00:00,Employee_D,1500,Marketing
+PO_0194,Manager Review,2024-04-20 01:00:00,Manager_1,1500,Marketing
+PO_0194,Approve,2024-04-20 05:00:00,Manager_2,1500,Marketing
+PO_0194,Send to Vendor,2024-04-20 07:00:00,System,1500,Marketing
+PO_0195,Submit Purchase Request,2024-01-04 00:00:00,Employee_A,15000,HR
+PO_0195,Manager Review,2024-01-04 02:00:00,Manager_3,15000,HR
+PO_0195,Finance Check,2024-01-04 20:00:00,Finance_X,15000,HR
+PO_0195,Approve,2024-01-07 00:00:00,Manager_1,15000,HR
+PO_0195,Final Approval,2024-01-07 03:00:00,Director_Beta,15000,HR
+PO_0195,Send to Vendor,2024-01-08 00:00:00,System,15000,HR
+PO_0196,Submit Purchase Request,2024-02-07 00:00:00,Employee_D,8000,HR
+PO_0196,Manager Review,2024-02-07 03:00:00,Manager_2,8000,HR
+PO_0196,Rework Request,2024-02-07 07:00:00,Employee_C,8000,HR
+PO_0196,Manager Review,2024-02-08 03:00:00,Manager_1,8000,HR
+PO_0196,Finance Check,2024-02-08 15:00:00,Finance_Y,8000,HR
+PO_0196,Approve,2024-02-09 20:00:00,Manager_2,8000,HR
+PO_0196,Send to Vendor,2024-02-09 22:00:00,System,8000,HR
+PO_0197,Submit Purchase Request,2024-01-02 00:00:00,Employee_D,3000,Operations
+PO_0197,Manager Review,2024-01-02 03:00:00,Manager_2,3000,Operations
+PO_0197,Approve,2024-01-02 15:00:00,Manager_2,3000,Operations
+PO_0197,Send to Vendor,2024-01-02 18:00:00,System,3000,Operations
+PO_0198,Submit Purchase Request,2024-06-03 00:00:00,Employee_C,8000,Operations
+PO_0198,Manager Review,2024-06-03 02:00:00,Manager_2,8000,Operations
+PO_0198,Finance Check,2024-06-03 14:00:00,Finance_Y,8000,Operations
+PO_0198,Approve,2024-06-06 08:00:00,Manager_3,8000,Operations
+PO_0198,Send to Vendor,2024-06-06 12:00:00,System,8000,Operations
+PO_0199,Submit Purchase Request,2024-03-12 00:00:00,Employee_A,15000,HR
+PO_0199,Manager Review,2024-03-12 02:00:00,Manager_3,15000,HR
+PO_0199,Finance Check,2024-03-12 21:00:00,Finance_X,15000,HR
+PO_0199,Approve,2024-03-13 04:00:00,Manager_3,15000,HR
+PO_0199,Final Approval,2024-03-13 12:00:00,Director_Alpha,15000,HR
+PO_0199,Send to Vendor,2024-03-14 18:00:00,System,15000,HR
+PO_0200,Submit Purchase Request,2024-04-14 00:00:00,Employee_C,8000,IT
+PO_0200,Manager Review,2024-04-14 02:00:00,Manager_2,8000,IT
+PO_0200,Finance Check,2024-04-15 01:00:00,Finance_X,8000,IT
+PO_0200,Approve,2024-04-17 11:00:00,Manager_2,8000,IT
+PO_0200,Send to Vendor,2024-04-17 13:00:00,System,8000,IT
+PO_0201,Submit Purchase Request,2024-05-02 00:00:00,Employee_D,50000,Finance
+PO_0201,Manager Review,2024-05-02 01:00:00,Manager_2,50000,Finance
+PO_0201,Finance Check,2024-05-03 01:00:00,Finance_Z,50000,Finance
+PO_0201,Approve,2024-05-03 15:00:00,Manager_1,50000,Finance
+PO_0201,Final Approval,2024-05-03 19:00:00,Director_Beta,50000,Finance
+PO_0201,Send to Vendor,2024-05-04 07:00:00,System,50000,Finance
+PO_0202,Submit Purchase Request,2024-06-14 00:00:00,Employee_C,500,Finance
+PO_0202,Manager Review,2024-06-14 04:00:00,Manager_1,500,Finance
+PO_0202,Approve,2024-06-14 06:00:00,Manager_1,500,Finance
+PO_0202,Send to Vendor,2024-06-14 11:00:00,System,500,Finance
+PO_0203,Submit Purchase Request,2024-05-12 00:00:00,Employee_B,5500,Finance
+PO_0203,Manager Review,2024-05-12 04:00:00,Manager_2,5500,Finance
+PO_0203,Finance Check,2024-05-12 18:00:00,Finance_Y,5500,Finance
+PO_0203,Approve,2024-05-15 14:00:00,Manager_1,5500,Finance
+PO_0203,Send to Vendor,2024-05-15 20:00:00,System,5500,Finance
+PO_0204,Submit Purchase Request,2024-01-27 00:00:00,Employee_A,500,HR
+PO_0204,Manager Review,2024-01-27 01:00:00,Manager_3,500,HR
+PO_0204,Approve,2024-01-27 07:00:00,Manager_2,500,HR
+PO_0204,Send to Vendor,2024-01-27 12:00:00,System,500,HR
+PO_0205,Submit Purchase Request,2024-02-22 00:00:00,Employee_A,15000,HR
+PO_0205,Manager Review,2024-02-22 04:00:00,Manager_3,15000,HR
+PO_0205,Finance Check,2024-02-23 04:00:00,Finance_Y,15000,HR
+PO_0205,Approve,2024-02-25 00:00:00,Manager_1,15000,HR
+PO_0205,Final Approval,2024-02-25 05:00:00,Director_Alpha,15000,HR
+PO_0205,Send to Vendor,2024-02-27 04:00:00,System,15000,HR
+PO_0206,Submit Purchase Request,2024-03-28 00:00:00,Employee_B,1500,IT
+PO_0206,Manager Review,2024-03-28 02:00:00,Manager_3,1500,IT
+PO_0206,Approve,2024-03-28 09:00:00,Manager_3,1500,IT
+PO_0206,Send to Vendor,2024-03-28 12:00:00,System,1500,IT
+PO_0207,Submit Purchase Request,2024-04-19 00:00:00,Employee_D,15000,Finance
+PO_0207,Manager Review,2024-04-19 02:00:00,Manager_1,15000,Finance
+PO_0207,Finance Check,2024-04-20 00:00:00,Finance_Z,15000,Finance
+PO_0207,Approve,2024-04-22 11:00:00,Manager_2,15000,Finance
+PO_0207,Final Approval,2024-04-22 12:00:00,Director_Alpha,15000,Finance
+PO_0207,Send to Vendor,2024-04-23 18:00:00,System,15000,Finance
+PO_0208,Submit Purchase Request,2024-01-02 00:00:00,Employee_A,25000,HR
+PO_0208,Manager Review,2024-01-02 01:00:00,Manager_3,25000,HR
+PO_0208,Finance Check,2024-01-02 08:00:00,Finance_Y,25000,HR
+PO_0208,Approve,2024-01-04 05:00:00,Manager_1,25000,HR
+PO_0208,Final Approval,2024-01-04 13:00:00,Director_Alpha,25000,HR
+PO_0208,Send to Vendor,2024-01-05 07:00:00,System,25000,HR
+PO_0209,Submit Purchase Request,2024-06-12 00:00:00,Employee_D,50000,Finance
+PO_0209,Manager Review,2024-06-12 01:00:00,Manager_2,50000,Finance
+PO_0209,Finance Check,2024-06-12 14:00:00,Finance_Y,50000,Finance
+PO_0209,Approve,2024-06-13 16:00:00,Manager_3,50000,Finance
+PO_0209,Final Approval,2024-06-13 21:00:00,Director_Alpha,50000,Finance
+PO_0209,Send to Vendor,2024-06-15 18:00:00,System,50000,Finance
+PO_0210,Submit Purchase Request,2024-01-31 00:00:00,Employee_C,3000,Operations
+PO_0210,Manager Review,2024-01-31 02:00:00,Manager_3,3000,Operations
+PO_0210,Approve,2024-01-31 16:00:00,Manager_2,3000,Operations
+PO_0210,Send to Vendor,2024-01-31 19:00:00,System,3000,Operations
+PO_0211,Submit Purchase Request,2024-02-17 00:00:00,Employee_B,25000,HR
+PO_0211,Manager Review,2024-02-17 02:00:00,Manager_2,25000,HR
+PO_0211,Finance Check,2024-02-17 13:00:00,Finance_X,25000,HR
+PO_0211,Approve,2024-02-18 16:00:00,Manager_2,25000,HR
+PO_0211,Final Approval,2024-02-19 00:00:00,Director_Alpha,25000,HR
+PO_0211,Send to Vendor,2024-02-20 00:00:00,System,25000,HR
+PO_0212,Submit Purchase Request,2024-02-04 00:00:00,Employee_D,500,HR
+PO_0212,Manager Review,2024-02-04 04:00:00,Manager_3,500,HR
+PO_0212,Approve,2024-02-04 21:00:00,Manager_2,500,HR
+PO_0212,Send to Vendor,2024-02-05 05:00:00,System,500,HR
+PO_0213,Submit Purchase Request,2024-01-22 00:00:00,Employee_B,50000,Marketing
+PO_0213,Manager Review,2024-01-22 03:00:00,Manager_1,50000,Marketing
+PO_0213,Finance Check,2024-01-22 13:00:00,Finance_X,50000,Marketing
+PO_0213,Approve,2024-01-25 13:00:00,Manager_2,50000,Marketing
+PO_0213,Final Approval,2024-01-25 16:00:00,Director_Beta,50000,Marketing
+PO_0213,Send to Vendor,2024-01-27 06:00:00,System,50000,Marketing
+PO_0214,Submit Purchase Request,2024-05-10 00:00:00,Employee_C,50000,Finance
+PO_0214,Manager Review,2024-05-10 01:00:00,Manager_3,50000,Finance
+PO_0214,Rework Request,2024-05-10 17:00:00,Employee_B,50000,Finance
+PO_0214,Manager Review,2024-05-12 00:00:00,Manager_1,50000,Finance
+PO_0214,Finance Check,2024-05-12 12:00:00,Finance_X,50000,Finance
+PO_0214,Approve,2024-05-14 06:00:00,Manager_1,50000,Finance
+PO_0214,Final Approval,2024-05-14 14:00:00,Director_Beta,50000,Finance
+PO_0214,Send to Vendor,2024-05-15 14:00:00,System,50000,Finance
+PO_0215,Submit Purchase Request,2024-01-31 00:00:00,Employee_C,1500,HR
+PO_0215,Manager Review,2024-01-31 04:00:00,Manager_1,1500,HR
+PO_0215,Approve,2024-02-01 01:00:00,Manager_1,1500,HR
+PO_0215,Send to Vendor,2024-02-01 05:00:00,System,1500,HR
+PO_0216,Submit Purchase Request,2024-05-25 00:00:00,Employee_B,5500,IT
+PO_0216,Manager Review,2024-05-25 03:00:00,Manager_3,5500,IT
+PO_0216,Finance Check,2024-05-25 14:00:00,Finance_Y,5500,IT
+PO_0216,Approve,2024-05-27 04:00:00,Manager_3,5500,IT
+PO_0216,Send to Vendor,2024-05-27 06:00:00,System,5500,IT
+PO_0217,Submit Purchase Request,2024-01-16 00:00:00,Employee_B,3000,HR
+PO_0217,Manager Review,2024-01-16 02:00:00,Manager_1,3000,HR
+PO_0217,Approve,2024-01-16 08:00:00,Manager_3,3000,HR
+PO_0217,Send to Vendor,2024-01-16 14:00:00,System,3000,HR
+PO_0218,Submit Purchase Request,2024-05-05 00:00:00,Employee_D,5500,HR
+PO_0218,Manager Review,2024-05-05 04:00:00,Manager_2,5500,HR
+PO_0218,Rework Request,2024-05-05 08:00:00,Employee_A,5500,HR
+PO_0218,Manager Review,2024-05-06 13:00:00,Manager_3,5500,HR
+PO_0218,Finance Check,2024-05-06 19:00:00,Finance_Z,5500,HR
+PO_0218,Approve,2024-05-08 22:00:00,Manager_2,5500,HR
+PO_0218,Send to Vendor,2024-05-09 06:00:00,System,5500,HR
+PO_0219,Submit Purchase Request,2024-01-01 00:00:00,Employee_A,15000,Finance
+PO_0219,Manager Review,2024-01-01 04:00:00,Manager_3,15000,Finance
+PO_0219,Finance Check,2024-01-02 03:00:00,Finance_Z,15000,Finance
+PO_0219,Approve,2024-01-04 04:00:00,Manager_1,15000,Finance
+PO_0219,Final Approval,2024-01-04 11:00:00,Director_Alpha,15000,Finance
+PO_0219,Send to Vendor,2024-01-05 16:00:00,System,15000,Finance
+PO_0220,Submit Purchase Request,2024-03-09 00:00:00,Employee_B,5500,HR
+PO_0220,Manager Review,2024-03-09 04:00:00,Manager_2,5500,HR
+PO_0220,Finance Check,2024-03-10 03:00:00,Finance_X,5500,HR
+PO_0220,Approve,2024-03-10 12:00:00,Manager_1,5500,HR
+PO_0220,Send to Vendor,2024-03-10 20:00:00,System,5500,HR
+PO_0221,Submit Purchase Request,2024-02-10 00:00:00,Employee_D,500,IT
+PO_0221,Manager Review,2024-02-10 02:00:00,Manager_3,500,IT
+PO_0221,Reject,2024-02-10 08:00:00,Manager_3,500,IT
+PO_0222,Submit Purchase Request,2024-03-11 00:00:00,Employee_A,8000,Marketing
+PO_0222,Manager Review,2024-03-11 03:00:00,Manager_3,8000,Marketing
+PO_0222,Rework Request,2024-03-12 01:00:00,Employee_B,8000,Marketing
+PO_0222,Manager Review,2024-03-12 08:00:00,Manager_2,8000,Marketing
+PO_0222,Finance Check,2024-03-12 20:00:00,Finance_Y,8000,Marketing
+PO_0222,Approve,2024-03-14 05:00:00,Manager_2,8000,Marketing
+PO_0222,Send to Vendor,2024-03-14 07:00:00,System,8000,Marketing
+PO_0223,Submit Purchase Request,2024-02-24 00:00:00,Employee_B,1500,IT
+PO_0223,Manager Review,2024-02-24 04:00:00,Manager_1,1500,IT
+PO_0223,Approve,2024-02-24 06:00:00,Manager_3,1500,IT
+PO_0223,Send to Vendor,2024-02-24 12:00:00,System,1500,IT
+PO_0224,Submit Purchase Request,2024-06-26 00:00:00,Employee_D,1500,HR
+PO_0224,Manager Review,2024-06-26 01:00:00,Manager_3,1500,HR
+PO_0224,Rework Request,2024-06-26 06:00:00,Employee_A,1500,HR
+PO_0224,Manager Review,2024-06-27 06:00:00,Manager_2,1500,HR
+PO_0224,Reject,2024-06-27 12:00:00,Manager_1,1500,HR
+PO_0225,Submit Purchase Request,2024-06-13 00:00:00,Employee_A,25000,Marketing
+PO_0225,Manager Review,2024-06-13 02:00:00,Manager_2,25000,Marketing
+PO_0225,Finance Check,2024-06-13 15:00:00,Finance_Z,25000,Marketing
+PO_0225,Approve,2024-06-14 22:00:00,Manager_3,25000,Marketing
+PO_0225,Final Approval,2024-06-15 01:00:00,Director_Beta,25000,Marketing
+PO_0225,Send to Vendor,2024-06-16 18:00:00,System,25000,Marketing
+PO_0226,Submit Purchase Request,2024-01-23 00:00:00,Employee_A,50000,Marketing
+PO_0226,Manager Review,2024-01-23 04:00:00,Manager_2,50000,Marketing
+PO_0226,Finance Check,2024-01-23 19:00:00,Finance_Y,50000,Marketing
+PO_0226,Approve,2024-01-24 16:00:00,Manager_1,50000,Marketing
+PO_0226,Final Approval,2024-01-24 21:00:00,Director_Alpha,50000,Marketing
+PO_0226,Send to Vendor,2024-01-25 14:00:00,System,50000,Marketing
+PO_0227,Submit Purchase Request,2024-06-17 00:00:00,Employee_B,8000,IT
+PO_0227,Manager Review,2024-06-17 04:00:00,Manager_2,8000,IT
+PO_0227,Finance Check,2024-06-18 02:00:00,Finance_X,8000,IT
+PO_0227,Approve,2024-06-19 12:00:00,Manager_2,8000,IT
+PO_0227,Send to Vendor,2024-06-19 19:00:00,System,8000,IT
+PO_0228,Submit Purchase Request,2024-05-07 00:00:00,Employee_A,1500,Marketing
+PO_0228,Manager Review,2024-05-07 03:00:00,Manager_2,1500,Marketing
+PO_0228,Reject,2024-05-07 09:00:00,Manager_2,1500,Marketing
+PO_0229,Submit Purchase Request,2024-05-19 00:00:00,Employee_A,25000,Operations
+PO_0229,Manager Review,2024-05-19 01:00:00,Manager_3,25000,Operations
+PO_0229,Finance Check,2024-05-19 05:00:00,Finance_X,25000,Operations
+PO_0229,Approve,2024-05-20 18:00:00,Manager_1,25000,Operations
+PO_0229,Final Approval,2024-05-20 19:00:00,Director_Alpha,25000,Operations
+PO_0229,Send to Vendor,2024-05-21 22:00:00,System,25000,Operations
+PO_0230,Submit Purchase Request,2024-04-16 00:00:00,Employee_B,8000,Finance
+PO_0230,Manager Review,2024-04-16 03:00:00,Manager_1,8000,Finance
+PO_0230,Finance Check,2024-04-16 14:00:00,Finance_X,8000,Finance
+PO_0230,Approve,2024-04-19 11:00:00,Manager_1,8000,Finance
+PO_0230,Send to Vendor,2024-04-19 14:00:00,System,8000,Finance
+PO_0231,Submit Purchase Request,2024-05-30 00:00:00,Employee_A,15000,HR
+PO_0231,Manager Review,2024-05-30 03:00:00,Manager_3,15000,HR
+PO_0231,Finance Check,2024-05-30 18:00:00,Finance_Z,15000,HR
+PO_0231,Approve,2024-06-01 04:00:00,Manager_1,15000,HR
+PO_0231,Final Approval,2024-06-01 08:00:00,Director_Alpha,15000,HR
+PO_0231,Send to Vendor,2024-06-02 13:00:00,System,15000,HR
+PO_0232,Submit Purchase Request,2024-06-05 00:00:00,Employee_B,1500,HR
+PO_0232,Manager Review,2024-06-05 01:00:00,Manager_1,1500,HR
+PO_0232,Approve,2024-06-06 01:00:00,Manager_1,1500,HR
+PO_0232,Send to Vendor,2024-06-06 02:00:00,System,1500,HR
+PO_0233,Submit Purchase Request,2024-03-29 00:00:00,Employee_C,3000,HR
+PO_0233,Manager Review,2024-03-29 02:00:00,Manager_2,3000,HR
+PO_0233,Approve,2024-03-29 08:00:00,Manager_3,3000,HR
+PO_0233,Send to Vendor,2024-03-29 13:00:00,System,3000,HR
+PO_0234,Submit Purchase Request,2024-03-26 00:00:00,Employee_A,1500,IT
+PO_0234,Manager Review,2024-03-26 03:00:00,Manager_3,1500,IT
+PO_0234,Approve,2024-03-26 23:00:00,Manager_3,1500,IT
+PO_0234,Send to Vendor,2024-03-27 01:00:00,System,1500,IT
+PO_0235,Submit Purchase Request,2024-05-10 00:00:00,Employee_B,50000,HR
+PO_0235,Manager Review,2024-05-10 03:00:00,Manager_1,50000,HR
+PO_0235,Finance Check,2024-05-10 13:00:00,Finance_X,50000,HR
+PO_0235,Approve,2024-05-11 07:00:00,Manager_1,50000,HR
+PO_0235,Final Approval,2024-05-11 08:00:00,Director_Alpha,50000,HR
+PO_0235,Send to Vendor,2024-05-11 10:00:00,System,50000,HR
+PO_0236,Submit Purchase Request,2024-04-30 00:00:00,Employee_B,5500,IT
+PO_0236,Manager Review,2024-04-30 01:00:00,Manager_3,5500,IT
+PO_0236,Finance Check,2024-05-01 01:00:00,Finance_Z,5500,IT
+PO_0236,Approve,2024-05-03 10:00:00,Manager_1,5500,IT
+PO_0236,Send to Vendor,2024-05-03 16:00:00,System,5500,IT
+PO_0237,Submit Purchase Request,2024-03-22 00:00:00,Employee_C,5500,HR
+PO_0237,Manager Review,2024-03-22 01:00:00,Manager_3,5500,HR
+PO_0237,Finance Check,2024-03-23 00:00:00,Finance_X,5500,HR
+PO_0237,Reject,2024-03-24 02:00:00,Manager_1,5500,HR
+PO_0238,Submit Purchase Request,2024-01-18 00:00:00,Employee_C,500,HR
+PO_0238,Manager Review,2024-01-18 03:00:00,Manager_1,500,HR
+PO_0238,Approve,2024-01-18 22:00:00,Manager_2,500,HR
+PO_0238,Send to Vendor,2024-01-18 23:00:00,System,500,HR
+PO_0239,Submit Purchase Request,2024-03-15 00:00:00,Employee_B,15000,Marketing
+PO_0239,Manager Review,2024-03-15 04:00:00,Manager_2,15000,Marketing
+PO_0239,Finance Check,2024-03-16 00:00:00,Finance_Y,15000,Marketing
+PO_0239,Approve,2024-03-17 05:00:00,Manager_3,15000,Marketing
+PO_0239,Final Approval,2024-03-17 09:00:00,Director_Alpha,15000,Marketing
+PO_0239,Send to Vendor,2024-03-17 11:00:00,System,15000,Marketing
+PO_0240,Submit Purchase Request,2024-02-29 00:00:00,Employee_A,25000,IT
+PO_0240,Manager Review,2024-02-29 03:00:00,Manager_1,25000,IT
+PO_0240,Finance Check,2024-03-01 02:00:00,Finance_Y,25000,IT
+PO_0240,Approve,2024-03-02 21:00:00,Manager_1,25000,IT
+PO_0240,Final Approval,2024-03-03 01:00:00,Director_Alpha,25000,IT
+PO_0240,Send to Vendor,2024-03-04 05:00:00,System,25000,IT
+PO_0241,Submit Purchase Request,2024-02-06 00:00:00,Employee_B,50000,IT
+PO_0241,Manager Review,2024-02-06 04:00:00,Manager_3,50000,IT
+PO_0241,Finance Check,2024-02-06 17:00:00,Finance_Y,50000,IT
+PO_0241,Approve,2024-02-07 07:00:00,Manager_3,50000,IT
+PO_0241,Final Approval,2024-02-07 09:00:00,Director_Alpha,50000,IT
+PO_0241,Send to Vendor,2024-02-09 03:00:00,System,50000,IT
+PO_0242,Submit Purchase Request,2024-05-31 00:00:00,Employee_B,25000,IT
+PO_0242,Manager Review,2024-05-31 02:00:00,Manager_2,25000,IT
+PO_0242,Finance Check,2024-05-31 12:00:00,Finance_Y,25000,IT
+PO_0242,Approve,2024-06-02 18:00:00,Manager_3,25000,IT
+PO_0242,Final Approval,2024-06-03 00:00:00,Director_Beta,25000,IT
+PO_0242,Send to Vendor,2024-06-04 06:00:00,System,25000,IT
+PO_0243,Submit Purchase Request,2024-01-20 00:00:00,Employee_A,8000,Marketing
+PO_0243,Manager Review,2024-01-20 02:00:00,Manager_1,8000,Marketing
+PO_0243,Finance Check,2024-01-20 09:00:00,Finance_Y,8000,Marketing
+PO_0243,Approve,2024-01-23 00:00:00,Manager_2,8000,Marketing
+PO_0243,Send to Vendor,2024-01-23 07:00:00,System,8000,Marketing
+PO_0244,Submit Purchase Request,2024-04-01 00:00:00,Employee_C,1500,Finance
+PO_0244,Manager Review,2024-04-01 04:00:00,Manager_2,1500,Finance
+PO_0244,Approve,2024-04-01 09:00:00,Manager_1,1500,Finance
+PO_0244,Send to Vendor,2024-04-01 12:00:00,System,1500,Finance
+PO_0245,Submit Purchase Request,2024-01-11 00:00:00,Employee_B,8000,Finance
+PO_0245,Manager Review,2024-01-11 01:00:00,Manager_3,8000,Finance
+PO_0245,Finance Check,2024-01-11 10:00:00,Finance_Y,8000,Finance
+PO_0245,Approve,2024-01-13 16:00:00,Manager_3,8000,Finance
+PO_0245,Send to Vendor,2024-01-13 17:00:00,System,8000,Finance
+PO_0246,Submit Purchase Request,2024-02-14 00:00:00,Employee_D,8000,Operations
+PO_0246,Manager Review,2024-02-14 02:00:00,Manager_1,8000,Operations
+PO_0246,Rework Request,2024-02-14 18:00:00,Employee_A,8000,Operations
+PO_0246,Manager Review,2024-02-15 06:00:00,Manager_1,8000,Operations
+PO_0246,Finance Check,2024-02-15 08:00:00,Finance_X,8000,Operations
+PO_0246,Approve,2024-02-16 16:00:00,Manager_1,8000,Operations
+PO_0246,Send to Vendor,2024-02-16 20:00:00,System,8000,Operations
+PO_0247,Submit Purchase Request,2024-06-24 00:00:00,Employee_C,25000,Operations
+PO_0247,Manager Review,2024-06-24 01:00:00,Manager_1,25000,Operations
+PO_0247,Finance Check,2024-06-24 05:00:00,Finance_X,25000,Operations
+PO_0247,Approve,2024-06-26 17:00:00,Manager_1,25000,Operations
+PO_0247,Final Approval,2024-06-26 19:00:00,Director_Beta,25000,Operations
+PO_0247,Send to Vendor,2024-06-27 04:00:00,System,25000,Operations
+PO_0248,Submit Purchase Request,2024-01-13 00:00:00,Employee_D,500,HR
+PO_0248,Manager Review,2024-01-13 04:00:00,Manager_1,500,HR
+PO_0248,Approve,2024-01-13 18:00:00,Manager_3,500,HR
+PO_0248,Send to Vendor,2024-01-14 01:00:00,System,500,HR
+PO_0249,Submit Purchase Request,2024-02-24 00:00:00,Employee_D,3000,Operations
+PO_0249,Manager Review,2024-02-24 02:00:00,Manager_1,3000,Operations
+PO_0249,Approve,2024-02-24 23:00:00,Manager_3,3000,Operations
+PO_0249,Send to Vendor,2024-02-25 03:00:00,System,3000,Operations
+PO_0250,Submit Purchase Request,2024-04-15 00:00:00,Employee_A,8000,HR
+PO_0250,Manager Review,2024-04-15 03:00:00,Manager_2,8000,HR
+PO_0250,Finance Check,2024-04-15 09:00:00,Finance_Y,8000,HR
+PO_0250,Approve,2024-04-16 14:00:00,Manager_3,8000,HR
+PO_0250,Send to Vendor,2024-04-16 18:00:00,System,8000,HR
+PO_0251,Submit Purchase Request,2024-04-01 00:00:00,Employee_C,500,HR
+PO_0251,Manager Review,2024-04-01 03:00:00,Manager_2,500,HR
+PO_0251,Approve,2024-04-01 13:00:00,Manager_1,500,HR
+PO_0251,Send to Vendor,2024-04-01 14:00:00,System,500,HR
+PO_0252,Submit Purchase Request,2024-02-26 00:00:00,Employee_C,15000,Finance
+PO_0252,Manager Review,2024-02-26 01:00:00,Manager_2,15000,Finance
+PO_0252,Rework Request,2024-02-26 19:00:00,Employee_C,15000,Finance
+PO_0252,Manager Review,2024-02-28 12:00:00,Manager_1,15000,Finance
+PO_0252,Finance Check,2024-02-28 16:00:00,Finance_X,15000,Finance
+PO_0252,Approve,2024-03-01 03:00:00,Manager_3,15000,Finance
+PO_0252,Final Approval,2024-03-01 07:00:00,Director_Beta,15000,Finance
+PO_0252,Send to Vendor,2024-03-02 19:00:00,System,15000,Finance
+PO_0253,Submit Purchase Request,2024-05-27 00:00:00,Employee_C,500,Marketing
+PO_0253,Manager Review,2024-05-27 02:00:00,Manager_1,500,Marketing
+PO_0253,Approve,2024-05-27 11:00:00,Manager_3,500,Marketing
+PO_0253,Send to Vendor,2024-05-27 17:00:00,System,500,Marketing
+PO_0254,Submit Purchase Request,2024-01-08 00:00:00,Employee_B,15000,Finance
+PO_0254,Manager Review,2024-01-08 02:00:00,Manager_2,15000,Finance
+PO_0254,Finance Check,2024-01-08 21:00:00,Finance_Y,15000,Finance
+PO_0254,Approve,2024-01-09 23:00:00,Manager_2,15000,Finance
+PO_0254,Final Approval,2024-01-10 00:00:00,Director_Alpha,15000,Finance
+PO_0254,Send to Vendor,2024-01-10 05:00:00,System,15000,Finance
+PO_0255,Submit Purchase Request,2024-02-26 00:00:00,Employee_C,5500,Finance
+PO_0255,Manager Review,2024-02-26 02:00:00,Manager_1,5500,Finance
+PO_0255,Rework Request,2024-02-26 14:00:00,Employee_B,5500,Finance
+PO_0255,Manager Review,2024-02-27 14:00:00,Manager_1,5500,Finance
+PO_0255,Finance Check,2024-02-27 16:00:00,Finance_X,5500,Finance
+PO_0255,Approve,2024-02-28 14:00:00,Manager_1,5500,Finance
+PO_0255,Send to Vendor,2024-02-28 20:00:00,System,5500,Finance
+PO_0256,Submit Purchase Request,2024-06-29 00:00:00,Employee_A,1500,Operations
+PO_0256,Manager Review,2024-06-29 03:00:00,Manager_2,1500,Operations
+PO_0256,Approve,2024-06-29 15:00:00,Manager_1,1500,Operations
+PO_0256,Send to Vendor,2024-06-29 18:00:00,System,1500,Operations
+PO_0257,Submit Purchase Request,2024-06-15 00:00:00,Employee_C,25000,HR
+PO_0257,Manager Review,2024-06-15 02:00:00,Manager_3,25000,HR
+PO_0257,Finance Check,2024-06-15 22:00:00,Finance_X,25000,HR
+PO_0257,Approve,2024-06-18 02:00:00,Manager_2,25000,HR
+PO_0257,Final Approval,2024-06-18 07:00:00,Director_Alpha,25000,HR
+PO_0257,Send to Vendor,2024-06-18 20:00:00,System,25000,HR
+PO_0258,Submit Purchase Request,2024-04-10 00:00:00,Employee_A,500,Finance
+PO_0258,Manager Review,2024-04-10 02:00:00,Manager_3,500,Finance
+PO_0258,Approve,2024-04-10 14:00:00,Manager_3,500,Finance
+PO_0258,Send to Vendor,2024-04-10 18:00:00,System,500,Finance
+PO_0259,Submit Purchase Request,2024-02-06 00:00:00,Employee_C,1500,HR
+PO_0259,Manager Review,2024-02-06 03:00:00,Manager_1,1500,HR
+PO_0259,Reject,2024-02-07 01:00:00,Manager_1,1500,HR
+PO_0260,Submit Purchase Request,2024-01-03 00:00:00,Employee_A,15000,HR
+PO_0260,Manager Review,2024-01-03 03:00:00,Manager_2,15000,HR
+PO_0260,Finance Check,2024-01-03 08:00:00,Finance_Z,15000,HR
+PO_0260,Approve,2024-01-03 12:00:00,Manager_1,15000,HR
+PO_0260,Final Approval,2024-01-03 19:00:00,Director_Beta,15000,HR
+PO_0260,Send to Vendor,2024-01-05 19:00:00,System,15000,HR
+PO_0261,Submit Purchase Request,2024-04-15 00:00:00,Employee_D,25000,Marketing
+PO_0261,Manager Review,2024-04-15 01:00:00,Manager_2,25000,Marketing
+PO_0261,Finance Check,2024-04-15 21:00:00,Finance_Z,25000,Marketing
+PO_0261,Approve,2024-04-17 05:00:00,Manager_1,25000,Marketing
+PO_0261,Final Approval,2024-04-17 13:00:00,Director_Alpha,25000,Marketing
+PO_0261,Send to Vendor,2024-04-17 17:00:00,System,25000,Marketing
+PO_0262,Submit Purchase Request,2024-03-22 00:00:00,Employee_C,8000,IT
+PO_0262,Manager Review,2024-03-22 02:00:00,Manager_2,8000,IT
+PO_0262,Finance Check,2024-03-22 09:00:00,Finance_Z,8000,IT
+PO_0262,Approve,2024-03-22 22:00:00,Manager_3,8000,IT
+PO_0262,Send to Vendor,2024-03-23 00:00:00,System,8000,IT
+PO_0263,Submit Purchase Request,2024-06-06 00:00:00,Employee_D,15000,Finance
+PO_0263,Manager Review,2024-06-06 02:00:00,Manager_3,15000,Finance
+PO_0263,Finance Check,2024-06-06 17:00:00,Finance_X,15000,Finance
+PO_0263,Approve,2024-06-07 03:00:00,Manager_1,15000,Finance
+PO_0263,Final Approval,2024-06-07 09:00:00,Director_Alpha,15000,Finance
+PO_0263,Send to Vendor,2024-06-07 23:00:00,System,15000,Finance
+PO_0264,Submit Purchase Request,2024-05-18 00:00:00,Employee_B,25000,Finance
+PO_0264,Manager Review,2024-05-18 01:00:00,Manager_1,25000,Finance
+PO_0264,Finance Check,2024-05-18 15:00:00,Finance_Z,25000,Finance
+PO_0264,Approve,2024-05-21 09:00:00,Manager_1,25000,Finance
+PO_0264,Final Approval,2024-05-21 10:00:00,Director_Beta,25000,Finance
+PO_0264,Send to Vendor,2024-05-21 12:00:00,System,25000,Finance
+PO_0265,Submit Purchase Request,2024-03-16 00:00:00,Employee_D,25000,IT
+PO_0265,Manager Review,2024-03-16 02:00:00,Manager_1,25000,IT
+PO_0265,Finance Check,2024-03-16 04:00:00,Finance_X,25000,IT
+PO_0265,Approve,2024-03-17 05:00:00,Manager_3,25000,IT
+PO_0265,Final Approval,2024-03-17 10:00:00,Director_Alpha,25000,IT
+PO_0265,Send to Vendor,2024-03-18 18:00:00,System,25000,IT
+PO_0266,Submit Purchase Request,2024-04-11 00:00:00,Employee_C,1500,Operations
+PO_0266,Manager Review,2024-04-11 01:00:00,Manager_3,1500,Operations
+PO_0266,Approve,2024-04-11 20:00:00,Manager_2,1500,Operations
+PO_0266,Send to Vendor,2024-04-11 23:00:00,System,1500,Operations
+PO_0267,Submit Purchase Request,2024-04-04 00:00:00,Employee_D,15000,HR
+PO_0267,Manager Review,2024-04-04 04:00:00,Manager_2,15000,HR
+PO_0267,Finance Check,2024-04-04 13:00:00,Finance_Y,15000,HR
+PO_0267,Reject,2024-04-05 00:00:00,Manager_1,15000,HR
+PO_0268,Submit Purchase Request,2024-06-20 00:00:00,Employee_B,1500,IT
+PO_0268,Manager Review,2024-06-20 01:00:00,Manager_2,1500,IT
+PO_0268,Approve,2024-06-20 19:00:00,Manager_2,1500,IT
+PO_0268,Send to Vendor,2024-06-21 03:00:00,System,1500,IT
+PO_0269,Submit Purchase Request,2024-03-17 00:00:00,Employee_A,5500,HR
+PO_0269,Manager Review,2024-03-17 02:00:00,Manager_1,5500,HR
+PO_0269,Rework Request,2024-03-17 18:00:00,Employee_B,5500,HR
+PO_0269,Manager Review,2024-03-18 08:00:00,Manager_1,5500,HR
+PO_0269,Finance Check,2024-03-18 13:00:00,Finance_X,5500,HR
+PO_0269,Approve,2024-03-18 22:00:00,Manager_2,5500,HR
+PO_0269,Send to Vendor,2024-03-19 00:00:00,System,5500,HR
+PO_0270,Submit Purchase Request,2024-06-09 00:00:00,Employee_C,25000,Marketing
+PO_0270,Manager Review,2024-06-09 01:00:00,Manager_1,25000,Marketing
+PO_0270,Rework Request,2024-06-09 15:00:00,Employee_D,25000,Marketing
+PO_0270,Manager Review,2024-06-11 06:00:00,Manager_2,25000,Marketing
+PO_0270,Finance Check,2024-06-11 12:00:00,Finance_Z,25000,Marketing
+PO_0270,Approve,2024-06-14 02:00:00,Manager_1,25000,Marketing
+PO_0270,Final Approval,2024-06-14 09:00:00,Director_Alpha,25000,Marketing
+PO_0270,Send to Vendor,2024-06-15 13:00:00,System,25000,Marketing
+PO_0271,Submit Purchase Request,2024-05-25 00:00:00,Employee_A,3000,Marketing
+PO_0271,Manager Review,2024-05-25 01:00:00,Manager_3,3000,Marketing
+PO_0271,Approve,2024-05-25 06:00:00,Manager_2,3000,Marketing
+PO_0271,Send to Vendor,2024-05-25 12:00:00,System,3000,Marketing
+PO_0272,Submit Purchase Request,2024-04-08 00:00:00,Employee_D,25000,Operations
+PO_0272,Manager Review,2024-04-08 01:00:00,Manager_1,25000,Operations
+PO_0272,Finance Check,2024-04-08 11:00:00,Finance_Y,25000,Operations
+PO_0272,Approve,2024-04-09 09:00:00,Manager_3,25000,Operations
+PO_0272,Final Approval,2024-04-09 16:00:00,Director_Alpha,25000,Operations
+PO_0272,Send to Vendor,2024-04-10 19:00:00,System,25000,Operations
+PO_0273,Submit Purchase Request,2024-01-13 00:00:00,Employee_C,15000,Marketing
+PO_0273,Manager Review,2024-01-13 01:00:00,Manager_2,15000,Marketing
+PO_0273,Finance Check,2024-01-13 12:00:00,Finance_Y,15000,Marketing
+PO_0273,Approve,2024-01-15 03:00:00,Manager_2,15000,Marketing
+PO_0273,Final Approval,2024-01-15 05:00:00,Director_Alpha,15000,Marketing
+PO_0273,Send to Vendor,2024-01-15 15:00:00,System,15000,Marketing
+PO_0274,Submit Purchase Request,2024-03-23 00:00:00,Employee_A,8000,HR
+PO_0274,Manager Review,2024-03-23 02:00:00,Manager_2,8000,HR
+PO_0274,Finance Check,2024-03-23 10:00:00,Finance_Y,8000,HR
+PO_0274,Approve,2024-03-26 04:00:00,Manager_3,8000,HR
+PO_0274,Send to Vendor,2024-03-26 10:00:00,System,8000,HR
+PO_0275,Submit Purchase Request,2024-02-10 00:00:00,Employee_D,500,Finance
+PO_0275,Manager Review,2024-02-10 02:00:00,Manager_3,500,Finance
+PO_0275,Rework Request,2024-02-10 22:00:00,Employee_A,500,Finance
+PO_0275,Manager Review,2024-02-11 13:00:00,Manager_1,500,Finance
+PO_0275,Approve,2024-02-11 18:00:00,Manager_1,500,Finance
+PO_0275,Send to Vendor,2024-02-11 22:00:00,System,500,Finance
+PO_0276,Submit Purchase Request,2024-01-13 00:00:00,Employee_C,500,HR
+PO_0276,Manager Review,2024-01-13 03:00:00,Manager_2,500,HR
+PO_0276,Approve,2024-01-13 21:00:00,Manager_2,500,HR
+PO_0276,Send to Vendor,2024-01-13 23:00:00,System,500,HR
+PO_0277,Submit Purchase Request,2024-04-05 00:00:00,Employee_D,500,Marketing
+PO_0277,Manager Review,2024-04-05 03:00:00,Manager_2,500,Marketing
+PO_0277,Approve,2024-04-05 10:00:00,Manager_2,500,Marketing
+PO_0277,Send to Vendor,2024-04-05 12:00:00,System,500,Marketing
+PO_0278,Submit Purchase Request,2024-04-08 00:00:00,Employee_B,8000,IT
+PO_0278,Manager Review,2024-04-08 02:00:00,Manager_3,8000,IT
+PO_0278,Rework Request,2024-04-08 11:00:00,Employee_B,8000,IT
+PO_0278,Manager Review,2024-04-09 08:00:00,Manager_3,8000,IT
+PO_0278,Finance Check,2024-04-09 16:00:00,Finance_Z,8000,IT
+PO_0278,Approve,2024-04-09 22:00:00,Manager_3,8000,IT
+PO_0278,Send to Vendor,2024-04-09 23:00:00,System,8000,IT
+PO_0279,Submit Purchase Request,2024-06-14 00:00:00,Employee_B,50000,Marketing
+PO_0279,Manager Review,2024-06-14 03:00:00,Manager_3,50000,Marketing
+PO_0279,Finance Check,2024-06-14 14:00:00,Finance_Z,50000,Marketing
+PO_0279,Approve,2024-06-16 05:00:00,Manager_2,50000,Marketing
+PO_0279,Final Approval,2024-06-16 12:00:00,Director_Beta,50000,Marketing
+PO_0279,Send to Vendor,2024-06-17 19:00:00,System,50000,Marketing
+PO_0280,Submit Purchase Request,2024-04-29 00:00:00,Employee_D,8000,Marketing
+PO_0280,Manager Review,2024-04-29 01:00:00,Manager_1,8000,Marketing
+PO_0280,Finance Check,2024-04-29 19:00:00,Finance_Z,8000,Marketing
+PO_0280,Approve,2024-05-01 22:00:00,Manager_3,8000,Marketing
+PO_0280,Send to Vendor,2024-05-02 03:00:00,System,8000,Marketing
+PO_0281,Submit Purchase Request,2024-05-03 00:00:00,Employee_C,8000,IT
+PO_0281,Manager Review,2024-05-03 03:00:00,Manager_2,8000,IT
+PO_0281,Rework Request,2024-05-04 01:00:00,Employee_C,8000,IT
+PO_0281,Manager Review,2024-05-04 17:00:00,Manager_1,8000,IT
+PO_0281,Finance Check,2024-05-05 03:00:00,Finance_X,8000,IT
+PO_0281,Approve,2024-05-05 14:00:00,Manager_3,8000,IT
+PO_0281,Send to Vendor,2024-05-05 21:00:00,System,8000,IT
+PO_0282,Submit Purchase Request,2024-01-07 00:00:00,Employee_C,15000,Marketing
+PO_0282,Manager Review,2024-01-07 04:00:00,Manager_2,15000,Marketing
+PO_0282,Finance Check,2024-01-07 18:00:00,Finance_Z,15000,Marketing
+PO_0282,Approve,2024-01-08 02:00:00,Manager_3,15000,Marketing
+PO_0282,Final Approval,2024-01-08 06:00:00,Director_Beta,15000,Marketing
+PO_0282,Send to Vendor,2024-01-10 06:00:00,System,15000,Marketing
+PO_0283,Submit Purchase Request,2024-06-12 00:00:00,Employee_C,5500,Finance
+PO_0283,Manager Review,2024-06-12 03:00:00,Manager_1,5500,Finance
+PO_0283,Finance Check,2024-06-13 02:00:00,Finance_Z,5500,Finance
+PO_0283,Approve,2024-06-14 05:00:00,Manager_2,5500,Finance
+PO_0283,Send to Vendor,2024-06-14 07:00:00,System,5500,Finance
+PO_0284,Submit Purchase Request,2024-03-07 00:00:00,Employee_B,50000,Marketing
+PO_0284,Manager Review,2024-03-07 03:00:00,Manager_3,50000,Marketing
+PO_0284,Finance Check,2024-03-07 07:00:00,Finance_X,50000,Marketing
+PO_0284,Approve,2024-03-09 08:00:00,Manager_1,50000,Marketing
+PO_0284,Final Approval,2024-03-09 13:00:00,Director_Beta,50000,Marketing
+PO_0284,Send to Vendor,2024-03-10 12:00:00,System,50000,Marketing
+PO_0285,Submit Purchase Request,2024-05-29 00:00:00,Employee_D,15000,Operations
+PO_0285,Manager Review,2024-05-29 01:00:00,Manager_3,15000,Operations
+PO_0285,Finance Check,2024-05-29 21:00:00,Finance_Z,15000,Operations
+PO_0285,Approve,2024-05-30 10:00:00,Manager_2,15000,Operations
+PO_0285,Final Approval,2024-05-30 14:00:00,Director_Alpha,15000,Operations
+PO_0285,Send to Vendor,2024-06-01 11:00:00,System,15000,Operations
+PO_0286,Submit Purchase Request,2024-03-17 00:00:00,Employee_B,25000,Finance
+PO_0286,Manager Review,2024-03-17 02:00:00,Manager_1,25000,Finance
+PO_0286,Finance Check,2024-03-17 14:00:00,Finance_Y,25000,Finance
+PO_0286,Approve,2024-03-20 04:00:00,Manager_1,25000,Finance
+PO_0286,Final Approval,2024-03-20 10:00:00,Director_Alpha,25000,Finance
+PO_0286,Send to Vendor,2024-03-20 17:00:00,System,25000,Finance
+PO_0287,Submit Purchase Request,2024-06-10 00:00:00,Employee_A,50000,Operations
+PO_0287,Manager Review,2024-06-10 01:00:00,Manager_2,50000,Operations
+PO_0287,Finance Check,2024-06-10 11:00:00,Finance_X,50000,Operations
+PO_0287,Approve,2024-06-11 12:00:00,Manager_3,50000,Operations
+PO_0287,Final Approval,2024-06-11 15:00:00,Director_Beta,50000,Operations
+PO_0287,Send to Vendor,2024-06-11 22:00:00,System,50000,Operations
+PO_0288,Submit Purchase Request,2024-04-21 00:00:00,Employee_D,3000,Finance
+PO_0288,Manager Review,2024-04-21 04:00:00,Manager_1,3000,Finance
+PO_0288,Approve,2024-04-21 07:00:00,Manager_3,3000,Finance
+PO_0288,Send to Vendor,2024-04-21 11:00:00,System,3000,Finance
+PO_0289,Submit Purchase Request,2024-03-23 00:00:00,Employee_A,15000,IT
+PO_0289,Manager Review,2024-03-23 01:00:00,Manager_3,15000,IT
+PO_0289,Finance Check,2024-03-23 10:00:00,Finance_X,15000,IT
+PO_0289,Approve,2024-03-25 10:00:00,Manager_2,15000,IT
+PO_0289,Final Approval,2024-03-25 13:00:00,Director_Alpha,15000,IT
+PO_0289,Send to Vendor,2024-03-26 15:00:00,System,15000,IT
+PO_0290,Submit Purchase Request,2024-01-17 00:00:00,Employee_C,8000,Marketing
+PO_0290,Manager Review,2024-01-17 04:00:00,Manager_3,8000,Marketing
+PO_0290,Finance Check,2024-01-17 22:00:00,Finance_Z,8000,Marketing
+PO_0290,Approve,2024-01-20 21:00:00,Manager_2,8000,Marketing
+PO_0290,Send to Vendor,2024-01-21 04:00:00,System,8000,Marketing
+PO_0291,Submit Purchase Request,2024-05-05 00:00:00,Employee_D,3000,Operations
+PO_0291,Manager Review,2024-05-05 01:00:00,Manager_1,3000,Operations
+PO_0291,Approve,2024-05-05 10:00:00,Manager_3,3000,Operations
+PO_0291,Send to Vendor,2024-05-05 13:00:00,System,3000,Operations
+PO_0292,Submit Purchase Request,2024-05-30 00:00:00,Employee_A,5500,IT
+PO_0292,Manager Review,2024-05-30 04:00:00,Manager_3,5500,IT
+PO_0292,Finance Check,2024-05-30 14:00:00,Finance_Z,5500,IT
+PO_0292,Approve,2024-05-31 00:00:00,Manager_3,5500,IT
+PO_0292,Send to Vendor,2024-05-31 01:00:00,System,5500,IT
+PO_0293,Submit Purchase Request,2024-01-13 00:00:00,Employee_D,1500,IT
+PO_0293,Manager Review,2024-01-13 01:00:00,Manager_3,1500,IT
+PO_0293,Approve,2024-01-13 11:00:00,Manager_2,1500,IT
+PO_0293,Send to Vendor,2024-01-13 14:00:00,System,1500,IT
+PO_0294,Submit Purchase Request,2024-03-18 00:00:00,Employee_C,5500,IT
+PO_0294,Manager Review,2024-03-18 02:00:00,Manager_2,5500,IT
+PO_0294,Finance Check,2024-03-18 07:00:00,Finance_Z,5500,IT
+PO_0294,Approve,2024-03-19 02:00:00,Manager_2,5500,IT
+PO_0294,Send to Vendor,2024-03-19 04:00:00,System,5500,IT
+PO_0295,Submit Purchase Request,2024-02-20 00:00:00,Employee_B,1500,HR
+PO_0295,Manager Review,2024-02-20 03:00:00,Manager_3,1500,HR
+PO_0295,Approve,2024-02-20 18:00:00,Manager_2,1500,HR
+PO_0295,Send to Vendor,2024-02-20 21:00:00,System,1500,HR
+PO_0296,Submit Purchase Request,2024-05-07 00:00:00,Employee_D,500,Finance
+PO_0296,Manager Review,2024-05-07 03:00:00,Manager_1,500,Finance
+PO_0296,Approve,2024-05-07 05:00:00,Manager_1,500,Finance
+PO_0296,Send to Vendor,2024-05-07 07:00:00,System,500,Finance
+PO_0297,Submit Purchase Request,2024-06-20 00:00:00,Employee_A,1500,Finance
+PO_0297,Manager Review,2024-06-20 01:00:00,Manager_2,1500,Finance
+PO_0297,Approve,2024-06-20 23:00:00,Manager_1,1500,Finance
+PO_0297,Send to Vendor,2024-06-21 07:00:00,System,1500,Finance
+PO_0298,Submit Purchase Request,2024-04-28 00:00:00,Employee_A,8000,Operations
+PO_0298,Manager Review,2024-04-28 03:00:00,Manager_2,8000,Operations
+PO_0298,Rework Request,2024-04-29 02:00:00,Employee_C,8000,Operations
+PO_0298,Manager Review,2024-04-30 09:00:00,Manager_3,8000,Operations
+PO_0298,Finance Check,2024-04-30 12:00:00,Finance_X,8000,Operations
+PO_0298,Approve,2024-04-30 21:00:00,Manager_1,8000,Operations
+PO_0298,Send to Vendor,2024-05-01 00:00:00,System,8000,Operations
+PO_0299,Submit Purchase Request,2024-04-01 00:00:00,Employee_C,3000,Operations
+PO_0299,Manager Review,2024-04-01 01:00:00,Manager_2,3000,Operations
+PO_0299,Approve,2024-04-01 13:00:00,Manager_1,3000,Operations
+PO_0299,Send to Vendor,2024-04-01 15:00:00,System,3000,Operations
+PO_0300,Submit Purchase Request,2024-04-26 00:00:00,Employee_D,25000,HR
+PO_0300,Manager Review,2024-04-26 04:00:00,Manager_3,25000,HR
+PO_0300,Finance Check,2024-04-26 11:00:00,Finance_X,25000,HR
+PO_0300,Approve,2024-04-27 07:00:00,Manager_3,25000,HR
+PO_0300,Final Approval,2024-04-27 08:00:00,Director_Alpha,25000,HR
+PO_0300,Send to Vendor,2024-04-27 16:00:00,System,25000,HR
+PO_0301,Submit Purchase Request,2024-05-03 00:00:00,Employee_B,25000,Finance
+PO_0301,Manager Review,2024-05-03 04:00:00,Manager_2,25000,Finance
+PO_0301,Finance Check,2024-05-04 01:00:00,Finance_X,25000,Finance
+PO_0301,Approve,2024-05-04 21:00:00,Manager_2,25000,Finance
+PO_0301,Final Approval,2024-05-05 05:00:00,Director_Alpha,25000,Finance
+PO_0301,Send to Vendor,2024-05-06 09:00:00,System,25000,Finance
+PO_0302,Submit Purchase Request,2024-01-17 00:00:00,Employee_B,50000,IT
+PO_0302,Manager Review,2024-01-17 03:00:00,Manager_3,50000,IT
+PO_0302,Finance Check,2024-01-17 21:00:00,Finance_Z,50000,IT
+PO_0302,Approve,2024-01-18 13:00:00,Manager_2,50000,IT
+PO_0302,Final Approval,2024-01-18 17:00:00,Director_Beta,50000,IT
+PO_0302,Send to Vendor,2024-01-19 17:00:00,System,50000,IT
+PO_0303,Submit Purchase Request,2024-05-22 00:00:00,Employee_A,25000,Marketing
+PO_0303,Manager Review,2024-05-22 02:00:00,Manager_3,25000,Marketing
+PO_0303,Finance Check,2024-05-22 19:00:00,Finance_Y,25000,Marketing
+PO_0303,Approve,2024-05-23 20:00:00,Manager_1,25000,Marketing
+PO_0303,Final Approval,2024-05-24 04:00:00,Director_Beta,25000,Marketing
+PO_0303,Send to Vendor,2024-05-24 21:00:00,System,25000,Marketing
+PO_0304,Submit Purchase Request,2024-01-13 00:00:00,Employee_D,15000,Operations
+PO_0304,Manager Review,2024-01-13 04:00:00,Manager_1,15000,Operations
+PO_0304,Finance Check,2024-01-13 08:00:00,Finance_Y,15000,Operations
+PO_0304,Approve,2024-01-15 20:00:00,Manager_3,15000,Operations
+PO_0304,Final Approval,2024-01-16 04:00:00,Director_Alpha,15000,Operations
+PO_0304,Send to Vendor,2024-01-17 13:00:00,System,15000,Operations
+PO_0305,Submit Purchase Request,2024-01-31 00:00:00,Employee_A,50000,Operations
+PO_0305,Manager Review,2024-01-31 01:00:00,Manager_2,50000,Operations
+PO_0305,Finance Check,2024-01-31 16:00:00,Finance_X,50000,Operations
+PO_0305,Approve,2024-01-31 20:00:00,Manager_1,50000,Operations
+PO_0305,Final Approval,2024-02-01 01:00:00,Director_Alpha,50000,Operations
+PO_0305,Send to Vendor,2024-02-02 20:00:00,System,50000,Operations
+PO_0306,Submit Purchase Request,2024-04-03 00:00:00,Employee_D,50000,Operations
+PO_0306,Manager Review,2024-04-03 03:00:00,Manager_3,50000,Operations
+PO_0306,Finance Check,2024-04-04 00:00:00,Finance_Z,50000,Operations
+PO_0306,Approve,2024-04-06 16:00:00,Manager_3,50000,Operations
+PO_0306,Final Approval,2024-04-06 22:00:00,Director_Beta,50000,Operations
+PO_0306,Send to Vendor,2024-04-07 07:00:00,System,50000,Operations
+PO_0307,Submit Purchase Request,2024-01-01 00:00:00,Employee_C,1500,Marketing
+PO_0307,Manager Review,2024-01-01 03:00:00,Manager_3,1500,Marketing
+PO_0307,Approve,2024-01-01 08:00:00,Manager_1,1500,Marketing
+PO_0307,Send to Vendor,2024-01-01 11:00:00,System,1500,Marketing
+PO_0308,Submit Purchase Request,2024-04-14 00:00:00,Employee_B,50000,Marketing
+PO_0308,Manager Review,2024-04-14 01:00:00,Manager_2,50000,Marketing
+PO_0308,Rework Request,2024-04-14 09:00:00,Employee_D,50000,Marketing
+PO_0308,Manager Review,2024-04-15 01:00:00,Manager_3,50000,Marketing
+PO_0308,Finance Check,2024-04-15 08:00:00,Finance_X,50000,Marketing
+PO_0308,Approve,2024-04-17 17:00:00,Manager_1,50000,Marketing
+PO_0308,Final Approval,2024-04-17 19:00:00,Director_Beta,50000,Marketing
+PO_0308,Send to Vendor,2024-04-19 02:00:00,System,50000,Marketing
+PO_0309,Submit Purchase Request,2024-01-02 00:00:00,Employee_D,3000,HR
+PO_0309,Manager Review,2024-01-02 04:00:00,Manager_3,3000,HR
+PO_0309,Reject,2024-01-02 11:00:00,Manager_3,3000,HR
+PO_0310,Submit Purchase Request,2024-01-27 00:00:00,Employee_C,3000,Marketing
+PO_0310,Manager Review,2024-01-27 04:00:00,Manager_2,3000,Marketing
+PO_0310,Approve,2024-01-28 01:00:00,Manager_3,3000,Marketing
+PO_0310,Send to Vendor,2024-01-28 05:00:00,System,3000,Marketing
+PO_0311,Submit Purchase Request,2024-03-28 00:00:00,Employee_B,8000,HR
+PO_0311,Manager Review,2024-03-28 02:00:00,Manager_2,8000,HR
+PO_0311,Finance Check,2024-03-28 23:00:00,Finance_Z,8000,HR
+PO_0311,Approve,2024-03-31 20:00:00,Manager_2,8000,HR
+PO_0311,Send to Vendor,2024-04-01 02:00:00,System,8000,HR
+PO_0312,Submit Purchase Request,2024-02-23 00:00:00,Employee_C,5500,Marketing
+PO_0312,Manager Review,2024-02-23 02:00:00,Manager_3,5500,Marketing
+PO_0312,Finance Check,2024-02-24 00:00:00,Finance_X,5500,Marketing
+PO_0312,Approve,2024-02-26 20:00:00,Manager_3,5500,Marketing
+PO_0312,Send to Vendor,2024-02-27 02:00:00,System,5500,Marketing
+PO_0313,Submit Purchase Request,2024-05-23 00:00:00,Employee_D,1500,Operations
+PO_0313,Manager Review,2024-05-23 03:00:00,Manager_2,1500,Operations
+PO_0313,Approve,2024-05-23 05:00:00,Manager_3,1500,Operations
+PO_0313,Send to Vendor,2024-05-23 07:00:00,System,1500,Operations
+PO_0314,Submit Purchase Request,2024-02-07 00:00:00,Employee_C,500,HR
+PO_0314,Manager Review,2024-02-07 02:00:00,Manager_2,500,HR
+PO_0314,Rework Request,2024-02-08 01:00:00,Employee_C,500,HR
+PO_0314,Manager Review,2024-02-08 14:00:00,Manager_1,500,HR
+PO_0314,Reject,2024-02-08 20:00:00,Manager_1,500,HR
+PO_0315,Submit Purchase Request,2024-04-25 00:00:00,Employee_B,500,Operations
+PO_0315,Manager Review,2024-04-25 04:00:00,Manager_1,500,Operations
+PO_0315,Rework Request,2024-04-25 22:00:00,Employee_C,500,Operations
+PO_0315,Manager Review,2024-04-27 22:00:00,Manager_3,500,Operations
+PO_0315,Approve,2024-04-28 00:00:00,Manager_2,500,Operations
+PO_0315,Send to Vendor,2024-04-28 07:00:00,System,500,Operations
+PO_0316,Submit Purchase Request,2024-05-21 00:00:00,Employee_B,25000,Operations
+PO_0316,Manager Review,2024-05-21 04:00:00,Manager_1,25000,Operations
+PO_0316,Rework Request,2024-05-22 02:00:00,Employee_C,25000,Operations
+PO_0316,Manager Review,2024-05-23 19:00:00,Manager_3,25000,Operations
+PO_0316,Finance Check,2024-05-24 06:00:00,Finance_X,25000,Operations
+PO_0316,Approve,2024-05-25 10:00:00,Manager_2,25000,Operations
+PO_0316,Final Approval,2024-05-25 18:00:00,Director_Alpha,25000,Operations
+PO_0316,Send to Vendor,2024-05-27 15:00:00,System,25000,Operations
+PO_0317,Submit Purchase Request,2024-02-14 00:00:00,Employee_A,1500,Marketing
+PO_0317,Manager Review,2024-02-14 04:00:00,Manager_2,1500,Marketing
+PO_0317,Approve,2024-02-14 23:00:00,Manager_2,1500,Marketing
+PO_0317,Send to Vendor,2024-02-15 02:00:00,System,1500,Marketing
+PO_0318,Submit Purchase Request,2024-03-06 00:00:00,Employee_B,3000,Finance
+PO_0318,Manager Review,2024-03-06 01:00:00,Manager_1,3000,Finance
+PO_0318,Rework Request,2024-03-06 13:00:00,Employee_A,3000,Finance
+PO_0318,Manager Review,2024-03-08 09:00:00,Manager_3,3000,Finance
+PO_0318,Approve,2024-03-08 21:00:00,Manager_2,3000,Finance
+PO_0318,Send to Vendor,2024-03-09 05:00:00,System,3000,Finance
+PO_0319,Submit Purchase Request,2024-03-22 00:00:00,Employee_A,15000,IT
+PO_0319,Manager Review,2024-03-22 02:00:00,Manager_2,15000,IT
+PO_0319,Finance Check,2024-03-22 21:00:00,Finance_Z,15000,IT
+PO_0319,Approve,2024-03-25 04:00:00,Manager_1,15000,IT
+PO_0319,Final Approval,2024-03-25 10:00:00,Director_Alpha,15000,IT
+PO_0319,Send to Vendor,2024-03-26 01:00:00,System,15000,IT
+PO_0320,Submit Purchase Request,2024-04-02 00:00:00,Employee_D,15000,Operations
+PO_0320,Manager Review,2024-04-02 01:00:00,Manager_1,15000,Operations
+PO_0320,Finance Check,2024-04-03 00:00:00,Finance_Y,15000,Operations
+PO_0320,Approve,2024-04-05 13:00:00,Manager_1,15000,Operations
+PO_0320,Final Approval,2024-04-05 17:00:00,Director_Alpha,15000,Operations
+PO_0320,Send to Vendor,2024-04-07 14:00:00,System,15000,Operations
+PO_0321,Submit Purchase Request,2024-01-30 00:00:00,Employee_C,15000,HR
+PO_0321,Manager Review,2024-01-30 01:00:00,Manager_3,15000,HR
+PO_0321,Finance Check,2024-01-30 14:00:00,Finance_Z,15000,HR
+PO_0321,Approve,2024-02-02 11:00:00,Manager_2,15000,HR
+PO_0321,Final Approval,2024-02-02 19:00:00,Director_Alpha,15000,HR
+PO_0321,Send to Vendor,2024-02-03 15:00:00,System,15000,HR
+PO_0322,Submit Purchase Request,2024-05-11 00:00:00,Employee_A,5500,Operations
+PO_0322,Manager Review,2024-05-11 01:00:00,Manager_1,5500,Operations
+PO_0322,Rework Request,2024-05-12 00:00:00,Employee_B,5500,Operations
+PO_0322,Manager Review,2024-05-13 23:00:00,Manager_2,5500,Operations
+PO_0322,Finance Check,2024-05-14 02:00:00,Finance_X,5500,Operations
+PO_0322,Approve,2024-05-17 02:00:00,Manager_3,5500,Operations
+PO_0322,Send to Vendor,2024-05-17 09:00:00,System,5500,Operations
+PO_0323,Submit Purchase Request,2024-01-07 00:00:00,Employee_A,1500,Marketing
+PO_0323,Manager Review,2024-01-07 01:00:00,Manager_1,1500,Marketing
+PO_0323,Approve,2024-01-07 08:00:00,Manager_2,1500,Marketing
+PO_0323,Send to Vendor,2024-01-07 10:00:00,System,1500,Marketing
+PO_0324,Submit Purchase Request,2024-04-14 00:00:00,Employee_D,5500,Operations
+PO_0324,Manager Review,2024-04-14 03:00:00,Manager_1,5500,Operations
+PO_0324,Finance Check,2024-04-14 17:00:00,Finance_Z,5500,Operations
+PO_0324,Approve,2024-04-15 12:00:00,Manager_3,5500,Operations
+PO_0324,Send to Vendor,2024-04-15 13:00:00,System,5500,Operations
+PO_0325,Submit Purchase Request,2024-01-12 00:00:00,Employee_A,1500,Finance
+PO_0325,Manager Review,2024-01-12 03:00:00,Manager_3,1500,Finance
+PO_0325,Reject,2024-01-12 14:00:00,Manager_3,1500,Finance
+PO_0326,Submit Purchase Request,2024-04-22 00:00:00,Employee_A,1500,Operations
+PO_0326,Manager Review,2024-04-22 04:00:00,Manager_1,1500,Operations
+PO_0326,Approve,2024-04-22 23:00:00,Manager_1,1500,Operations
+PO_0326,Send to Vendor,2024-04-23 02:00:00,System,1500,Operations
+PO_0327,Submit Purchase Request,2024-03-16 00:00:00,Employee_C,25000,Finance
+PO_0327,Manager Review,2024-03-16 01:00:00,Manager_3,25000,Finance
+PO_0327,Finance Check,2024-03-16 20:00:00,Finance_X,25000,Finance
+PO_0327,Approve,2024-03-17 15:00:00,Manager_1,25000,Finance
+PO_0327,Final Approval,2024-03-17 16:00:00,Director_Beta,25000,Finance
+PO_0327,Send to Vendor,2024-03-19 04:00:00,System,25000,Finance
+PO_0328,Submit Purchase Request,2024-02-23 00:00:00,Employee_C,1500,Operations
+PO_0328,Manager Review,2024-02-23 02:00:00,Manager_2,1500,Operations
+PO_0328,Approve,2024-02-24 00:00:00,Manager_3,1500,Operations
+PO_0328,Send to Vendor,2024-02-24 03:00:00,System,1500,Operations
+PO_0329,Submit Purchase Request,2024-02-26 00:00:00,Employee_A,3000,Marketing
+PO_0329,Manager Review,2024-02-26 02:00:00,Manager_3,3000,Marketing
+PO_0329,Approve,2024-02-26 22:00:00,Manager_1,3000,Marketing
+PO_0329,Send to Vendor,2024-02-27 06:00:00,System,3000,Marketing
+PO_0330,Submit Purchase Request,2024-06-20 00:00:00,Employee_D,1500,Operations
+PO_0330,Manager Review,2024-06-20 03:00:00,Manager_2,1500,Operations
+PO_0330,Rework Request,2024-06-20 09:00:00,Employee_B,1500,Operations
+PO_0330,Manager Review,2024-06-20 19:00:00,Manager_2,1500,Operations
+PO_0330,Approve,2024-06-21 06:00:00,Manager_1,1500,Operations
+PO_0330,Send to Vendor,2024-06-21 10:00:00,System,1500,Operations
+PO_0331,Submit Purchase Request,2024-04-25 00:00:00,Employee_B,15000,HR
+PO_0331,Manager Review,2024-04-25 03:00:00,Manager_2,15000,HR
+PO_0331,Finance Check,2024-04-25 18:00:00,Finance_X,15000,HR
+PO_0331,Approve,2024-04-25 22:00:00,Manager_2,15000,HR
+PO_0331,Final Approval,2024-04-26 02:00:00,Director_Alpha,15000,HR
+PO_0331,Send to Vendor,2024-04-28 01:00:00,System,15000,HR
+PO_0332,Submit Purchase Request,2024-04-02 00:00:00,Employee_D,25000,Operations
+PO_0332,Manager Review,2024-04-02 04:00:00,Manager_2,25000,Operations
+PO_0332,Rework Request,2024-04-02 17:00:00,Employee_C,25000,Operations
+PO_0332,Manager Review,2024-04-04 04:00:00,Manager_3,25000,Operations
+PO_0332,Finance Check,2024-04-04 07:00:00,Finance_X,25000,Operations
+PO_0332,Approve,2024-04-04 21:00:00,Manager_2,25000,Operations
+PO_0332,Final Approval,2024-04-05 00:00:00,Director_Alpha,25000,Operations
+PO_0332,Send to Vendor,2024-04-05 18:00:00,System,25000,Operations
+PO_0333,Submit Purchase Request,2024-01-05 00:00:00,Employee_D,1500,IT
+PO_0333,Manager Review,2024-01-05 02:00:00,Manager_1,1500,IT
+PO_0333,Approve,2024-01-05 21:00:00,Manager_2,1500,IT
+PO_0333,Send to Vendor,2024-01-06 05:00:00,System,1500,IT
+PO_0334,Submit Purchase Request,2024-04-10 00:00:00,Employee_C,3000,Operations
+PO_0334,Manager Review,2024-04-10 02:00:00,Manager_2,3000,Operations
+PO_0334,Approve,2024-04-10 20:00:00,Manager_3,3000,Operations
+PO_0334,Send to Vendor,2024-04-10 22:00:00,System,3000,Operations
+PO_0335,Submit Purchase Request,2024-05-08 00:00:00,Employee_B,25000,Operations
+PO_0335,Manager Review,2024-05-08 02:00:00,Manager_2,25000,Operations
+PO_0335,Rework Request,2024-05-08 09:00:00,Employee_B,25000,Operations
+PO_0335,Manager Review,2024-05-10 01:00:00,Manager_3,25000,Operations
+PO_0335,Finance Check,2024-05-10 13:00:00,Finance_X,25000,Operations
+PO_0335,Approve,2024-05-13 06:00:00,Manager_2,25000,Operations
+PO_0335,Final Approval,2024-05-13 07:00:00,Director_Alpha,25000,Operations
+PO_0335,Send to Vendor,2024-05-14 16:00:00,System,25000,Operations
+PO_0336,Submit Purchase Request,2024-03-08 00:00:00,Employee_B,5500,IT
+PO_0336,Manager Review,2024-03-08 03:00:00,Manager_2,5500,IT
+PO_0336,Finance Check,2024-03-08 20:00:00,Finance_Y,5500,IT
+PO_0336,Reject,2024-03-09 05:00:00,Manager_1,5500,IT
+PO_0337,Submit Purchase Request,2024-06-29 00:00:00,Employee_C,15000,IT
+PO_0337,Manager Review,2024-06-29 03:00:00,Manager_3,15000,IT
+PO_0337,Finance Check,2024-06-29 22:00:00,Finance_Z,15000,IT
+PO_0337,Approve,2024-07-01 00:00:00,Manager_2,15000,IT
+PO_0337,Final Approval,2024-07-01 07:00:00,Director_Beta,15000,IT
+PO_0337,Send to Vendor,2024-07-02 22:00:00,System,15000,IT
+PO_0338,Submit Purchase Request,2024-03-05 00:00:00,Employee_D,1500,Finance
+PO_0338,Manager Review,2024-03-05 03:00:00,Manager_2,1500,Finance
+PO_0338,Approve,2024-03-05 20:00:00,Manager_2,1500,Finance
+PO_0338,Send to Vendor,2024-03-05 21:00:00,System,1500,Finance
+PO_0339,Submit Purchase Request,2024-02-12 00:00:00,Employee_C,3000,HR
+PO_0339,Manager Review,2024-02-12 02:00:00,Manager_1,3000,HR
+PO_0339,Approve,2024-02-12 09:00:00,Manager_1,3000,HR
+PO_0339,Send to Vendor,2024-02-12 15:00:00,System,3000,HR
+PO_0340,Submit Purchase Request,2024-04-16 00:00:00,Employee_D,1500,Marketing
+PO_0340,Manager Review,2024-04-16 04:00:00,Manager_2,1500,Marketing
+PO_0340,Approve,2024-04-16 12:00:00,Manager_3,1500,Marketing
+PO_0340,Send to Vendor,2024-04-16 15:00:00,System,1500,Marketing
+PO_0341,Submit Purchase Request,2024-03-03 00:00:00,Employee_B,25000,IT
+PO_0341,Manager Review,2024-03-03 02:00:00,Manager_3,25000,IT
+PO_0341,Rework Request,2024-03-03 20:00:00,Employee_A,25000,IT
+PO_0341,Manager Review,2024-03-05 12:00:00,Manager_1,25000,IT
+PO_0341,Finance Check,2024-03-05 14:00:00,Finance_X,25000,IT
+PO_0341,Approve,2024-03-07 03:00:00,Manager_1,25000,IT
+PO_0341,Final Approval,2024-03-07 10:00:00,Director_Alpha,25000,IT
+PO_0341,Send to Vendor,2024-03-09 10:00:00,System,25000,IT
+PO_0342,Submit Purchase Request,2024-02-25 00:00:00,Employee_D,8000,IT
+PO_0342,Manager Review,2024-02-25 02:00:00,Manager_1,8000,IT
+PO_0342,Finance Check,2024-02-25 17:00:00,Finance_Z,8000,IT
+PO_0342,Approve,2024-02-26 15:00:00,Manager_3,8000,IT
+PO_0342,Send to Vendor,2024-02-26 18:00:00,System,8000,IT
+PO_0343,Submit Purchase Request,2024-06-24 00:00:00,Employee_A,8000,Marketing
+PO_0343,Manager Review,2024-06-24 02:00:00,Manager_2,8000,Marketing
+PO_0343,Finance Check,2024-06-24 16:00:00,Finance_X,8000,Marketing
+PO_0343,Approve,2024-06-25 09:00:00,Manager_1,8000,Marketing
+PO_0343,Send to Vendor,2024-06-25 13:00:00,System,8000,Marketing
+PO_0344,Submit Purchase Request,2024-06-04 00:00:00,Employee_A,25000,Marketing
+PO_0344,Manager Review,2024-06-04 01:00:00,Manager_1,25000,Marketing
+PO_0344,Rework Request,2024-06-04 18:00:00,Employee_B,25000,Marketing
+PO_0344,Manager Review,2024-06-06 12:00:00,Manager_3,25000,Marketing
+PO_0344,Finance Check,2024-06-06 14:00:00,Finance_Z,25000,Marketing
+PO_0344,Approve,2024-06-09 01:00:00,Manager_3,25000,Marketing
+PO_0344,Final Approval,2024-06-09 08:00:00,Director_Beta,25000,Marketing
+PO_0344,Send to Vendor,2024-06-09 12:00:00,System,25000,Marketing
+PO_0345,Submit Purchase Request,2024-05-03 00:00:00,Employee_A,25000,Marketing
+PO_0345,Manager Review,2024-05-03 04:00:00,Manager_1,25000,Marketing
+PO_0345,Finance Check,2024-05-03 14:00:00,Finance_Y,25000,Marketing
+PO_0345,Approve,2024-05-04 23:00:00,Manager_1,25000,Marketing
+PO_0345,Final Approval,2024-05-05 04:00:00,Director_Beta,25000,Marketing
+PO_0345,Send to Vendor,2024-05-05 22:00:00,System,25000,Marketing
+PO_0346,Submit Purchase Request,2024-01-02 00:00:00,Employee_A,5500,IT
+PO_0346,Manager Review,2024-01-02 04:00:00,Manager_3,5500,IT
+PO_0346,Finance Check,2024-01-02 12:00:00,Finance_Z,5500,IT
+PO_0346,Approve,2024-01-04 08:00:00,Manager_2,5500,IT
+PO_0346,Send to Vendor,2024-01-04 14:00:00,System,5500,IT
+PO_0347,Submit Purchase Request,2024-04-19 00:00:00,Employee_D,1500,Marketing
+PO_0347,Manager Review,2024-04-19 03:00:00,Manager_3,1500,Marketing
+PO_0347,Approve,2024-04-19 13:00:00,Manager_3,1500,Marketing
+PO_0347,Send to Vendor,2024-04-19 20:00:00,System,1500,Marketing
+PO_0348,Submit Purchase Request,2024-05-21 00:00:00,Employee_C,5500,HR
+PO_0348,Manager Review,2024-05-21 04:00:00,Manager_2,5500,HR
+PO_0348,Finance Check,2024-05-21 15:00:00,Finance_Z,5500,HR
+PO_0348,Approve,2024-05-23 15:00:00,Manager_3,5500,HR
+PO_0348,Send to Vendor,2024-05-23 22:00:00,System,5500,HR
+PO_0349,Submit Purchase Request,2024-02-28 00:00:00,Employee_B,3000,IT
+PO_0349,Manager Review,2024-02-28 01:00:00,Manager_1,3000,IT
+PO_0349,Approve,2024-02-28 19:00:00,Manager_2,3000,IT
+PO_0349,Send to Vendor,2024-02-29 01:00:00,System,3000,IT
+PO_0350,Submit Purchase Request,2024-04-09 00:00:00,Employee_A,500,Marketing
+PO_0350,Manager Review,2024-04-09 02:00:00,Manager_2,500,Marketing
+PO_0350,Reject,2024-04-09 23:00:00,Manager_2,500,Marketing
+PO_0351,Submit Purchase Request,2024-03-08 00:00:00,Employee_A,1500,IT
+PO_0351,Manager Review,2024-03-08 04:00:00,Manager_2,1500,IT
+PO_0351,Approve,2024-03-09 01:00:00,Manager_3,1500,IT
+PO_0351,Send to Vendor,2024-03-09 06:00:00,System,1500,IT
+PO_0352,Submit Purchase Request,2024-06-12 00:00:00,Employee_C,500,Marketing
+PO_0352,Manager Review,2024-06-12 02:00:00,Manager_1,500,Marketing
+PO_0352,Reject,2024-06-12 23:00:00,Manager_3,500,Marketing
+PO_0353,Submit Purchase Request,2024-02-13 00:00:00,Employee_A,5500,Finance
+PO_0353,Manager Review,2024-02-13 02:00:00,Manager_1,5500,Finance
+PO_0353,Finance Check,2024-02-13 12:00:00,Finance_Y,5500,Finance
+PO_0353,Approve,2024-02-15 13:00:00,Manager_3,5500,Finance
+PO_0353,Send to Vendor,2024-02-15 20:00:00,System,5500,Finance
+PO_0354,Submit Purchase Request,2024-02-21 00:00:00,Employee_A,25000,Finance
+PO_0354,Manager Review,2024-02-21 01:00:00,Manager_3,25000,Finance
+PO_0354,Finance Check,2024-02-21 12:00:00,Finance_Z,25000,Finance
+PO_0354,Approve,2024-02-23 12:00:00,Manager_2,25000,Finance
+PO_0354,Final Approval,2024-02-23 17:00:00,Director_Alpha,25000,Finance
+PO_0354,Send to Vendor,2024-02-25 09:00:00,System,25000,Finance
+PO_0355,Submit Purchase Request,2024-04-13 00:00:00,Employee_D,5500,HR
+PO_0355,Manager Review,2024-04-13 01:00:00,Manager_3,5500,HR
+PO_0355,Finance Check,2024-04-13 05:00:00,Finance_Z,5500,HR
+PO_0355,Approve,2024-04-14 22:00:00,Manager_2,5500,HR
+PO_0355,Send to Vendor,2024-04-15 00:00:00,System,5500,HR
+PO_0356,Submit Purchase Request,2024-05-27 00:00:00,Employee_D,8000,Finance
+PO_0356,Manager Review,2024-05-27 04:00:00,Manager_1,8000,Finance
+PO_0356,Finance Check,2024-05-27 16:00:00,Finance_Y,8000,Finance
+PO_0356,Approve,2024-05-30 06:00:00,Manager_3,8000,Finance
+PO_0356,Send to Vendor,2024-05-30 07:00:00,System,8000,Finance
+PO_0357,Submit Purchase Request,2024-03-07 00:00:00,Employee_B,50000,IT
+PO_0357,Manager Review,2024-03-07 02:00:00,Manager_2,50000,IT
+PO_0357,Rework Request,2024-03-07 17:00:00,Employee_C,50000,IT
+PO_0357,Manager Review,2024-03-09 06:00:00,Manager_3,50000,IT
+PO_0357,Finance Check,2024-03-09 08:00:00,Finance_Z,50000,IT
+PO_0357,Approve,2024-03-10 21:00:00,Manager_1,50000,IT
+PO_0357,Final Approval,2024-03-11 02:00:00,Director_Alpha,50000,IT
+PO_0357,Send to Vendor,2024-03-12 05:00:00,System,50000,IT
+PO_0358,Submit Purchase Request,2024-05-21 00:00:00,Employee_C,15000,IT
+PO_0358,Manager Review,2024-05-21 02:00:00,Manager_3,15000,IT
+PO_0358,Finance Check,2024-05-21 12:00:00,Finance_X,15000,IT
+PO_0358,Approve,2024-05-22 16:00:00,Manager_2,15000,IT
+PO_0358,Final Approval,2024-05-22 20:00:00,Director_Alpha,15000,IT
+PO_0358,Send to Vendor,2024-05-23 13:00:00,System,15000,IT
+PO_0359,Submit Purchase Request,2024-02-28 00:00:00,Employee_C,8000,Marketing
+PO_0359,Manager Review,2024-02-28 02:00:00,Manager_1,8000,Marketing
+PO_0359,Finance Check,2024-02-28 07:00:00,Finance_X,8000,Marketing
+PO_0359,Approve,2024-03-02 02:00:00,Manager_3,8000,Marketing
+PO_0359,Send to Vendor,2024-03-02 03:00:00,System,8000,Marketing
+PO_0360,Submit Purchase Request,2024-04-05 00:00:00,Employee_C,500,HR
+PO_0360,Manager Review,2024-04-05 04:00:00,Manager_1,500,HR
+PO_0360,Approve,2024-04-05 22:00:00,Manager_2,500,HR
+PO_0360,Send to Vendor,2024-04-06 05:00:00,System,500,HR
+PO_0361,Submit Purchase Request,2024-02-02 00:00:00,Employee_D,5500,Finance
+PO_0361,Manager Review,2024-02-02 01:00:00,Manager_3,5500,Finance
+PO_0361,Rework Request,2024-02-02 14:00:00,Employee_D,5500,Finance
+PO_0361,Manager Review,2024-02-04 13:00:00,Manager_1,5500,Finance
+PO_0361,Finance Check,2024-02-04 22:00:00,Finance_X,5500,Finance
+PO_0361,Approve,2024-02-07 20:00:00,Manager_2,5500,Finance
+PO_0361,Send to Vendor,2024-02-08 02:00:00,System,5500,Finance
+PO_0362,Submit Purchase Request,2024-06-21 00:00:00,Employee_C,500,IT
+PO_0362,Manager Review,2024-06-21 03:00:00,Manager_3,500,IT
+PO_0362,Approve,2024-06-21 13:00:00,Manager_1,500,IT
+PO_0362,Send to Vendor,2024-06-21 18:00:00,System,500,IT
+PO_0363,Submit Purchase Request,2024-04-30 00:00:00,Employee_B,5500,Operations
+PO_0363,Manager Review,2024-04-30 04:00:00,Manager_2,5500,Operations
+PO_0363,Finance Check,2024-04-30 12:00:00,Finance_Y,5500,Operations
+PO_0363,Approve,2024-05-02 15:00:00,Manager_2,5500,Operations
+PO_0363,Send to Vendor,2024-05-02 22:00:00,System,5500,Operations
+PO_0364,Submit Purchase Request,2024-02-16 00:00:00,Employee_B,8000,HR
+PO_0364,Manager Review,2024-02-16 01:00:00,Manager_3,8000,HR
+PO_0364,Finance Check,2024-02-16 11:00:00,Finance_X,8000,HR
+PO_0364,Approve,2024-02-18 22:00:00,Manager_2,8000,HR
+PO_0364,Send to Vendor,2024-02-19 02:00:00,System,8000,HR
+PO_0365,Submit Purchase Request,2024-05-01 00:00:00,Employee_D,3000,Marketing
+PO_0365,Manager Review,2024-05-01 02:00:00,Manager_3,3000,Marketing
+PO_0365,Approve,2024-05-01 20:00:00,Manager_3,3000,Marketing
+PO_0365,Send to Vendor,2024-05-02 02:00:00,System,3000,Marketing
+PO_0366,Submit Purchase Request,2024-03-05 00:00:00,Employee_D,50000,Operations
+PO_0366,Manager Review,2024-03-05 01:00:00,Manager_3,50000,Operations
+PO_0366,Finance Check,2024-03-05 08:00:00,Finance_X,50000,Operations
+PO_0366,Approve,2024-03-06 15:00:00,Manager_2,50000,Operations
+PO_0366,Final Approval,2024-03-06 23:00:00,Director_Alpha,50000,Operations
+PO_0366,Send to Vendor,2024-03-08 05:00:00,System,50000,Operations
+PO_0367,Submit Purchase Request,2024-04-02 00:00:00,Employee_C,15000,Operations
+PO_0367,Manager Review,2024-04-02 03:00:00,Manager_1,15000,Operations
+PO_0367,Finance Check,2024-04-02 18:00:00,Finance_X,15000,Operations
+PO_0367,Approve,2024-04-04 18:00:00,Manager_3,15000,Operations
+PO_0367,Final Approval,2024-04-04 22:00:00,Director_Alpha,15000,Operations
+PO_0367,Send to Vendor,2024-04-05 18:00:00,System,15000,Operations
+PO_0368,Submit Purchase Request,2024-06-21 00:00:00,Employee_D,15000,Operations
+PO_0368,Manager Review,2024-06-21 01:00:00,Manager_2,15000,Operations
+PO_0368,Finance Check,2024-06-21 22:00:00,Finance_Y,15000,Operations
+PO_0368,Approve,2024-06-24 13:00:00,Manager_3,15000,Operations
+PO_0368,Final Approval,2024-06-24 16:00:00,Director_Alpha,15000,Operations
+PO_0368,Send to Vendor,2024-06-26 10:00:00,System,15000,Operations
+PO_0369,Submit Purchase Request,2024-06-10 00:00:00,Employee_A,15000,HR
+PO_0369,Manager Review,2024-06-10 01:00:00,Manager_1,15000,HR
+PO_0369,Finance Check,2024-06-10 13:00:00,Finance_X,15000,HR
+PO_0369,Approve,2024-06-12 09:00:00,Manager_2,15000,HR
+PO_0369,Final Approval,2024-06-12 14:00:00,Director_Beta,15000,HR
+PO_0369,Send to Vendor,2024-06-14 06:00:00,System,15000,HR
+PO_0370,Submit Purchase Request,2024-04-23 00:00:00,Employee_D,25000,Operations
+PO_0370,Manager Review,2024-04-23 04:00:00,Manager_1,25000,Operations
+PO_0370,Finance Check,2024-04-23 11:00:00,Finance_X,25000,Operations
+PO_0370,Approve,2024-04-24 07:00:00,Manager_3,25000,Operations
+PO_0370,Final Approval,2024-04-24 11:00:00,Director_Beta,25000,Operations
+PO_0370,Send to Vendor,2024-04-26 09:00:00,System,25000,Operations
+PO_0371,Submit Purchase Request,2024-02-12 00:00:00,Employee_D,1500,Marketing
+PO_0371,Manager Review,2024-02-12 01:00:00,Manager_1,1500,Marketing
+PO_0371,Approve,2024-02-12 15:00:00,Manager_3,1500,Marketing
+PO_0371,Send to Vendor,2024-02-12 17:00:00,System,1500,Marketing
+PO_0372,Submit Purchase Request,2024-06-07 00:00:00,Employee_D,1500,Operations
+PO_0372,Manager Review,2024-06-07 03:00:00,Manager_1,1500,Operations
+PO_0372,Approve,2024-06-07 12:00:00,Manager_3,1500,Operations
+PO_0372,Send to Vendor,2024-06-07 17:00:00,System,1500,Operations
+PO_0373,Submit Purchase Request,2024-02-03 00:00:00,Employee_A,50000,Marketing
+PO_0373,Manager Review,2024-02-03 03:00:00,Manager_2,50000,Marketing
+PO_0373,Finance Check,2024-02-03 20:00:00,Finance_Y,50000,Marketing
+PO_0373,Approve,2024-02-05 10:00:00,Manager_3,50000,Marketing
+PO_0373,Final Approval,2024-02-05 18:00:00,Director_Alpha,50000,Marketing
+PO_0373,Send to Vendor,2024-02-07 16:00:00,System,50000,Marketing
+PO_0374,Submit Purchase Request,2024-06-01 00:00:00,Employee_D,3000,Finance
+PO_0374,Manager Review,2024-06-01 03:00:00,Manager_2,3000,Finance
+PO_0374,Approve,2024-06-01 20:00:00,Manager_3,3000,Finance
+PO_0374,Send to Vendor,2024-06-02 00:00:00,System,3000,Finance
+PO_0375,Submit Purchase Request,2024-03-19 00:00:00,Employee_C,1500,HR
+PO_0375,Manager Review,2024-03-19 01:00:00,Manager_1,1500,HR
+PO_0375,Approve,2024-03-19 19:00:00,Manager_1,1500,HR
+PO_0375,Send to Vendor,2024-03-20 01:00:00,System,1500,HR
+PO_0376,Submit Purchase Request,2024-05-16 00:00:00,Employee_D,8000,HR
+PO_0376,Manager Review,2024-05-16 03:00:00,Manager_1,8000,HR
+PO_0376,Rework Request,2024-05-16 18:00:00,Employee_C,8000,HR
+PO_0376,Manager Review,2024-05-18 12:00:00,Manager_1,8000,HR
+PO_0376,Finance Check,2024-05-18 14:00:00,Finance_Z,8000,HR
+PO_0376,Approve,2024-05-20 17:00:00,Manager_1,8000,HR
+PO_0376,Send to Vendor,2024-05-21 00:00:00,System,8000,HR
+PO_0377,Submit Purchase Request,2024-03-04 00:00:00,Employee_D,25000,HR
+PO_0377,Manager Review,2024-03-04 04:00:00,Manager_1,25000,HR
+PO_0377,Finance Check,2024-03-04 14:00:00,Finance_X,25000,HR
+PO_0377,Approve,2024-03-07 00:00:00,Manager_3,25000,HR
+PO_0377,Final Approval,2024-03-07 04:00:00,Director_Beta,25000,HR
+PO_0377,Send to Vendor,2024-03-08 00:00:00,System,25000,HR
+PO_0378,Submit Purchase Request,2024-02-18 00:00:00,Employee_C,8000,HR
+PO_0378,Manager Review,2024-02-18 01:00:00,Manager_3,8000,HR
+PO_0378,Finance Check,2024-02-18 17:00:00,Finance_Z,8000,HR
+PO_0378,Approve,2024-02-21 06:00:00,Manager_2,8000,HR
+PO_0378,Send to Vendor,2024-02-21 14:00:00,System,8000,HR
+PO_0379,Submit Purchase Request,2024-01-05 00:00:00,Employee_A,5500,Operations
+PO_0379,Manager Review,2024-01-05 02:00:00,Manager_1,5500,Operations
+PO_0379,Finance Check,2024-01-05 13:00:00,Finance_Y,5500,Operations
+PO_0379,Approve,2024-01-06 09:00:00,Manager_3,5500,Operations
+PO_0379,Send to Vendor,2024-01-06 17:00:00,System,5500,Operations
+PO_0380,Submit Purchase Request,2024-01-24 00:00:00,Employee_C,500,Marketing
+PO_0380,Manager Review,2024-01-24 04:00:00,Manager_2,500,Marketing
+PO_0380,Approve,2024-01-24 21:00:00,Manager_2,500,Marketing
+PO_0380,Send to Vendor,2024-01-25 05:00:00,System,500,Marketing
+PO_0381,Submit Purchase Request,2024-01-21 00:00:00,Employee_A,500,Operations
+PO_0381,Manager Review,2024-01-21 03:00:00,Manager_2,500,Operations
+PO_0381,Approve,2024-01-21 07:00:00,Manager_3,500,Operations
+PO_0381,Send to Vendor,2024-01-21 15:00:00,System,500,Operations
+PO_0382,Submit Purchase Request,2024-03-05 00:00:00,Employee_A,3000,Marketing
+PO_0382,Manager Review,2024-03-05 02:00:00,Manager_2,3000,Marketing
+PO_0382,Approve,2024-03-05 18:00:00,Manager_1,3000,Marketing
+PO_0382,Send to Vendor,2024-03-05 19:00:00,System,3000,Marketing
+PO_0383,Submit Purchase Request,2024-01-25 00:00:00,Employee_D,5500,HR
+PO_0383,Manager Review,2024-01-25 04:00:00,Manager_3,5500,HR
+PO_0383,Finance Check,2024-01-25 15:00:00,Finance_Y,5500,HR
+PO_0383,Approve,2024-01-26 15:00:00,Manager_3,5500,HR
+PO_0383,Send to Vendor,2024-01-26 16:00:00,System,5500,HR
+PO_0384,Submit Purchase Request,2024-05-03 00:00:00,Employee_A,1500,Operations
+PO_0384,Manager Review,2024-05-03 02:00:00,Manager_1,1500,Operations
+PO_0384,Approve,2024-05-03 11:00:00,Manager_3,1500,Operations
+PO_0384,Send to Vendor,2024-05-03 18:00:00,System,1500,Operations
+PO_0385,Submit Purchase Request,2024-02-12 00:00:00,Employee_D,15000,IT
+PO_0385,Manager Review,2024-02-12 02:00:00,Manager_1,15000,IT
+PO_0385,Finance Check,2024-02-12 05:00:00,Finance_Z,15000,IT
+PO_0385,Approve,2024-02-14 21:00:00,Manager_3,15000,IT
+PO_0385,Final Approval,2024-02-15 00:00:00,Director_Beta,15000,IT
+PO_0385,Send to Vendor,2024-02-15 07:00:00,System,15000,IT
+PO_0386,Submit Purchase Request,2024-05-07 00:00:00,Employee_A,5500,Marketing
+PO_0386,Manager Review,2024-05-07 01:00:00,Manager_2,5500,Marketing
+PO_0386,Rework Request,2024-05-07 23:00:00,Employee_B,5500,Marketing
+PO_0386,Manager Review,2024-05-09 23:00:00,Manager_3,5500,Marketing
+PO_0386,Finance Check,2024-05-10 02:00:00,Finance_X,5500,Marketing
+PO_0386,Approve,2024-05-12 20:00:00,Manager_1,5500,Marketing
+PO_0386,Send to Vendor,2024-05-13 02:00:00,System,5500,Marketing
+PO_0387,Submit Purchase Request,2024-02-19 00:00:00,Employee_B,15000,HR
+PO_0387,Manager Review,2024-02-19 03:00:00,Manager_1,15000,HR
+PO_0387,Rework Request,2024-02-19 20:00:00,Employee_D,15000,HR
+PO_0387,Manager Review,2024-02-21 11:00:00,Manager_2,15000,HR
+PO_0387,Finance Check,2024-02-21 21:00:00,Finance_Z,15000,HR
+PO_0387,Approve,2024-02-24 15:00:00,Manager_1,15000,HR
+PO_0387,Final Approval,2024-02-24 18:00:00,Director_Beta,15000,HR
+PO_0387,Send to Vendor,2024-02-25 16:00:00,System,15000,HR
+PO_0388,Submit Purchase Request,2024-06-02 00:00:00,Employee_A,50000,Operations
+PO_0388,Manager Review,2024-06-02 02:00:00,Manager_2,50000,Operations
+PO_0388,Finance Check,2024-06-02 13:00:00,Finance_Y,50000,Operations
+PO_0388,Approve,2024-06-04 15:00:00,Manager_2,50000,Operations
+PO_0388,Final Approval,2024-06-04 16:00:00,Director_Beta,50000,Operations
+PO_0388,Send to Vendor,2024-06-06 16:00:00,System,50000,Operations
+PO_0389,Submit Purchase Request,2024-06-07 00:00:00,Employee_B,3000,IT
+PO_0389,Manager Review,2024-06-07 03:00:00,Manager_3,3000,IT
+PO_0389,Approve,2024-06-07 07:00:00,Manager_3,3000,IT
+PO_0389,Send to Vendor,2024-06-07 14:00:00,System,3000,IT
+PO_0390,Submit Purchase Request,2024-06-23 00:00:00,Employee_C,5500,Finance
+PO_0390,Manager Review,2024-06-23 03:00:00,Manager_2,5500,Finance
+PO_0390,Finance Check,2024-06-24 01:00:00,Finance_Y,5500,Finance
+PO_0390,Approve,2024-06-24 19:00:00,Manager_1,5500,Finance
+PO_0390,Send to Vendor,2024-06-24 21:00:00,System,5500,Finance
+PO_0391,Submit Purchase Request,2024-02-15 00:00:00,Employee_D,500,Marketing
+PO_0391,Manager Review,2024-02-15 02:00:00,Manager_1,500,Marketing
+PO_0391,Approve,2024-02-15 05:00:00,Manager_3,500,Marketing
+PO_0391,Send to Vendor,2024-02-15 12:00:00,System,500,Marketing
+PO_0392,Submit Purchase Request,2024-06-08 00:00:00,Employee_C,50000,Finance
+PO_0392,Manager Review,2024-06-08 02:00:00,Manager_3,50000,Finance
+PO_0392,Finance Check,2024-06-09 02:00:00,Finance_X,50000,Finance
+PO_0392,Approve,2024-06-09 07:00:00,Manager_1,50000,Finance
+PO_0392,Final Approval,2024-06-09 15:00:00,Director_Alpha,50000,Finance
+PO_0392,Send to Vendor,2024-06-10 22:00:00,System,50000,Finance
+PO_0393,Submit Purchase Request,2024-05-22 00:00:00,Employee_C,500,Operations
+PO_0393,Manager Review,2024-05-22 01:00:00,Manager_3,500,Operations
+PO_0393,Approve,2024-05-22 11:00:00,Manager_3,500,Operations
+PO_0393,Send to Vendor,2024-05-22 12:00:00,System,500,Operations
+PO_0394,Submit Purchase Request,2024-01-20 00:00:00,Employee_A,1500,Operations
+PO_0394,Manager Review,2024-01-20 01:00:00,Manager_3,1500,Operations
+PO_0394,Approve,2024-01-20 10:00:00,Manager_3,1500,Operations
+PO_0394,Send to Vendor,2024-01-20 17:00:00,System,1500,Operations
+PO_0395,Submit Purchase Request,2024-05-14 00:00:00,Employee_B,5500,Marketing
+PO_0395,Manager Review,2024-05-14 04:00:00,Manager_3,5500,Marketing
+PO_0395,Finance Check,2024-05-14 09:00:00,Finance_Z,5500,Marketing
+PO_0395,Approve,2024-05-16 10:00:00,Manager_3,5500,Marketing
+PO_0395,Send to Vendor,2024-05-16 18:00:00,System,5500,Marketing
+PO_0396,Submit Purchase Request,2024-02-12 00:00:00,Employee_C,25000,IT
+PO_0396,Manager Review,2024-02-12 02:00:00,Manager_3,25000,IT
+PO_0396,Finance Check,2024-02-12 23:00:00,Finance_Y,25000,IT
+PO_0396,Approve,2024-02-15 00:00:00,Manager_2,25000,IT
+PO_0396,Final Approval,2024-02-15 06:00:00,Director_Beta,25000,IT
+PO_0396,Send to Vendor,2024-02-16 10:00:00,System,25000,IT
+PO_0397,Submit Purchase Request,2024-06-04 00:00:00,Employee_D,25000,Operations
+PO_0397,Manager Review,2024-06-04 03:00:00,Manager_2,25000,Operations
+PO_0397,Finance Check,2024-06-04 19:00:00,Finance_Y,25000,Operations
+PO_0397,Approve,2024-06-07 01:00:00,Manager_1,25000,Operations
+PO_0397,Final Approval,2024-06-07 02:00:00,Director_Beta,25000,Operations
+PO_0397,Send to Vendor,2024-06-08 18:00:00,System,25000,Operations
+PO_0398,Submit Purchase Request,2024-02-04 00:00:00,Employee_C,500,Finance
+PO_0398,Manager Review,2024-02-04 02:00:00,Manager_1,500,Finance
+PO_0398,Approve,2024-02-04 14:00:00,Manager_1,500,Finance
+PO_0398,Send to Vendor,2024-02-04 19:00:00,System,500,Finance
+PO_0399,Submit Purchase Request,2024-01-10 00:00:00,Employee_C,3000,IT
+PO_0399,Manager Review,2024-01-10 03:00:00,Manager_3,3000,IT
+PO_0399,Approve,2024-01-10 12:00:00,Manager_1,3000,IT
+PO_0399,Send to Vendor,2024-01-10 17:00:00,System,3000,IT
+PO_0400,Submit Purchase Request,2024-05-26 00:00:00,Employee_A,8000,IT
+PO_0400,Manager Review,2024-05-26 03:00:00,Manager_2,8000,IT
+PO_0400,Finance Check,2024-05-26 10:00:00,Finance_Y,8000,IT
+PO_0400,Approve,2024-05-27 02:00:00,Manager_3,8000,IT
+PO_0400,Send to Vendor,2024-05-27 07:00:00,System,8000,IT
+PO_0401,Submit Purchase Request,2024-04-07 00:00:00,Employee_C,500,Finance
+PO_0401,Manager Review,2024-04-07 03:00:00,Manager_2,500,Finance
+PO_0401,Rework Request,2024-04-07 18:00:00,Employee_A,500,Finance
+PO_0401,Manager Review,2024-04-08 12:00:00,Manager_3,500,Finance
+PO_0401,Reject,2024-04-09 00:00:00,Manager_3,500,Finance
+PO_0402,Submit Purchase Request,2024-01-14 00:00:00,Employee_B,500,HR
+PO_0402,Manager Review,2024-01-14 03:00:00,Manager_3,500,HR
+PO_0402,Reject,2024-01-15 03:00:00,Manager_1,500,HR
+PO_0403,Submit Purchase Request,2024-06-21 00:00:00,Employee_D,3000,IT
+PO_0403,Manager Review,2024-06-21 01:00:00,Manager_1,3000,IT
+PO_0403,Approve,2024-06-21 16:00:00,Manager_2,3000,IT
+PO_0403,Send to Vendor,2024-06-21 23:00:00,System,3000,IT
+PO_0404,Submit Purchase Request,2024-03-27 00:00:00,Employee_A,3000,Marketing
+PO_0404,Manager Review,2024-03-27 04:00:00,Manager_2,3000,Marketing
+PO_0404,Rework Request,2024-03-27 08:00:00,Employee_D,3000,Marketing
+PO_0404,Manager Review,2024-03-28 20:00:00,Manager_2,3000,Marketing
+PO_0404,Approve,2024-03-29 00:00:00,Manager_1,3000,Marketing
+PO_0404,Send to Vendor,2024-03-29 08:00:00,System,3000,Marketing
+PO_0405,Submit Purchase Request,2024-04-11 00:00:00,Employee_B,5500,HR
+PO_0405,Manager Review,2024-04-11 02:00:00,Manager_1,5500,HR
+PO_0405,Finance Check,2024-04-11 12:00:00,Finance_Y,5500,HR
+PO_0405,Approve,2024-04-13 09:00:00,Manager_3,5500,HR
+PO_0405,Send to Vendor,2024-04-13 11:00:00,System,5500,HR
+PO_0406,Submit Purchase Request,2024-04-18 00:00:00,Employee_C,1500,HR
+PO_0406,Manager Review,2024-04-18 01:00:00,Manager_2,1500,HR
+PO_0406,Approve,2024-04-18 08:00:00,Manager_2,1500,HR
+PO_0406,Send to Vendor,2024-04-18 16:00:00,System,1500,HR
+PO_0407,Submit Purchase Request,2024-01-12 00:00:00,Employee_C,3000,HR
+PO_0407,Manager Review,2024-01-12 02:00:00,Manager_3,3000,HR
+PO_0407,Approve,2024-01-12 06:00:00,Manager_1,3000,HR
+PO_0407,Send to Vendor,2024-01-12 07:00:00,System,3000,HR
+PO_0408,Submit Purchase Request,2024-02-07 00:00:00,Employee_A,5500,Finance
+PO_0408,Manager Review,2024-02-07 03:00:00,Manager_3,5500,Finance
+PO_0408,Finance Check,2024-02-07 08:00:00,Finance_Y,5500,Finance
+PO_0408,Approve,2024-02-09 21:00:00,Manager_2,5500,Finance
+PO_0408,Send to Vendor,2024-02-09 22:00:00,System,5500,Finance
+PO_0409,Submit Purchase Request,2024-05-17 00:00:00,Employee_C,15000,Marketing
+PO_0409,Manager Review,2024-05-17 04:00:00,Manager_3,15000,Marketing
+PO_0409,Finance Check,2024-05-17 10:00:00,Finance_Z,15000,Marketing
+PO_0409,Approve,2024-05-17 16:00:00,Manager_2,15000,Marketing
+PO_0409,Final Approval,2024-05-17 17:00:00,Director_Beta,15000,Marketing
+PO_0409,Send to Vendor,2024-05-18 05:00:00,System,15000,Marketing
+PO_0410,Submit Purchase Request,2024-02-21 00:00:00,Employee_A,500,Operations
+PO_0410,Manager Review,2024-02-21 04:00:00,Manager_3,500,Operations
+PO_0410,Approve,2024-02-21 06:00:00,Manager_1,500,Operations
+PO_0410,Send to Vendor,2024-02-21 13:00:00,System,500,Operations
+PO_0411,Submit Purchase Request,2024-01-28 00:00:00,Employee_D,8000,Operations
+PO_0411,Manager Review,2024-01-28 02:00:00,Manager_2,8000,Operations
+PO_0411,Rework Request,2024-01-28 20:00:00,Employee_A,8000,Operations
+PO_0411,Manager Review,2024-01-29 20:00:00,Manager_2,8000,Operations
+PO_0411,Finance Check,2024-01-30 07:00:00,Finance_Z,8000,Operations
+PO_0411,Approve,2024-01-30 22:00:00,Manager_1,8000,Operations
+PO_0411,Send to Vendor,2024-01-31 02:00:00,System,8000,Operations
+PO_0412,Submit Purchase Request,2024-01-06 00:00:00,Employee_C,50000,Finance
+PO_0412,Manager Review,2024-01-06 03:00:00,Manager_2,50000,Finance
+PO_0412,Rework Request,2024-01-06 17:00:00,Employee_B,50000,Finance
+PO_0412,Manager Review,2024-01-06 22:00:00,Manager_2,50000,Finance
+PO_0412,Finance Check,2024-01-07 10:00:00,Finance_Y,50000,Finance
+PO_0412,Approve,2024-01-09 11:00:00,Manager_3,50000,Finance
+PO_0412,Final Approval,2024-01-09 16:00:00,Director_Alpha,50000,Finance
+PO_0412,Send to Vendor,2024-01-11 02:00:00,System,50000,Finance
+PO_0413,Submit Purchase Request,2024-06-09 00:00:00,Employee_A,8000,IT
+PO_0413,Manager Review,2024-06-09 03:00:00,Manager_1,8000,IT
+PO_0413,Finance Check,2024-06-09 09:00:00,Finance_Y,8000,IT
+PO_0413,Approve,2024-06-11 15:00:00,Manager_3,8000,IT
+PO_0413,Send to Vendor,2024-06-11 18:00:00,System,8000,IT
+PO_0414,Submit Purchase Request,2024-05-13 00:00:00,Employee_B,1500,HR
+PO_0414,Manager Review,2024-05-13 04:00:00,Manager_1,1500,HR
+PO_0414,Approve,2024-05-14 00:00:00,Manager_1,1500,HR
+PO_0414,Send to Vendor,2024-05-14 07:00:00,System,1500,HR
+PO_0415,Submit Purchase Request,2024-03-25 00:00:00,Employee_B,8000,Finance
+PO_0415,Manager Review,2024-03-25 02:00:00,Manager_1,8000,Finance
+PO_0415,Finance Check,2024-03-25 13:00:00,Finance_Z,8000,Finance
+PO_0415,Approve,2024-03-28 12:00:00,Manager_1,8000,Finance
+PO_0415,Send to Vendor,2024-03-28 19:00:00,System,8000,Finance
+PO_0416,Submit Purchase Request,2024-02-10 00:00:00,Employee_A,3000,Finance
+PO_0416,Manager Review,2024-02-10 02:00:00,Manager_2,3000,Finance
+PO_0416,Approve,2024-02-10 08:00:00,Manager_3,3000,Finance
+PO_0416,Send to Vendor,2024-02-10 09:00:00,System,3000,Finance
+PO_0417,Submit Purchase Request,2024-04-15 00:00:00,Employee_C,15000,HR
+PO_0417,Manager Review,2024-04-15 02:00:00,Manager_1,15000,HR
+PO_0417,Finance Check,2024-04-15 07:00:00,Finance_X,15000,HR
+PO_0417,Approve,2024-04-16 10:00:00,Manager_1,15000,HR
+PO_0417,Final Approval,2024-04-16 15:00:00,Director_Alpha,15000,HR
+PO_0417,Send to Vendor,2024-04-18 07:00:00,System,15000,HR
+PO_0418,Submit Purchase Request,2024-06-24 00:00:00,Employee_D,5500,Marketing
+PO_0418,Manager Review,2024-06-24 02:00:00,Manager_3,5500,Marketing
+PO_0418,Rework Request,2024-06-24 23:00:00,Employee_D,5500,Marketing
+PO_0418,Manager Review,2024-06-26 20:00:00,Manager_2,5500,Marketing
+PO_0418,Finance Check,2024-06-27 00:00:00,Finance_Y,5500,Marketing
+PO_0418,Reject,2024-06-29 18:00:00,Manager_2,5500,Marketing
+PO_0419,Submit Purchase Request,2024-02-19 00:00:00,Employee_A,3000,Marketing
+PO_0419,Manager Review,2024-02-19 03:00:00,Manager_2,3000,Marketing
+PO_0419,Approve,2024-02-19 12:00:00,Manager_3,3000,Marketing
+PO_0419,Send to Vendor,2024-02-19 16:00:00,System,3000,Marketing
+PO_0420,Submit Purchase Request,2024-02-15 00:00:00,Employee_D,5500,IT
+PO_0420,Manager Review,2024-02-15 03:00:00,Manager_2,5500,IT
+PO_0420,Finance Check,2024-02-15 12:00:00,Finance_Y,5500,IT
+PO_0420,Approve,2024-02-17 19:00:00,Manager_1,5500,IT
+PO_0420,Send to Vendor,2024-02-18 02:00:00,System,5500,IT
+PO_0421,Submit Purchase Request,2024-06-05 00:00:00,Employee_A,15000,HR
+PO_0421,Manager Review,2024-06-05 01:00:00,Manager_2,15000,HR
+PO_0421,Finance Check,2024-06-05 17:00:00,Finance_X,15000,HR
+PO_0421,Approve,2024-06-07 04:00:00,Manager_3,15000,HR
+PO_0421,Final Approval,2024-06-07 11:00:00,Director_Alpha,15000,HR
+PO_0421,Send to Vendor,2024-06-09 00:00:00,System,15000,HR
+PO_0422,Submit Purchase Request,2024-06-10 00:00:00,Employee_D,25000,Finance
+PO_0422,Manager Review,2024-06-10 04:00:00,Manager_2,25000,Finance
+PO_0422,Finance Check,2024-06-10 15:00:00,Finance_Y,25000,Finance
+PO_0422,Approve,2024-06-11 16:00:00,Manager_2,25000,Finance
+PO_0422,Final Approval,2024-06-11 21:00:00,Director_Alpha,25000,Finance
+PO_0422,Send to Vendor,2024-06-13 19:00:00,System,25000,Finance
+PO_0423,Submit Purchase Request,2024-06-14 00:00:00,Employee_A,3000,HR
+PO_0423,Manager Review,2024-06-14 02:00:00,Manager_3,3000,HR
+PO_0423,Approve,2024-06-15 02:00:00,Manager_3,3000,HR
+PO_0423,Send to Vendor,2024-06-15 05:00:00,System,3000,HR
+PO_0424,Submit Purchase Request,2024-03-23 00:00:00,Employee_B,25000,HR
+PO_0424,Manager Review,2024-03-23 04:00:00,Manager_1,25000,HR
+PO_0424,Finance Check,2024-03-23 14:00:00,Finance_Y,25000,HR
+PO_0424,Approve,2024-03-24 14:00:00,Manager_3,25000,HR
+PO_0424,Final Approval,2024-03-24 16:00:00,Director_Alpha,25000,HR
+PO_0424,Send to Vendor,2024-03-25 01:00:00,System,25000,HR
+PO_0425,Submit Purchase Request,2024-01-22 00:00:00,Employee_B,50000,Operations
+PO_0425,Manager Review,2024-01-22 04:00:00,Manager_3,50000,Operations
+PO_0425,Finance Check,2024-01-22 18:00:00,Finance_X,50000,Operations
+PO_0425,Approve,2024-01-23 19:00:00,Manager_2,50000,Operations
+PO_0425,Final Approval,2024-01-23 22:00:00,Director_Alpha,50000,Operations
+PO_0425,Send to Vendor,2024-01-24 09:00:00,System,50000,Operations
+PO_0426,Submit Purchase Request,2024-04-17 00:00:00,Employee_D,3000,IT
+PO_0426,Manager Review,2024-04-17 03:00:00,Manager_3,3000,IT
+PO_0426,Approve,2024-04-17 10:00:00,Manager_1,3000,IT
+PO_0426,Send to Vendor,2024-04-17 13:00:00,System,3000,IT
+PO_0427,Submit Purchase Request,2024-06-08 00:00:00,Employee_D,5500,IT
+PO_0427,Manager Review,2024-06-08 04:00:00,Manager_3,5500,IT
+PO_0427,Finance Check,2024-06-08 06:00:00,Finance_Z,5500,IT
+PO_0427,Reject,2024-06-11 01:00:00,Manager_1,5500,IT
+PO_0428,Submit Purchase Request,2024-06-17 00:00:00,Employee_A,5500,Finance
+PO_0428,Manager Review,2024-06-17 01:00:00,Manager_1,5500,Finance
+PO_0428,Finance Check,2024-06-17 20:00:00,Finance_Y,5500,Finance
+PO_0428,Approve,2024-06-19 02:00:00,Manager_1,5500,Finance
+PO_0428,Send to Vendor,2024-06-19 05:00:00,System,5500,Finance
+PO_0429,Submit Purchase Request,2024-06-16 00:00:00,Employee_A,3000,IT
+PO_0429,Manager Review,2024-06-16 03:00:00,Manager_2,3000,IT
+PO_0429,Approve,2024-06-16 07:00:00,Manager_1,3000,IT
+PO_0429,Send to Vendor,2024-06-16 09:00:00,System,3000,IT
+PO_0430,Submit Purchase Request,2024-02-11 00:00:00,Employee_B,25000,Marketing
+PO_0430,Manager Review,2024-02-11 04:00:00,Manager_3,25000,Marketing
+PO_0430,Finance Check,2024-02-12 00:00:00,Finance_Y,25000,Marketing
+PO_0430,Approve,2024-02-12 08:00:00,Manager_1,25000,Marketing
+PO_0430,Final Approval,2024-02-12 13:00:00,Director_Beta,25000,Marketing
+PO_0430,Send to Vendor,2024-02-13 14:00:00,System,25000,Marketing
+PO_0431,Submit Purchase Request,2024-04-19 00:00:00,Employee_D,25000,IT
+PO_0431,Manager Review,2024-04-19 02:00:00,Manager_1,25000,IT
+PO_0431,Finance Check,2024-04-20 02:00:00,Finance_Y,25000,IT
+PO_0431,Reject,2024-04-22 00:00:00,Manager_3,25000,IT
+PO_0432,Submit Purchase Request,2024-02-23 00:00:00,Employee_A,25000,Finance
+PO_0432,Manager Review,2024-02-23 01:00:00,Manager_2,25000,Finance
+PO_0432,Finance Check,2024-02-24 01:00:00,Finance_Z,25000,Finance
+PO_0432,Approve,2024-02-25 17:00:00,Manager_2,25000,Finance
+PO_0432,Final Approval,2024-02-25 23:00:00,Director_Beta,25000,Finance
+PO_0432,Send to Vendor,2024-02-27 10:00:00,System,25000,Finance
+PO_0433,Submit Purchase Request,2024-06-06 00:00:00,Employee_D,15000,Marketing
+PO_0433,Manager Review,2024-06-06 04:00:00,Manager_1,15000,Marketing
+PO_0433,Finance Check,2024-06-07 01:00:00,Finance_X,15000,Marketing
+PO_0433,Approve,2024-06-08 18:00:00,Manager_1,15000,Marketing
+PO_0433,Final Approval,2024-06-08 19:00:00,Director_Alpha,15000,Marketing
+PO_0433,Send to Vendor,2024-06-08 22:00:00,System,15000,Marketing
+PO_0434,Submit Purchase Request,2024-02-23 00:00:00,Employee_D,50000,IT
+PO_0434,Manager Review,2024-02-23 01:00:00,Manager_2,50000,IT
+PO_0434,Finance Check,2024-02-23 14:00:00,Finance_Z,50000,IT
+PO_0434,Approve,2024-02-24 21:00:00,Manager_1,50000,IT
+PO_0434,Final Approval,2024-02-25 01:00:00,Director_Beta,50000,IT
+PO_0434,Send to Vendor,2024-02-25 19:00:00,System,50000,IT
+PO_0435,Submit Purchase Request,2024-03-17 00:00:00,Employee_A,1500,Operations
+PO_0435,Manager Review,2024-03-17 01:00:00,Manager_3,1500,Operations
+PO_0435,Approve,2024-03-17 13:00:00,Manager_2,1500,Operations
+PO_0435,Send to Vendor,2024-03-17 20:00:00,System,1500,Operations
+PO_0436,Submit Purchase Request,2024-02-19 00:00:00,Employee_D,500,Marketing
+PO_0436,Manager Review,2024-02-19 04:00:00,Manager_1,500,Marketing
+PO_0436,Approve,2024-02-20 02:00:00,Manager_1,500,Marketing
+PO_0436,Send to Vendor,2024-02-20 10:00:00,System,500,Marketing
+PO_0437,Submit Purchase Request,2024-05-17 00:00:00,Employee_D,3000,HR
+PO_0437,Manager Review,2024-05-17 01:00:00,Manager_3,3000,HR
+PO_0437,Approve,2024-05-17 12:00:00,Manager_3,3000,HR
+PO_0437,Send to Vendor,2024-05-17 18:00:00,System,3000,HR
+PO_0438,Submit Purchase Request,2024-05-27 00:00:00,Employee_C,500,Marketing
+PO_0438,Manager Review,2024-05-27 01:00:00,Manager_1,500,Marketing
+PO_0438,Approve,2024-05-27 11:00:00,Manager_1,500,Marketing
+PO_0438,Send to Vendor,2024-05-27 17:00:00,System,500,Marketing
+PO_0439,Submit Purchase Request,2024-02-12 00:00:00,Employee_A,25000,Finance
+PO_0439,Manager Review,2024-02-12 03:00:00,Manager_3,25000,Finance
+PO_0439,Finance Check,2024-02-12 15:00:00,Finance_Z,25000,Finance
+PO_0439,Approve,2024-02-12 23:00:00,Manager_2,25000,Finance
+PO_0439,Final Approval,2024-02-13 06:00:00,Director_Alpha,25000,Finance
+PO_0439,Send to Vendor,2024-02-14 15:00:00,System,25000,Finance
+PO_0440,Submit Purchase Request,2024-04-25 00:00:00,Employee_C,5500,Operations
+PO_0440,Manager Review,2024-04-25 02:00:00,Manager_1,5500,Operations
+PO_0440,Finance Check,2024-04-25 15:00:00,Finance_X,5500,Operations
+PO_0440,Approve,2024-04-26 20:00:00,Manager_1,5500,Operations
+PO_0440,Send to Vendor,2024-04-27 04:00:00,System,5500,Operations
+PO_0441,Submit Purchase Request,2024-05-08 00:00:00,Employee_D,500,HR
+PO_0441,Manager Review,2024-05-08 03:00:00,Manager_2,500,HR
+PO_0441,Approve,2024-05-08 09:00:00,Manager_1,500,HR
+PO_0441,Send to Vendor,2024-05-08 12:00:00,System,500,HR
+PO_0442,Submit Purchase Request,2024-04-27 00:00:00,Employee_A,5500,IT
+PO_0442,Manager Review,2024-04-27 01:00:00,Manager_2,5500,IT
+PO_0442,Finance Check,2024-04-27 04:00:00,Finance_Z,5500,IT
+PO_0442,Approve,2024-04-27 19:00:00,Manager_2,5500,IT
+PO_0442,Send to Vendor,2024-04-28 03:00:00,System,5500,IT
+PO_0443,Submit Purchase Request,2024-05-13 00:00:00,Employee_A,500,IT
+PO_0443,Manager Review,2024-05-13 03:00:00,Manager_3,500,IT
+PO_0443,Approve,2024-05-13 11:00:00,Manager_2,500,IT
+PO_0443,Send to Vendor,2024-05-13 15:00:00,System,500,IT
+PO_0444,Submit Purchase Request,2024-03-11 00:00:00,Employee_A,5500,Operations
+PO_0444,Manager Review,2024-03-11 03:00:00,Manager_1,5500,Operations
+PO_0444,Finance Check,2024-03-11 10:00:00,Finance_Y,5500,Operations
+PO_0444,Approve,2024-03-12 04:00:00,Manager_1,5500,Operations
+PO_0444,Send to Vendor,2024-03-12 06:00:00,System,5500,Operations
+PO_0445,Submit Purchase Request,2024-03-30 00:00:00,Employee_C,5500,Finance
+PO_0445,Manager Review,2024-03-30 02:00:00,Manager_1,5500,Finance
+PO_0445,Finance Check,2024-03-30 06:00:00,Finance_Y,5500,Finance
+PO_0445,Approve,2024-04-01 05:00:00,Manager_3,5500,Finance
+PO_0445,Send to Vendor,2024-04-01 13:00:00,System,5500,Finance
+PO_0446,Submit Purchase Request,2024-01-08 00:00:00,Employee_A,500,Marketing
+PO_0446,Manager Review,2024-01-08 04:00:00,Manager_1,500,Marketing
+PO_0446,Approve,2024-01-08 08:00:00,Manager_2,500,Marketing
+PO_0446,Send to Vendor,2024-01-08 15:00:00,System,500,Marketing
+PO_0447,Submit Purchase Request,2024-05-31 00:00:00,Employee_D,3000,Finance
+PO_0447,Manager Review,2024-05-31 03:00:00,Manager_2,3000,Finance
+PO_0447,Approve,2024-05-31 15:00:00,Manager_1,3000,Finance
+PO_0447,Send to Vendor,2024-05-31 17:00:00,System,3000,Finance
+PO_0448,Submit Purchase Request,2024-02-03 00:00:00,Employee_D,50000,Finance
+PO_0448,Manager Review,2024-02-03 01:00:00,Manager_2,50000,Finance
+PO_0448,Rework Request,2024-02-03 12:00:00,Employee_D,50000,Finance
+PO_0448,Manager Review,2024-02-04 22:00:00,Manager_1,50000,Finance
+PO_0448,Finance Check,2024-02-05 03:00:00,Finance_X,50000,Finance
+PO_0448,Approve,2024-02-06 16:00:00,Manager_2,50000,Finance
+PO_0448,Final Approval,2024-02-06 23:00:00,Director_Alpha,50000,Finance
+PO_0448,Send to Vendor,2024-02-08 21:00:00,System,50000,Finance
+PO_0449,Submit Purchase Request,2024-04-26 00:00:00,Employee_A,15000,Operations
+PO_0449,Manager Review,2024-04-26 03:00:00,Manager_2,15000,Operations
+PO_0449,Finance Check,2024-04-26 19:00:00,Finance_X,15000,Operations
+PO_0449,Reject,2024-04-28 11:00:00,Manager_2,15000,Operations
+PO_0450,Submit Purchase Request,2024-01-27 00:00:00,Employee_A,3000,Finance
+PO_0450,Manager Review,2024-01-27 03:00:00,Manager_3,3000,Finance
+PO_0450,Approve,2024-01-28 01:00:00,Manager_1,3000,Finance
+PO_0450,Send to Vendor,2024-01-28 06:00:00,System,3000,Finance
+PO_0451,Submit Purchase Request,2024-05-31 00:00:00,Employee_B,50000,HR
+PO_0451,Manager Review,2024-05-31 04:00:00,Manager_2,50000,HR
+PO_0451,Finance Check,2024-05-31 08:00:00,Finance_Y,50000,HR
+PO_0451,Approve,2024-06-01 14:00:00,Manager_3,50000,HR
+PO_0451,Final Approval,2024-06-01 21:00:00,Director_Beta,50000,HR
+PO_0451,Send to Vendor,2024-06-03 11:00:00,System,50000,HR
+PO_0452,Submit Purchase Request,2024-06-26 00:00:00,Employee_A,15000,Finance
+PO_0452,Manager Review,2024-06-26 04:00:00,Manager_1,15000,Finance
+PO_0452,Finance Check,2024-06-27 00:00:00,Finance_Z,15000,Finance
+PO_0452,Approve,2024-06-29 15:00:00,Manager_2,15000,Finance
+PO_0452,Final Approval,2024-06-29 17:00:00,Director_Beta,15000,Finance
+PO_0452,Send to Vendor,2024-06-30 06:00:00,System,15000,Finance
+PO_0453,Submit Purchase Request,2024-01-18 00:00:00,Employee_D,8000,HR
+PO_0453,Manager Review,2024-01-18 03:00:00,Manager_2,8000,HR
+PO_0453,Finance Check,2024-01-19 01:00:00,Finance_Z,8000,HR
+PO_0453,Approve,2024-01-19 12:00:00,Manager_1,8000,HR
+PO_0453,Send to Vendor,2024-01-19 16:00:00,System,8000,HR
+PO_0454,Submit Purchase Request,2024-06-11 00:00:00,Employee_B,3000,Finance
+PO_0454,Manager Review,2024-06-11 04:00:00,Manager_3,3000,Finance
+PO_0454,Approve,2024-06-11 15:00:00,Manager_2,3000,Finance
+PO_0454,Send to Vendor,2024-06-11 23:00:00,System,3000,Finance
+PO_0455,Submit Purchase Request,2024-06-23 00:00:00,Employee_C,5500,Marketing
+PO_0455,Manager Review,2024-06-23 04:00:00,Manager_3,5500,Marketing
+PO_0455,Finance Check,2024-06-23 17:00:00,Finance_X,5500,Marketing
+PO_0455,Approve,2024-06-23 22:00:00,Manager_3,5500,Marketing
+PO_0455,Send to Vendor,2024-06-24 05:00:00,System,5500,Marketing
+PO_0456,Submit Purchase Request,2024-01-16 00:00:00,Employee_A,3000,Operations
+PO_0456,Manager Review,2024-01-16 01:00:00,Manager_3,3000,Operations
+PO_0456,Approve,2024-01-16 20:00:00,Manager_2,3000,Operations
+PO_0456,Send to Vendor,2024-01-16 22:00:00,System,3000,Operations
+PO_0457,Submit Purchase Request,2024-03-01 00:00:00,Employee_C,8000,IT
+PO_0457,Manager Review,2024-03-01 04:00:00,Manager_2,8000,IT
+PO_0457,Finance Check,2024-03-01 18:00:00,Finance_Y,8000,IT
+PO_0457,Approve,2024-03-03 01:00:00,Manager_3,8000,IT
+PO_0457,Send to Vendor,2024-03-03 04:00:00,System,8000,IT
+PO_0458,Submit Purchase Request,2024-02-18 00:00:00,Employee_C,50000,Marketing
+PO_0458,Manager Review,2024-02-18 04:00:00,Manager_1,50000,Marketing
+PO_0458,Finance Check,2024-02-18 15:00:00,Finance_Z,50000,Marketing
+PO_0458,Approve,2024-02-19 11:00:00,Manager_1,50000,Marketing
+PO_0458,Final Approval,2024-02-19 12:00:00,Director_Alpha,50000,Marketing
+PO_0458,Send to Vendor,2024-02-21 07:00:00,System,50000,Marketing
+PO_0459,Submit Purchase Request,2024-05-04 00:00:00,Employee_B,500,Marketing
+PO_0459,Manager Review,2024-05-04 01:00:00,Manager_1,500,Marketing
+PO_0459,Approve,2024-05-04 23:00:00,Manager_2,500,Marketing
+PO_0459,Send to Vendor,2024-05-05 07:00:00,System,500,Marketing
+PO_0460,Submit Purchase Request,2024-02-16 00:00:00,Employee_D,25000,Finance
+PO_0460,Manager Review,2024-02-16 04:00:00,Manager_2,25000,Finance
+PO_0460,Finance Check,2024-02-16 13:00:00,Finance_X,25000,Finance
+PO_0460,Approve,2024-02-18 23:00:00,Manager_3,25000,Finance
+PO_0460,Final Approval,2024-02-19 00:00:00,Director_Beta,25000,Finance
+PO_0460,Send to Vendor,2024-02-21 00:00:00,System,25000,Finance
+PO_0461,Submit Purchase Request,2024-03-09 00:00:00,Employee_C,5500,Finance
+PO_0461,Manager Review,2024-03-09 01:00:00,Manager_1,5500,Finance
+PO_0461,Finance Check,2024-03-09 21:00:00,Finance_Y,5500,Finance
+PO_0461,Approve,2024-03-12 00:00:00,Manager_1,5500,Finance
+PO_0461,Send to Vendor,2024-03-12 08:00:00,System,5500,Finance
+PO_0462,Submit Purchase Request,2024-05-14 00:00:00,Employee_C,1500,Marketing
+PO_0462,Manager Review,2024-05-14 04:00:00,Manager_3,1500,Marketing
+PO_0462,Approve,2024-05-14 08:00:00,Manager_3,1500,Marketing
+PO_0462,Send to Vendor,2024-05-14 10:00:00,System,1500,Marketing
+PO_0463,Submit Purchase Request,2024-06-10 00:00:00,Employee_A,5500,HR
+PO_0463,Manager Review,2024-06-10 03:00:00,Manager_3,5500,HR
+PO_0463,Finance Check,2024-06-10 06:00:00,Finance_Y,5500,HR
+PO_0463,Approve,2024-06-13 06:00:00,Manager_1,5500,HR
+PO_0463,Send to Vendor,2024-06-13 14:00:00,System,5500,HR
+PO_0464,Submit Purchase Request,2024-04-30 00:00:00,Employee_C,50000,Finance
+PO_0464,Manager Review,2024-04-30 03:00:00,Manager_2,50000,Finance
+PO_0464,Finance Check,2024-04-30 10:00:00,Finance_X,50000,Finance
+PO_0464,Approve,2024-05-02 04:00:00,Manager_3,50000,Finance
+PO_0464,Final Approval,2024-05-02 09:00:00,Director_Alpha,50000,Finance
+PO_0464,Send to Vendor,2024-05-04 03:00:00,System,50000,Finance
+PO_0465,Submit Purchase Request,2024-02-13 00:00:00,Employee_C,50000,Finance
+PO_0465,Manager Review,2024-02-13 01:00:00,Manager_2,50000,Finance
+PO_0465,Finance Check,2024-02-13 18:00:00,Finance_X,50000,Finance
+PO_0465,Approve,2024-02-14 14:00:00,Manager_3,50000,Finance
+PO_0465,Final Approval,2024-02-14 16:00:00,Director_Beta,50000,Finance
+PO_0465,Send to Vendor,2024-02-15 10:00:00,System,50000,Finance
+PO_0466,Submit Purchase Request,2024-03-12 00:00:00,Employee_A,3000,Finance
+PO_0466,Manager Review,2024-03-12 02:00:00,Manager_3,3000,Finance
+PO_0466,Approve,2024-03-12 08:00:00,Manager_3,3000,Finance
+PO_0466,Send to Vendor,2024-03-12 16:00:00,System,3000,Finance
+PO_0467,Submit Purchase Request,2024-03-07 00:00:00,Employee_B,15000,Marketing
+PO_0467,Manager Review,2024-03-07 01:00:00,Manager_2,15000,Marketing
+PO_0467,Finance Check,2024-03-07 05:00:00,Finance_X,15000,Marketing
+PO_0467,Approve,2024-03-08 04:00:00,Manager_2,15000,Marketing
+PO_0467,Final Approval,2024-03-08 11:00:00,Director_Beta,15000,Marketing
+PO_0467,Send to Vendor,2024-03-09 04:00:00,System,15000,Marketing
+PO_0468,Submit Purchase Request,2024-02-23 00:00:00,Employee_A,50000,Marketing
+PO_0468,Manager Review,2024-02-23 03:00:00,Manager_1,50000,Marketing
+PO_0468,Finance Check,2024-02-23 06:00:00,Finance_X,50000,Marketing
+PO_0468,Approve,2024-02-25 21:00:00,Manager_2,50000,Marketing
+PO_0468,Final Approval,2024-02-26 05:00:00,Director_Beta,50000,Marketing
+PO_0468,Send to Vendor,2024-02-27 13:00:00,System,50000,Marketing
+PO_0469,Submit Purchase Request,2024-06-23 00:00:00,Employee_B,5500,HR
+PO_0469,Manager Review,2024-06-23 04:00:00,Manager_1,5500,HR
+PO_0469,Finance Check,2024-06-23 15:00:00,Finance_Y,5500,HR
+PO_0469,Approve,2024-06-25 19:00:00,Manager_3,5500,HR
+PO_0469,Send to Vendor,2024-06-26 01:00:00,System,5500,HR
+PO_0470,Submit Purchase Request,2024-05-16 00:00:00,Employee_D,500,IT
+PO_0470,Manager Review,2024-05-16 03:00:00,Manager_2,500,IT
+PO_0470,Approve,2024-05-16 13:00:00,Manager_2,500,IT
+PO_0470,Send to Vendor,2024-05-16 15:00:00,System,500,IT
+PO_0471,Submit Purchase Request,2024-04-10 00:00:00,Employee_B,8000,Finance
+PO_0471,Manager Review,2024-04-10 02:00:00,Manager_3,8000,Finance
+PO_0471,Finance Check,2024-04-10 14:00:00,Finance_Z,8000,Finance
+PO_0471,Approve,2024-04-11 17:00:00,Manager_2,8000,Finance
+PO_0471,Send to Vendor,2024-04-11 18:00:00,System,8000,Finance
+PO_0472,Submit Purchase Request,2024-01-04 00:00:00,Employee_D,500,IT
+PO_0472,Manager Review,2024-01-04 03:00:00,Manager_1,500,IT
+PO_0472,Approve,2024-01-04 14:00:00,Manager_2,500,IT
+PO_0472,Send to Vendor,2024-01-04 18:00:00,System,500,IT
+PO_0473,Submit Purchase Request,2024-06-07 00:00:00,Employee_B,500,IT
+PO_0473,Manager Review,2024-06-07 01:00:00,Manager_3,500,IT
+PO_0473,Rework Request,2024-06-07 06:00:00,Employee_A,500,IT
+PO_0473,Manager Review,2024-06-09 00:00:00,Manager_1,500,IT
+PO_0473,Approve,2024-06-09 08:00:00,Manager_3,500,IT
+PO_0473,Send to Vendor,2024-06-09 11:00:00,System,500,IT
+PO_0474,Submit Purchase Request,2024-03-05 00:00:00,Employee_A,1500,Marketing
+PO_0474,Manager Review,2024-03-05 04:00:00,Manager_2,1500,Marketing
+PO_0474,Approve,2024-03-05 19:00:00,Manager_3,1500,Marketing
+PO_0474,Send to Vendor,2024-03-06 01:00:00,System,1500,Marketing
+PO_0475,Submit Purchase Request,2024-01-19 00:00:00,Employee_D,8000,Marketing
+PO_0475,Manager Review,2024-01-19 03:00:00,Manager_1,8000,Marketing
+PO_0475,Finance Check,2024-01-19 13:00:00,Finance_Y,8000,Marketing
+PO_0475,Reject,2024-01-20 15:00:00,Manager_2,8000,Marketing
+PO_0476,Submit Purchase Request,2024-02-21 00:00:00,Employee_D,1500,HR
+PO_0476,Manager Review,2024-02-21 01:00:00,Manager_1,1500,HR
+PO_0476,Approve,2024-02-21 20:00:00,Manager_2,1500,HR
+PO_0476,Send to Vendor,2024-02-22 00:00:00,System,1500,HR
+PO_0477,Submit Purchase Request,2024-03-07 00:00:00,Employee_C,1500,HR
+PO_0477,Manager Review,2024-03-07 04:00:00,Manager_1,1500,HR
+PO_0477,Rework Request,2024-03-07 21:00:00,Employee_B,1500,HR
+PO_0477,Manager Review,2024-03-09 18:00:00,Manager_3,1500,HR
+PO_0477,Reject,2024-03-09 20:00:00,Manager_1,1500,HR
+PO_0478,Submit Purchase Request,2024-02-08 00:00:00,Employee_A,25000,Operations
+PO_0478,Manager Review,2024-02-08 04:00:00,Manager_2,25000,Operations
+PO_0478,Finance Check,2024-02-08 19:00:00,Finance_Y,25000,Operations
+PO_0478,Approve,2024-02-09 07:00:00,Manager_3,25000,Operations
+PO_0478,Final Approval,2024-02-09 11:00:00,Director_Alpha,25000,Operations
+PO_0478,Send to Vendor,2024-02-10 13:00:00,System,25000,Operations
+PO_0479,Submit Purchase Request,2024-05-25 00:00:00,Employee_C,50000,IT
+PO_0479,Manager Review,2024-05-25 03:00:00,Manager_2,50000,IT
+PO_0479,Finance Check,2024-05-25 06:00:00,Finance_Z,50000,IT
+PO_0479,Approve,2024-05-25 21:00:00,Manager_2,50000,IT
+PO_0479,Final Approval,2024-05-26 03:00:00,Director_Alpha,50000,IT
+PO_0479,Send to Vendor,2024-05-27 10:00:00,System,50000,IT
+PO_0480,Submit Purchase Request,2024-02-15 00:00:00,Employee_B,8000,Marketing
+PO_0480,Manager Review,2024-02-15 03:00:00,Manager_3,8000,Marketing
+PO_0480,Finance Check,2024-02-15 17:00:00,Finance_X,8000,Marketing
+PO_0480,Approve,2024-02-17 18:00:00,Manager_2,8000,Marketing
+PO_0480,Send to Vendor,2024-02-17 20:00:00,System,8000,Marketing
+PO_0481,Submit Purchase Request,2024-02-05 00:00:00,Employee_B,50000,Marketing
+PO_0481,Manager Review,2024-02-05 04:00:00,Manager_2,50000,Marketing
+PO_0481,Rework Request,2024-02-05 08:00:00,Employee_C,50000,Marketing
+PO_0481,Manager Review,2024-02-06 19:00:00,Manager_3,50000,Marketing
+PO_0481,Finance Check,2024-02-07 04:00:00,Finance_X,50000,Marketing
+PO_0481,Reject,2024-02-07 12:00:00,Manager_2,50000,Marketing
+PO_0482,Submit Purchase Request,2024-01-11 00:00:00,Employee_D,500,Operations
+PO_0482,Manager Review,2024-01-11 02:00:00,Manager_3,500,Operations
+PO_0482,Approve,2024-01-11 22:00:00,Manager_1,500,Operations
+PO_0482,Send to Vendor,2024-01-12 00:00:00,System,500,Operations
+PO_0483,Submit Purchase Request,2024-05-05 00:00:00,Employee_A,500,Marketing
+PO_0483,Manager Review,2024-05-05 02:00:00,Manager_3,500,Marketing
+PO_0483,Approve,2024-05-06 00:00:00,Manager_1,500,Marketing
+PO_0483,Send to Vendor,2024-05-06 01:00:00,System,500,Marketing
+PO_0484,Submit Purchase Request,2024-03-19 00:00:00,Employee_B,3000,IT
+PO_0484,Manager Review,2024-03-19 01:00:00,Manager_1,3000,IT
+PO_0484,Approve,2024-03-19 06:00:00,Manager_2,3000,IT
+PO_0484,Send to Vendor,2024-03-19 10:00:00,System,3000,IT
+PO_0485,Submit Purchase Request,2024-04-19 00:00:00,Employee_D,1500,Marketing
+PO_0485,Manager Review,2024-04-19 03:00:00,Manager_1,1500,Marketing
+PO_0485,Approve,2024-04-20 02:00:00,Manager_3,1500,Marketing
+PO_0485,Send to Vendor,2024-04-20 05:00:00,System,1500,Marketing
+PO_0486,Submit Purchase Request,2024-01-12 00:00:00,Employee_A,15000,Marketing
+PO_0486,Manager Review,2024-01-12 03:00:00,Manager_1,15000,Marketing
+PO_0486,Finance Check,2024-01-12 18:00:00,Finance_X,15000,Marketing
+PO_0486,Approve,2024-01-14 21:00:00,Manager_3,15000,Marketing
+PO_0486,Final Approval,2024-01-15 00:00:00,Director_Beta,15000,Marketing
+PO_0486,Send to Vendor,2024-01-15 17:00:00,System,15000,Marketing
+PO_0487,Submit Purchase Request,2024-01-26 00:00:00,Employee_D,500,Marketing
+PO_0487,Manager Review,2024-01-26 02:00:00,Manager_1,500,Marketing
+PO_0487,Approve,2024-01-26 19:00:00,Manager_1,500,Marketing
+PO_0487,Send to Vendor,2024-01-26 20:00:00,System,500,Marketing
+PO_0488,Submit Purchase Request,2024-01-23 00:00:00,Employee_C,500,Marketing
+PO_0488,Manager Review,2024-01-23 04:00:00,Manager_3,500,Marketing
+PO_0488,Approve,2024-01-23 21:00:00,Manager_3,500,Marketing
+PO_0488,Send to Vendor,2024-01-24 00:00:00,System,500,Marketing
+PO_0489,Submit Purchase Request,2024-06-12 00:00:00,Employee_B,5500,Marketing
+PO_0489,Manager Review,2024-06-12 02:00:00,Manager_3,5500,Marketing
+PO_0489,Finance Check,2024-06-13 02:00:00,Finance_X,5500,Marketing
+PO_0489,Approve,2024-06-14 05:00:00,Manager_3,5500,Marketing
+PO_0489,Send to Vendor,2024-06-14 13:00:00,System,5500,Marketing
+PO_0490,Submit Purchase Request,2024-03-30 00:00:00,Employee_B,1500,Operations
+PO_0490,Manager Review,2024-03-30 01:00:00,Manager_3,1500,Operations
+PO_0490,Approve,2024-03-30 06:00:00,Manager_3,1500,Operations
+PO_0490,Send to Vendor,2024-03-30 12:00:00,System,1500,Operations
+PO_0491,Submit Purchase Request,2024-06-09 00:00:00,Employee_B,5500,HR
+PO_0491,Manager Review,2024-06-09 01:00:00,Manager_1,5500,HR
+PO_0491,Finance Check,2024-06-10 00:00:00,Finance_Y,5500,HR
+PO_0491,Approve,2024-06-12 19:00:00,Manager_1,5500,HR
+PO_0491,Send to Vendor,2024-06-12 22:00:00,System,5500,HR
+PO_0492,Submit Purchase Request,2024-06-14 00:00:00,Employee_C,500,IT
+PO_0492,Manager Review,2024-06-14 03:00:00,Manager_3,500,IT
+PO_0492,Approve,2024-06-14 19:00:00,Manager_1,500,IT
+PO_0492,Send to Vendor,2024-06-14 21:00:00,System,500,IT
+PO_0493,Submit Purchase Request,2024-02-15 00:00:00,Employee_A,500,Finance
+PO_0493,Manager Review,2024-02-15 01:00:00,Manager_1,500,Finance
+PO_0493,Reject,2024-02-15 17:00:00,Manager_3,500,Finance
+PO_0494,Submit Purchase Request,2024-02-20 00:00:00,Employee_B,15000,HR
+PO_0494,Manager Review,2024-02-20 01:00:00,Manager_2,15000,HR
+PO_0494,Finance Check,2024-02-20 10:00:00,Finance_X,15000,HR
+PO_0494,Approve,2024-02-21 20:00:00,Manager_3,15000,HR
+PO_0494,Final Approval,2024-02-22 03:00:00,Director_Alpha,15000,HR
+PO_0494,Send to Vendor,2024-02-23 05:00:00,System,15000,HR
+PO_0495,Submit Purchase Request,2024-04-30 00:00:00,Employee_D,5500,IT
+PO_0495,Manager Review,2024-04-30 02:00:00,Manager_1,5500,IT
+PO_0495,Finance Check,2024-04-30 23:00:00,Finance_Y,5500,IT
+PO_0495,Reject,2024-05-02 01:00:00,Manager_2,5500,IT
+PO_0496,Submit Purchase Request,2024-04-27 00:00:00,Employee_C,15000,Marketing
+PO_0496,Manager Review,2024-04-27 02:00:00,Manager_2,15000,Marketing
+PO_0496,Finance Check,2024-04-27 08:00:00,Finance_X,15000,Marketing
+PO_0496,Approve,2024-04-27 19:00:00,Manager_2,15000,Marketing
+PO_0496,Final Approval,2024-04-27 22:00:00,Director_Alpha,15000,Marketing
+PO_0496,Send to Vendor,2024-04-29 05:00:00,System,15000,Marketing
+PO_0497,Submit Purchase Request,2024-02-13 00:00:00,Employee_C,50000,HR
+PO_0497,Manager Review,2024-02-13 02:00:00,Manager_3,50000,HR
+PO_0497,Finance Check,2024-02-13 23:00:00,Finance_X,50000,HR
+PO_0497,Approve,2024-02-15 08:00:00,Manager_1,50000,HR
+PO_0497,Final Approval,2024-02-15 15:00:00,Director_Beta,50000,HR
+PO_0497,Send to Vendor,2024-02-16 06:00:00,System,50000,HR
+PO_0498,Submit Purchase Request,2024-03-12 00:00:00,Employee_B,50000,HR
+PO_0498,Manager Review,2024-03-12 02:00:00,Manager_2,50000,HR
+PO_0498,Rework Request,2024-03-12 17:00:00,Employee_B,50000,HR
+PO_0498,Manager Review,2024-03-14 10:00:00,Manager_1,50000,HR
+PO_0498,Finance Check,2024-03-14 21:00:00,Finance_X,50000,HR
+PO_0498,Approve,2024-03-17 06:00:00,Manager_1,50000,HR
+PO_0498,Final Approval,2024-03-17 07:00:00,Director_Beta,50000,HR
+PO_0498,Send to Vendor,2024-03-19 07:00:00,System,50000,HR
+PO_0499,Submit Purchase Request,2024-05-15 00:00:00,Employee_A,500,HR
+PO_0499,Manager Review,2024-05-15 04:00:00,Manager_2,500,HR
+PO_0499,Approve,2024-05-15 13:00:00,Manager_1,500,HR
+PO_0499,Send to Vendor,2024-05-15 14:00:00,System,500,HR
+PO_0500,Submit Purchase Request,2024-02-03 00:00:00,Employee_A,25000,Marketing
+PO_0500,Manager Review,2024-02-03 01:00:00,Manager_2,25000,Marketing
+PO_0500,Finance Check,2024-02-04 00:00:00,Finance_Y,25000,Marketing
+PO_0500,Approve,2024-02-05 00:00:00,Manager_3,25000,Marketing
+PO_0500,Final Approval,2024-02-05 08:00:00,Director_Alpha,25000,Marketing
+PO_0500,Send to Vendor,2024-02-06 15:00:00,System,25000,Marketing

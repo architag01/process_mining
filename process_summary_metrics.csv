@@ -1,0 +1,2 @@
+Total_Cases,Total_Events,Avg_Cycle_Time_Days,Median_Cycle_Time_Days,Rework_Rate_%,Rejection_Rate_%,Avg_Activities_Per_Case,Top_Bottleneck,Top_Bottleneck_Wait_Hours
+500,2584,2.39475,2.25,14.2,6.800000000000001,5.168,Finance Check,38.521594684385384
